@@ -24,7 +24,7 @@ To construct the treebank, we need to first perform verse chunking. There are se
 
 Because the evaluation step needs to test against the treebank, it makes sense to include the existing implied chunk boundaries as part of the training dataset. Other data sources are included to test how they might boost accuracy. Choosing just one signal, like *waqf* marks might not be optimal.
 
-## What’s in the Data File in the Repo?
+## What’s in the Data File?
 
 A 'word' in the Quran isn't easily defined, due to the rich morphology of Classical Arabic. The Quranic Arabic Corpus uses the terminology ‘segment’ to denote a morphological segment and ‘token’ to denote a whitespace separated token.
 
