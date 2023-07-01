@@ -63,7 +63,7 @@ Next, install project dependencies:
 poetry install
 ```
 
-All dependencies, such as [Requests](https://requests.readthedocs.io/en/latest) and [Pydantic](https://github.com/pydantic/pydantic), are installed in the virtual environment.
+All dependencies, such as [pandas](https://pandas.pydata.org), are installed in the virtual environment.
 
 Use the Poetry shell:
 
