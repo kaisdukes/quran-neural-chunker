@@ -22,7 +22,7 @@ To construct the treebank, we need to first perform verse chunking. There are se
 
 **Punctuation from translations:** The Quranic Arabic Corpus has word-aligned translations into English, which often include punctuation. Using this data may also help boost the accuracy of the chunker.
 
-For any model, it would be essential to perform evaluation to test the accuracy of the chunker. Because evaluation would need to test against the existing treebank, it would make sense to start with that as the first dataset, and then try the other sources to see how that might boost accuracy. Choosing just one signal, like *waqf* marks might not lead to optimal accuracy.
+Because the evaluation step needs to test against the treebank, it makes sense to include the existing implied chunk boundaries as part of the training dataset. Other data sources are included to test how they might boost accuracy. Choosing just one signal, like *waqf* marks might not lead to optimal accuracy.
 
 ## What’s in the Data File in the Repo?
 
