@@ -71,7 +71,7 @@ Use the Poetry shell:
 poetry shell
 ```
 
-Test the parser:
+Verify the dataset:
 
 ```
 python tests/data_test.py
