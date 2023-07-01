@@ -14,7 +14,7 @@ Large portions of the Quran contain lengthy verses. The Quranic Treebank is desi
 
 To construct the treebank, we need to first perform verse chunking. There are several ways this could be done, but one possibility is to train a machine learning model using four sources of data:
 
-**Existing chunk boundaries:** The chunks implied by the existing dependency graphs in the treebank.
+**Existing chunk boundaries:** The existing division of verses implied by the dependency graphs in the treebank.
 
 **Reference grammar alignment:** The breakdown of verses into word groups in the reference grammar used to construct the treebank, Salih’s *al-I’rāb al-Mufassal*. In principle, this could be a strong choice for training the model as the treebank was initially chunked to support easier alignment and cross-referencing with this reference work.
 
