@@ -16,7 +16,7 @@ To construct the treebank, we need to first perform verse chunking. There are se
 
 **Existing chunk boundaries:** The chunks implied by the existing dependency graphs in the treebank.
 
-**Reference grammar alignment:** The breakdown of verses into word groups in the reference grammar used to construct the treebank, Salih’s *al-I’rāb al-Mufassal*. In principle, this could be a strong choice for training the model as the treebank was initially chunked to support easier alignment and cross-referencing with *al-I’rāb al-Mufassal*.
+**Reference grammar alignment:** The breakdown of verses into word groups in the reference grammar used to construct the treebank, Salih’s *al-I’rāb al-Mufassal*. In principle, this could be a strong choice for training the model as the treebank was initially chunked to support easier alignment and cross-referencing with this reference work.
 
 **Pause marks:** Although the Classical Arabic Uthmani script of the Quran doesn’t contain modern punctuation like full stops or commas, it does contain [pause marks](https://corpus.quran.com/documentation/pausemarks.jsp) (to support *waqf* and *tajweed*), which may aid in chunking.
 
