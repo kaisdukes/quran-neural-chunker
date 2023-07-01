@@ -34,9 +34,9 @@ The [quranic-treebank-0.4-chunks.tsv](https://github.com/kaisdukes/quran-verse-c
 * Verse number
 * Token number
 * The arabic form of the token (in Unicode)
-* The POS tag of the token’s stem (note: to support initial experimentation, this is a simplification of the full morphological data available in the corpus, which includes a rich set of features tags for each segment, not only stems)
+* The [POS tag](https://corpus.quran.com/documentation/tagset.jsp) of the token’s stem (note: to support initial experimentation, this is a simplification of the full morphological data available in the corpus, which includes a rich set of [features tags](https://corpus.quran.com/documentation/morphologicalfeatures.jsp) for each segment, not only stems)
 * The world-aligned english translation, including punctuation marks such as full stops
-* The pause mark (*waqf*) associated with the token
+* The [pause mark](https://corpus.quran.com/documentation/pausemarks.jsp) (*waqf*) associated with the token
 * A binary flag indicating if the token is at the end of an word group in the corresponding *i’rāb* (إعراب) in the reference grammar *al-I’rāb al-Mufassal*
 * A binary flag indicating if the token is at the end of a dependency graph. This value is the expected output of the chunker.
 
