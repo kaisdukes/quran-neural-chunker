@@ -28,7 +28,7 @@ Because the evaluation step needs to test against the treebank, it makes sense t
 
 As the definition of a word in the Quran may be problematic, due to the rich morphology of Classical Arabic, the Quranic Arabic Corpus uses the terminology ‘segment’ to denote a morphological segment and ‘token’ to denote a whitespace separated token.
 
-The quranic-treebank-0.4-chunks.tsv file has one row per token with 9 columns:
+The [quranic-treebank-0.4-chunks.tsv](https://github.com/kaisdukes/quran-verse-chunker/tree/main/data) file has one row per token with 9 columns:
 
 * Chapter number
 * Verse number
