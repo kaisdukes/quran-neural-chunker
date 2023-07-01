@@ -1,5 +1,9 @@
 # Quran Verse Chunker
 
+*Join us on a new journey! Visit the [Corpus 2.0 upgrade project](https://github.com/kaisdukes/quranic-corpus) for new work on the Quranic Arabic Corpus.*
+
+## What’s in this Repo?
+
 A data preprocessor for the Quranic Treebank. Divides longer verses into smaller chunks.
 
 To work with this codebase, you will need a strong background in Artificial Intelligence applied to Quranic Research, specifically in the fields of Computational Linguistics and Natural Language Processing (NLP).
