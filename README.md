@@ -71,8 +71,8 @@ Use the Poetry shell:
 poetry shell
 ```
 
-Test the model:
+Test the chunker:
 
 ```
-python tests/model_test.py
+python tests/chunker_test.py
 ```
