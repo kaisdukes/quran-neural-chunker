@@ -8,8 +8,8 @@ class CartChunker:
     def __init__(self):
         self._punctuation_encoder = preprocessing.LabelEncoder()
 
-    def build_mappings(self, df: DataFrame):
-        self._punctuation_encoder.fit(df['punctuation'])
+    def build_mappings(self, entire_dataset: DataFrame):
+        self._punctuation_encoder.fit(entire_dataset['punctuation'])
 
     def train(self, df: DataFrame):
         x, y = self._preprocess(df)
