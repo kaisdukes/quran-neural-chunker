@@ -30,8 +30,7 @@ class CartChunker:
             'verse_number',
             'arabic',
             'pos_tag',
-            'translation',
-            'irab_end'
+            'translation'
         ], axis=1)
 
         x['punctuation'] = self._le.transform(x['punctuation'])
