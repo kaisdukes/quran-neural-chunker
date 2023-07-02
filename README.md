@@ -71,8 +71,8 @@ Use the Poetry shell:
 poetry shell
 ```
 
-Verify the dataset:
+Test the model:
 
 ```
-python tests/data_test.py
+python tests/model_test.py
 ```
