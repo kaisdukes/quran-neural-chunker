@@ -1,16 +1,15 @@
 from pandas import DataFrame
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 
 
 class CartChunker:
 
     def __init__(self):
-        self._le = preprocessing.LabelEncoder()
+        self._punctuation_encoder = preprocessing.LabelEncoder()
 
     def build_mappings(self, df: DataFrame):
-        self._le.fit(df['punctuation'])
+        self._punctuation_encoder.fit(df['punctuation'])
 
     def train(self, df: DataFrame):
         x, y = self._preprocess(df)
@@ -33,7 +32,7 @@ class CartChunker:
             'translation'
         ], axis=1)
 
-        x['punctuation'] = self._le.transform(x['punctuation'])
-        y = df['chunk_end']
+        x['punctuation'] = self._punctuation_encoder.transform(x['punctuation'])
 
+        y = df['chunk_end']
         return x, y
