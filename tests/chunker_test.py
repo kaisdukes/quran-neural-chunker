@@ -20,8 +20,8 @@ class ChunkTest(unittest.TestCase):
         expected_chunks = get_chunks(df)
         output_chunks = get_chunks(predictions)
 
-        print(len(expected_chunks))
-        print(len(output_chunks))
+        print(f'Expected: {len(expected_chunks)} chunks')
+        print(f'Output: {len(output_chunks)} chunks')
 
         evaluator = Evaluator()
         evaluator.compare(expected_chunks, output_chunks)
