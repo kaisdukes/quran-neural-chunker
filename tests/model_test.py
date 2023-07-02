@@ -1,7 +1,7 @@
 import unittest
 
 
-from evaluate import evaluate
+from evaluator import Evaluator
 from src.data import load_data
 from src.chunks.chunks import get_chunks
 from src.chunks.preprocessor import preprocess
@@ -19,7 +19,13 @@ class ModelTest(unittest.TestCase):
 
         expected_chunks = get_chunks(df)
         output_chunks = get_chunks(predictions)
-        evaluate(expected_chunks, output_chunks)
+
+        evaluator = Evaluator()
+        evaluator.compare(expected_chunks, output_chunks)
+
+        print(f'Precision: {evaluator.precision}')
+        print(f'Recall: {evaluator.recall}')
+        print(f'F1 score: {evaluator.f1_score}')
 
 
 if __name__ == '__main__':
