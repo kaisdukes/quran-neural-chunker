@@ -2,8 +2,6 @@ from pandas import DataFrame
 
 
 class SimpleChunker:
-    def __init__(self):
-        pass
 
     def predict(self, df: DataFrame):
         predictions = df.copy()
