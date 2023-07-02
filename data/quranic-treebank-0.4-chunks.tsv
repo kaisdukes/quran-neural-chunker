@@ -15,7 +15,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 1	5	1	إِيَّاكَ	PRON	You Alone	0	0	0
 1	5	2	نَعْبُدُ	V	we worship,	0	1	0
 1	5	3	وَإِيَّاكَ	PRON	and You Alone	0	0	0
-1	5	4	نَسْتَعِينُ	V	we ask for help.	0	1	0
+1	5	4	نَسْتَعِينُ	V	we ask for help.	0	1	1
 1	6	1	ٱهْدِنَا	V	Guide us	0	1	0
 1	6	2	ٱلصِّرَٰطَ	N	(to) the path,	0	0	0
 1	6	3	ٱلْمُسْتَقِيمَ	ADJ	the straight.	0	1	1
@@ -72,7 +72,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	6	6	ءَأَنذَرْتَهُمْ	V	whether you warn them	0	0	1
 2	6	7	أَمْ	CONJ	or	0	0	0
 2	6	8	لَمْ	NEG	not	0	1	0
-2	6	9	تُنذِرْهُمْ	V	you warn them,	0	1	0
+2	6	9	تُنذِرْهُمْ	V	you warn them,	0	1	1
 2	6	10	لَا	NEG	not	0	0	0
 2	6	11	يُؤْمِنُونَ	V	they believe.	0	1	1
 2	7	1	خَتَمَ	V	Has set a seal	0	0	0
@@ -411,7 +411,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	27	11	ٱللَّهُ	PN	Allah	0	0	0
 2	27	12	بِهِۦٓ	PRON	it	0	0	0
 2	27	13	أَن	SUB	to	0	1	0
-2	27	14	يُوصَلَ	V	be joined	0	1	0
+2	27	14	يُوصَلَ	V	be joined	0	1	1
 2	27	15	وَيُفْسِدُونَ	V	and [they] spread corruption	0	0	0
 2	27	16	فِى	P	in	0	0	0
 2	27	17	ٱلْأَرْضِ	N	the earth.	5	1	1
@@ -423,11 +423,11 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	28	3	بِٱللَّهِ	PN	in Allah?	0	1	1
 2	28	4	وَكُنتُمْ	V	While you were	0	0	0
 2	28	5	أَمْوَٰتًا	N	dead	0	1	0
-2	28	6	فَأَحْيَٰكُمْ	V	then He gave you life;	3	1	0
+2	28	6	فَأَحْيَٰكُمْ	V	then He gave you life;	3	1	1
 2	28	7	ثُمَّ	CONJ	then	0	0	0
 2	28	8	يُمِيتُكُمْ	V	He will cause you to die,	0	1	0
 2	28	9	ثُمَّ	CONJ	then	0	0	0
-2	28	10	يُحْيِيكُمْ	V	He will give you life,	0	0	0
+2	28	10	يُحْيِيكُمْ	V	He will give you life,	0	0	1
 2	28	11	ثُمَّ	CONJ	then	0	0	0
 2	28	12	إِلَيْهِ	P	to Him	0	1	0
 2	28	13	تُرْجَعُونَ	V	you will be returned.	0	1	1
@@ -1179,7 +1179,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	74	19	وَإِنَّ	ACC	and indeed,	0	0	0
 2	74	20	مِنْهَا	P	from them	0	0	0
 2	74	21	لَمَا	REL	certainly (there are some) which	0	0	0
-2	74	22	يَشَّقَّقُ	V	split,	0	1	0
+2	74	22	يَشَّقَّقُ	V	split,	0	1	1
 2	74	23	فَيَخْرُجُ	V	so comes out	0	0	0
 2	74	24	مِنْهُ	P	from it	0	0	0
 2	74	25	ٱلْمَآءُ	N	[the] water,	5	1	1
@@ -1638,7 +1638,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	96	18	مِنَ	P	from	0	0	0
 2	96	19	ٱلْعَذَابِ	N	the punishment	0	1	0
 2	96	20	أَن	SUB	that	0	0	0
-2	96	21	يُعَمَّرَ	V	he should be granted life.	4	1	0
+2	96	21	يُعَمَّرَ	V	he should be granted life.	4	1	1
 2	96	22	وَٱللَّهُ	PN	And Allah	0	0	0
 2	96	23	بَصِيرٌۢ	N	(is) All-Seer	0	1	0
 2	96	24	بِمَا	REL	of what	0	0	0
@@ -1748,7 +1748,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	102	31	نَحْنُ	PRON	we	0	0	0
 2	102	32	فِتْنَةٌ	N	(are) a trial,	0	1	1
 2	102	33	فَلَا	NEG	so (do) not	0	0	0
-2	102	34	تَكْفُرْ	V	disbelieve."	3	1	0
+2	102	34	تَكْفُرْ	V	disbelieve."	3	1	1
 2	102	35	فَيَتَعَلَّمُونَ	V	But they learn	0	0	0
 2	102	36	مِنْهُمَا	P	from those two	0	1	0
 2	102	37	مَا	REL	what	0	0	0
@@ -1770,11 +1770,11 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	102	53	مَا	REL	what	0	1	0
 2	102	54	يَضُرُّهُمْ	V	harms them	0	0	0
 2	102	55	وَلَا	NEG	and not	0	0	0
-2	102	56	يَنفَعُهُمْ	V	profits them.	5	1	0
+2	102	56	يَنفَعُهُمْ	V	profits them.	5	1	1
 2	102	57	وَلَقَدْ	CERT	And indeed	0	0	0
 2	102	58	عَلِمُوا۟	V	they knew	0	0	0
 2	102	59	لَمَنِ	COND	that whoever	0	0	0
-2	102	60	ٱشْتَرَىٰهُ	V	buys it,	0	1	0
+2	102	60	ٱشْتَرَىٰهُ	V	buys it,	0	1	1
 2	102	61	مَا	NEG	not	0	0	0
 2	102	62	لَهُۥ	PRON	for him	0	0	0
 2	102	63	فِى	P	in	0	0	0
@@ -1806,7 +1806,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	104	3	ءَامَنُوا۟	V	believe[d]!	0	1	0
 2	104	4	لَا	PRO	"(Do) not	0	0	0
 2	104	5	تَقُولُوا۟	V	say	0	1	0
-2	104	6	رَٰعِنَا	V	"Raina"	0	1	0
+2	104	6	رَٰعِنَا	V	"Raina"	0	1	1
 2	104	7	وَقُولُوا۟	V	and say	0	0	0
 2	104	8	ٱنظُرْنَا	V	"Unzurna"	0	1	0
 2	104	9	وَٱسْمَعُوا۟	V	and listen.	4	1	1
@@ -1833,7 +1833,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	105	18	يَخْتَصُّ	V	chooses	0	0	0
 2	105	19	بِرَحْمَتِهِۦ	N	for His Mercy	0	1	0
 2	105	20	مَن	REL	whom	0	0	0
-2	105	21	يَشَآءُ	V	He wills.	5	1	0
+2	105	21	يَشَآءُ	V	He wills.	5	1	1
 2	105	22	وَٱللَّهُ	PN	And Allah	0	0	0
 2	105	23	ذُو	N	(is the) Possessor	0	1	0
 2	105	24	ٱلْفَضْلِ	N	(of) [the] Bounty	0	0	0
@@ -1843,7 +1843,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	106	3	مِنْ	P	(of)	0	0	0
 2	106	4	ءَايَةٍ	N	a sign	0	1	0
 2	106	5	أَوْ	CONJ	or	0	0	0
-2	106	6	نُنسِهَا	V	[We] cause it to be forgotten,	0	1	0
+2	106	6	نُنسِهَا	V	[We] cause it to be forgotten,	0	1	1
 2	106	7	نَأْتِ	V	We bring	0	1	0
 2	106	8	بِخَيْرٍ	N	better	0	0	0
 2	106	9	مِّنْهَآ	P	than it	0	0	0
@@ -2074,7 +2074,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	117	8	يَقُولُ	V	He says	0	0	0
 2	117	9	لَهُۥ	PRON	to it	0	1	0
 2	117	10	كُن	V	"Be,"	0	0	0
-2	117	11	فَيَكُونُ	V	and it becomes.	0	1	0
+2	117	11	فَيَكُونُ	V	and it becomes.	0	1	1
 2	118	1	وَقَالَ	V	And said	0	0	0
 2	118	2	ٱلَّذِينَ	REL	those who	0	1	0
 2	118	3	لَا	NEG	(do) not	0	0	0
@@ -2189,7 +2189,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	124	3	إِبْرَٰهِۦمَ	PN	Ibrahim	0	0	0
 2	124	4	رَبُّهُۥ	N	his Lord	0	1	0
 2	124	5	بِكَلِمَٰتٍ	N	with words	0	0	0
-2	124	6	فَأَتَمَّهُنَّ	V	and he fulfilled them,	3	1	0
+2	124	6	فَأَتَمَّهُنَّ	V	and he fulfilled them,	3	1	1
 2	124	7	قَالَ	V	He said,	0	0	0
 2	124	8	إِنِّى	ACC	"Indeed I	0	0	0
 2	124	9	جَاعِلُكَ	N	(am) the One to make you	0	1	0
@@ -2297,7 +2297,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	129	9	وَيُعَلِّمُهُمُ	V	and will teach them	0	0	0
 2	129	10	ٱلْكِتَٰبَ	N	the Book	0	1	0
 2	129	11	وَٱلْحِكْمَةَ	N	and the wisdom	0	0	0
-2	129	12	وَيُزَكِّيهِمْ	V	and purify them.	5	1	0
+2	129	12	وَيُزَكِّيهِمْ	V	and purify them.	5	1	1
 2	129	13	إِنَّكَ	ACC	Indeed You!	0	0	0
 2	129	14	أَنتَ	PRON	You (are)	0	0	0
 2	129	15	ٱلْعَزِيزُ	N	the All-Mighty	0	0	0
@@ -2324,7 +2324,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	131	2	قَالَ	V	said	0	0	0
 2	131	3	لَهُۥ	PRON	to him	0	0	0
 2	131	4	رَبُّهُۥٓ	N	his Lord	0	1	0
-2	131	5	أَسْلِمْ	V	"Submit (yourself),"	3	1	0
+2	131	5	أَسْلِمْ	V	"Submit (yourself),"	3	1	1
 2	131	6	قَالَ	V	he said,	0	0	0
 2	131	7	أَسْلَمْتُ	V	"I (have) submitted (myself)	0	1	0
 2	131	8	لِرَبِّ	N	to (the) Lord	0	0	0
@@ -2375,10 +2375,10 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	134	1	تِلْكَ	DEM	This	0	0	0
 2	134	2	أُمَّةٌ	N	(was) a community	0	1	0
 2	134	3	قَدْ	CERT	(which)	0	0	0
-2	134	4	خَلَتْ	V	has passed away,	3	1	0
+2	134	4	خَلَتْ	V	has passed away,	3	1	1
 2	134	5	لَهَا	PRON	for it	0	0	0
 2	134	6	مَا	REL	what	0	0	0
-2	134	7	كَسَبَتْ	V	it earned	0	1	0
+2	134	7	كَسَبَتْ	V	it earned	0	1	1
 2	134	8	وَلَكُم	PRON	and for you	0	0	0
 2	134	9	مَّا	REL	what	0	0	0
 2	134	10	كَسَبْتُمْ	V	you have earned.	3	1	1
@@ -2509,10 +2509,10 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	141	1	تِلْكَ	DEM	This	0	0	0
 2	141	2	أُمَّةٌ	N	(was) a community	0	0	0
 2	141	3	قَدْ	CERT	(which)	0	0	0
-2	141	4	خَلَتْ	V	has passed away,	3	0	0
+2	141	4	خَلَتْ	V	has passed away,	3	0	1
 2	141	5	لَهَا	PRON	for it	0	0	0
 2	141	6	مَا	REL	what	0	0	0
-2	141	7	كَسَبَتْ	V	it earned	0	0	0
+2	141	7	كَسَبَتْ	V	it earned	0	0	1
 2	141	8	وَلَكُم	PRON	and for you	0	0	0
 2	141	9	مَّا	REL	what	0	0	0
 2	141	10	كَسَبْتُمْ	V	you have earned.	3	0	1
@@ -2595,7 +2595,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	144	6	ٱلسَّمَآءِ	N	the heaven.	3	1	1
 2	144	7	فَلَنُوَلِّيَنَّكَ	V	So We will surely turn you	0	1	0
 2	144	8	قِبْلَةً	N	(to the) direction of prayer	0	0	0
-2	144	9	تَرْضَىٰهَا	V	you will be pleased with.	5	1	0
+2	144	9	تَرْضَىٰهَا	V	you will be pleased with.	5	1	1
 2	144	10	فَوَلِّ	V	So turn	0	0	0
 2	144	11	وَجْهَكَ	N	your face	0	1	0
 2	144	12	شَطْرَ	LOC	towards the direction	0	0	0
@@ -2759,7 +2759,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	151	16	تَكُونُوا۟	V	you were	0	1	0
 2	151	17	تَعْلَمُونَ	V	knowing.	0	1	1
 2	152	1	فَٱذْكُرُونِىٓ	V	So remember Me,	0	1	0
-2	152	2	أَذْكُرْكُمْ	V	I will remember you	0	1	0
+2	152	2	أَذْكُرْكُمْ	V	I will remember you	0	1	1
 2	152	3	وَٱشْكُرُوا۟	V	and be grateful	0	0	0
 2	152	4	لِى	PRON	to Me	0	1	1
 2	152	5	وَلَا	PRO	and (do) not	0	0	0
@@ -2828,7 +2828,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	158	8	حَجَّ	V	performs Hajj	0	1	0
 2	158	9	ٱلْبَيْتَ	N	(of) the House	0	0	0
 2	158	10	أَوِ	CONJ	or	0	0	0
-2	158	11	ٱعْتَمَرَ	V	performs Umrah,	0	1	0
+2	158	11	ٱعْتَمَرَ	V	performs Umrah,	0	1	1
 2	158	12	فَلَا	NEG	so no	0	0	0
 2	158	13	جُنَاحَ	N	blame	0	0	0
 2	158	14	عَلَيْهِ	P	on him	0	1	0
@@ -3067,7 +3067,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	171	3	كَفَرُوا۟	V	disbelieve[d]	0	1	0
 2	171	4	كَمَثَلِ	N	(is) like (the) example	0	0	0
 2	171	5	ٱلَّذِى	REL	(of) the one who	0	0	0
-2	171	6	يَنْعِقُ	V	shouts	0	1	0
+2	171	6	يَنْعِقُ	V	shouts	0	1	1
 2	171	7	بِمَا	REL	at what	0	0	0
 2	171	8	لَا	NEG	not	0	0	0
 2	171	9	يَسْمَعُ	V	(does) hear	0	1	0
@@ -3144,7 +3144,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	174	23	يَوْمَ	T	(on the) Day	0	0	0
 2	174	24	ٱلْقِيَٰمَةِ	N	(of) [the] Judgment	0	0	1
 2	174	25	وَلَا	NEG	and not	0	0	0
-2	174	26	يُزَكِّيهِمْ	V	will He purify them,	0	1	0
+2	174	26	يُزَكِّيهِمْ	V	will He purify them,	0	1	1
 2	174	27	وَلَهُمْ	PRON	and for them	0	0	0
 2	174	28	عَذَابٌ	N	(is) a punishment	0	0	0
 2	174	29	أَلِيمٌ	ADJ	painful.	0	1	1
@@ -3288,7 +3288,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	181	1	فَمَنۢ	COND	Then whoever	0	0	0
 2	181	2	بَدَّلَهُۥ	V	changes it	0	1	0
 2	181	3	بَعْدَمَا	T	after what	0	0	0
-2	181	4	سَمِعَهُۥ	V	he (has) heard [it],	0	1	0
+2	181	4	سَمِعَهُۥ	V	he (has) heard [it],	0	1	1
 2	181	5	فَإِنَّمَآ	ACC	so only	0	0	0
 2	181	6	إِثْمُهُۥ	N	its sin	0	1	0
 2	181	7	عَلَى	P	(would be) on	0	0	0
@@ -3376,7 +3376,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	185	14	شَهِدَ	V	witnesses	0	0	0
 2	185	15	مِنكُمُ	P	among you	0	0	0
 2	185	16	ٱلشَّهْرَ	N	the month,	0	0	0
-2	185	17	فَلْيَصُمْهُ	V	then he should fast in it,	3	1	0
+2	185	17	فَلْيَصُمْهُ	V	then he should fast in it,	3	1	1
 2	185	18	وَمَن	COND	and whoever	0	0	0
 2	185	19	كَانَ	V	is	0	0	0
 2	185	20	مَرِيضًا	N	sick	0	0	0
@@ -3401,7 +3401,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	185	39	ٱللَّهَ	PN	Allah	0	1	0
 2	185	40	عَلَىٰ	P	for	0	0	0
 2	185	41	مَا	REL	[what]	0	0	0
-2	185	42	هَدَىٰكُمْ	V	He guided you	0	1	0
+2	185	42	هَدَىٰكُمْ	V	He guided you	0	1	1
 2	185	43	وَلَعَلَّكُمْ	ACC	so that you may	0	0	0
 2	185	44	تَشْكُرُونَ	V	(be) grateful.	0	1	1
 2	186	1	وَإِذَا	T	And when	0	0	0
@@ -3521,7 +3521,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	189	16	وَلَٰكِنَّ	ACC	[and] but	0	0	0
 2	189	17	ٱلْبِرَّ	N	[the] righteous	0	1	0
 2	189	18	مَنِ	REL	(is one) who	0	0	0
-2	189	19	ٱتَّقَىٰ	V	fears (Allah).	4	1	0
+2	189	19	ٱتَّقَىٰ	V	fears (Allah).	4	1	1
 2	189	20	وَأْتُوا۟	V	And come	0	0	0
 2	189	21	ٱلْبُيُوتَ	N	(to) the houses	0	0	0
 2	189	22	مِنْ	P	from	0	0	0
@@ -3706,9 +3706,9 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	197	6	فِيهِنَّ	P	therein	0	0	0
 2	197	7	ٱلْحَجَّ	N	the Hajj	0	1	1
 2	197	8	فَلَا	NEG	then no	0	0	0
-2	197	9	رَفَثَ	N	sexual relations	0	0	0
+2	197	9	رَفَثَ	N	sexual relations	0	0	1
 2	197	10	وَلَا	NEG	and no	0	0	0
-2	197	11	فُسُوقَ	N	wickedness	0	1	0
+2	197	11	فُسُوقَ	N	wickedness	0	1	1
 2	197	12	وَلَا	NEG	and no	0	0	0
 2	197	13	جِدَالَ	N	quarrelling	0	0	0
 2	197	14	فِى	P	during	0	0	0
@@ -3746,7 +3746,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	198	17	ٱلْحَرَامِ	ADJ	[the] Sacred.	3	1	1
 2	198	18	وَٱذْكُرُوهُ	V	And remember Him	0	1	0
 2	198	19	كَمَا	SUB	as	0	0	0
-2	198	20	هَدَىٰكُمْ	V	He (has) guided you,	0	1	0
+2	198	20	هَدَىٰكُمْ	V	He (has) guided you,	0	1	1
 2	198	21	وَإِن	COND	[and] though	0	0	0
 2	198	22	كُنتُم	V	you were	0	0	0
 2	198	23	مِّن	P	[from]	0	0	0
@@ -3829,7 +3829,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	203	16	إِثْمَ	N	sin	0	0	0
 2	203	17	عَلَيْهِ	P	upon him	5	1	1
 2	203	18	لِمَنِ	REL	for (the one) who	0	0	0
-2	203	19	ٱتَّقَىٰ	V	fears.	4	1	0
+2	203	19	ٱتَّقَىٰ	V	fears.	4	1	1
 2	203	20	وَٱتَّقُوا۟	V	And fear	0	0	0
 2	203	21	ٱللَّهَ	PN	Allah	0	0	1
 2	203	22	وَٱعْلَمُوٓا۟	V	and know	0	1	0
@@ -3949,7 +3949,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	211	13	مِنۢ	P	from	0	0	0
 2	211	14	بَعْدِ	N	after	0	0	0
 2	211	15	مَا	REL	[what]	0	0	0
-2	211	16	جَآءَتْهُ	V	it (has) come to him -	0	1	0
+2	211	16	جَآءَتْهُ	V	it (has) come to him -	0	1	1
 2	211	17	فَإِنَّ	ACC	then indeed,	0	0	0
 2	211	18	ٱللَّهَ	PN	Allah	0	1	0
 2	211	19	شَدِيدُ	N	(is) severe	0	0	0
@@ -4061,7 +4061,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	215	6	أَنفَقْتُم	V	you spend	0	0	0
 2	215	7	مِّنْ	P	of	0	0	0
 2	215	8	خَيْرٍ	N	good,	0	1	0
-2	215	9	فَلِلْوَٰلِدَيْنِ	N	(is) for parents,	0	1	0
+2	215	9	فَلِلْوَٰلِدَيْنِ	N	(is) for parents,	0	1	1
 2	215	10	وَٱلْأَقْرَبِينَ	N	and the relatives,	0	0	0
 2	215	11	وَٱلْيَتَٰمَىٰ	N	and the orphans,	0	1	0
 2	215	12	وَٱلْمَسَٰكِينِ	N	and the needy,	0	0	0
@@ -4113,7 +4113,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	217	11	وَصَدٌّ	N	but hindering (people)	0	0	0
 2	217	12	عَن	P	from	0	0	0
 2	217	13	سَبِيلِ	N	(the) way	0	0	0
-2	217	14	ٱللَّهِ	PN	(of) Allah,	0	1	0
+2	217	14	ٱللَّهِ	PN	(of) Allah,	0	1	1
 2	217	15	وَكُفْرٌۢ	N	and disbelief	0	0	0
 2	217	16	بِهِۦ	PRON	in Him	0	0	1
 2	217	17	وَٱلْمَسْجِدِ	N	and (preventing access to) Al-Masjid	0	0	0
@@ -4220,7 +4220,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	220	19	وَلَوْ	COND	And if	0	0	0
 2	220	20	شَآءَ	V	(had) willed	0	0	0
 2	220	21	ٱللَّهُ	PN	Allah	0	1	0
-2	220	22	لَأَعْنَتَكُمْ	V	surely He (could have) put you in difficulties.	5	1	0
+2	220	22	لَأَعْنَتَكُمْ	V	surely He (could have) put you in difficulties.	5	1	1
 2	220	23	إِنَّ	ACC	Indeed,	0	0	0
 2	220	24	ٱللَّهَ	PN	Allah	0	0	0
 2	220	25	عَزِيزٌ	N	(is) All-Mighty,	0	0	0
@@ -4236,7 +4236,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	221	9	مِّن	P	than	0	0	0
 2	221	10	مُّشْرِكَةٍ	N	a polytheistic woman	0	1	1
 2	221	11	وَلَوْ	SUB	[and] even if	0	0	0
-2	221	12	أَعْجَبَتْكُمْ	V	she pleases you.	4	1	0
+2	221	12	أَعْجَبَتْكُمْ	V	she pleases you.	4	1	1
 2	221	13	وَلَا	PRO	And (do) not	0	0	0
 2	221	14	تُنكِحُوا۟	V	give in marriage (your women)	0	0	0
 2	221	15	ٱلْمُشْرِكِينَ	N	(to) [the] polytheistic men	0	1	0
@@ -4248,7 +4248,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	221	21	مِّن	P	than	0	0	0
 2	221	22	مُّشْرِكٍ	N	a polytheistic man	0	0	1
 2	221	23	وَلَوْ	SUB	[and] even if	0	0	0
-2	221	24	أَعْجَبَكُمْ	V	he pleases you.	4	1	0
+2	221	24	أَعْجَبَكُمْ	V	he pleases you.	4	1	1
 2	221	25	أُو۟لَٰٓئِكَ	DEM	[Those]	0	0	0
 2	221	26	يَدْعُونَ	V	they invite	0	0	0
 2	221	27	إِلَى	P	to	0	0	0
@@ -4824,7 +4824,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	243	14	ٱللَّهُ	PN	Allah,	0	1	0
 2	243	15	مُوتُوا۟	V	"Die;"	0	1	0
 2	243	16	ثُمَّ	CONJ	then	0	0	0
-2	243	17	أَحْيَٰهُمْ	V	He restored them to life.	5	1	0
+2	243	17	أَحْيَٰهُمْ	V	He restored them to life.	5	1	1
 2	243	18	إِنَّ	ACC	Indeed,	0	0	0
 2	243	19	ٱللَّهَ	PN	Allah	0	0	0
 2	243	20	لَذُو	N	(is) surely Possessor	0	0	0
@@ -4858,7 +4858,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	245	11	كَثِيرَةً	ADJ	many	5	1	1
 2	245	12	وَٱللَّهُ	PN	And Allah	0	0	0
 2	245	13	يَقْبِضُ	V	withholds	0	0	0
-2	245	14	وَيَبْصُۜطُ	V	and grants abundance,	0	1	0
+2	245	14	وَيَبْصُۜطُ	V	and grants abundance,	0	1	1
 2	245	15	وَإِلَيْهِ	P	and to Him	0	0	0
 2	245	16	تُرْجَعُونَ	V	you will be returned.	0	1	1
 2	246	1	أَلَمْ	NEG	Did not	0	0	0
@@ -4954,7 +4954,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	247	37	يُؤْتِى	V	gives	0	1	0
 2	247	38	مُلْكَهُۥ	N	His kingdom	0	0	0
 2	247	39	مَن	REL	(to) whom	0	0	0
-2	247	40	يَشَآءُ	V	He wills.	5	1	0
+2	247	40	يَشَآءُ	V	He wills.	5	1	1
 2	247	41	وَٱللَّهُ	PN	And Allah	0	0	0
 2	247	42	وَٰسِعٌ	N	(is) All-Encompassing,	0	0	0
 2	247	43	عَلِيمٌ	ADJ	All-Knowing."	0	1	1
@@ -5075,7 +5075,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	251	10	وَٱلْحِكْمَةَ	N	and the wisdom	0	0	1
 2	251	11	وَعَلَّمَهُۥ	V	and taught him	0	1	0
 2	251	12	مِمَّا	P	that which	0	0	0
-2	251	13	يَشَآءُ	V	He willed.	4	1	0
+2	251	13	يَشَآءُ	V	He willed.	4	1	1
 2	251	14	وَلَوْلَا	COND	And if not	0	0	0
 2	251	15	دَفْعُ	N	(for the) repelling	0	0	0
 2	251	16	ٱللَّهِ	PN	(by) Allah,	0	1	0
@@ -5140,7 +5140,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	253	39	ءَامَنَ	V	believed	0	1	0
 2	253	40	وَمِنْهُم	P	and of them	0	0	0
 2	253	41	مَّن	REL	(are some) who	0	0	0
-2	253	42	كَفَرَ	V	denied.	5	1	0
+2	253	42	كَفَرَ	V	denied.	5	1	1
 2	253	43	وَلَوْ	COND	And if	0	0	0
 2	253	44	شَآءَ	V	(had) willed	0	0	0
 2	253	45	ٱللَّهُ	PN	Allah	0	0	0
@@ -5150,7 +5150,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	253	49	ٱللَّهَ	PN	Allah	0	1	0
 2	253	50	يَفْعَلُ	V	does	0	0	0
 2	253	51	مَا	REL	what	0	0	0
-2	253	52	يُرِيدُ	V	He intends.	0	1	0
+2	253	52	يُرِيدُ	V	He intends.	0	1	1
 2	254	1	يَٰٓأَيُّهَا	N	O you	0	0	0
 2	254	2	ٱلَّذِينَ	REL	who	0	0	0
 2	254	3	ءَامَنُوٓا۟	V	believe[d]!	0	1	1
@@ -5168,7 +5168,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	254	15	وَلَا	NEG	and no	0	0	0
 2	254	16	خُلَّةٌ	N	friendship	0	0	0
 2	254	17	وَلَا	NEG	and no	0	0	0
-2	254	18	شَفَٰعَةٌ	N	intercession.	4	1	0
+2	254	18	شَفَٰعَةٌ	N	intercession.	4	1	1
 2	254	19	وَٱلْكَٰفِرُونَ	N	And the deniers -	0	1	0
 2	254	20	هُمُ	PRON	they	0	0	0
 2	254	21	ٱلظَّٰلِمُونَ	N	(are) the wrongdoers.	0	1	1
@@ -5211,7 +5211,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	255	37	عِلْمِهِۦٓ	N	His Knowledge	0	1	1
 2	255	38	إِلَّا	RES	except	0	0	0
 2	255	39	بِمَا	REL	[of] what	0	0	0
-2	255	40	شَآءَ	V	He willed.	5	1	0
+2	255	40	شَآءَ	V	He willed.	5	1	1
 2	255	41	وَسِعَ	V	Extends	0	0	0
 2	255	42	كُرْسِيُّهُ	N	His Throne	0	1	0
 2	255	43	ٱلسَّمَٰوَٰتِ	N	(to) the heavens	0	0	0
@@ -5288,11 +5288,11 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	258	16	رَبِّىَ	N	"My Lord	0	0	0
 2	258	17	ٱلَّذِى	REL	(is) the One Who	0	1	0
 2	258	18	يُحْىِۦ	V	grants life	0	0	0
-2	258	19	وَيُمِيتُ	V	and causes death."	0	1	0
+2	258	19	وَيُمِيتُ	V	and causes death."	0	1	1
 2	258	20	قَالَ	V	He said,	0	0	0
 2	258	21	أَنَا۠	PRON	"I	0	0	0
 2	258	22	أُحْىِۦ	V	give life	0	0	0
-2	258	23	وَأُمِيتُ	V	and cause death."	3	1	0
+2	258	23	وَأُمِيتُ	V	and cause death."	3	1	1
 2	258	24	قَالَ	V	Said	0	0	0
 2	258	25	إِبْرَٰهِۦمُ	PN	Ibrahim,	0	0	0
 2	258	26	فَإِنَّ	ACC	"[Then] indeed	0	0	0
@@ -5307,7 +5307,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	258	35	ٱلْمَغْرِبِ	N	the west."	0	0	1
 2	258	36	فَبُهِتَ	V	So became dumbfounded	0	1	0
 2	258	37	ٱلَّذِى	REL	the one who	0	0	0
-2	258	38	كَفَرَ	V	disbelieved,	4	1	0
+2	258	38	كَفَرَ	V	disbelieved,	4	1	1
 2	258	39	وَٱللَّهُ	PN	and Allah	0	0	0
 2	258	40	لَا	NEG	(does) not	0	0	0
 2	258	41	يَهْدِى	V	guide	0	1	0
@@ -5334,7 +5334,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	259	19	مِا۟ئَةَ	N	(for) a hundred	0	0	0
 2	259	20	عَامٍ	N	year(s),	0	0	0
 2	259	21	ثُمَّ	CONJ	then	0	0	0
-2	259	22	بَعَثَهُۥ	V	He raised him.	3	1	0
+2	259	22	بَعَثَهُۥ	V	He raised him.	3	1	1
 2	259	23	قَالَ	V	He said,	0	0	0
 2	259	24	كَمْ	INTG	"How long	0	0	0
 2	259	25	لَبِثْتَ	V	(have) you remained?"	3	1	1
@@ -5354,7 +5354,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	259	39	طَعَامِكَ	N	your food	0	1	0
 2	259	40	وَشَرَابِكَ	N	and your drink,	0	0	1
 2	259	41	لَمْ	NEG	(they did) not	0	0	0
-2	259	42	يَتَسَنَّهْ	V	change with time,	3	1	0
+2	259	42	يَتَسَنَّهْ	V	change with time,	3	1	1
 2	259	43	وَٱنظُرْ	V	and look	0	0	0
 2	259	44	إِلَىٰ	P	at	0	0	0
 2	259	45	حِمَارِكَ	N	your donkey,	0	1	1
@@ -5390,7 +5390,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	260	8	ٱلْمَوْتَىٰ	N	(to) the dead."	3	1	1
 2	260	9	قَالَ	V	He said,	0	0	0
 2	260	10	أَوَلَمْ	NEG	"Have not	0	0	0
-2	260	11	تُؤْمِن	V	you believed?"	3	1	0
+2	260	11	تُؤْمِن	V	you believed?"	3	1	1
 2	260	12	قَالَ	V	He said,	0	0	0
 2	260	13	بَلَىٰ	ANS	"Yes	0	1	0
 2	260	14	وَلَٰكِن	AMD	[and] but	0	0	0
@@ -5425,7 +5425,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	261	4	أَمْوَٰلَهُمْ	N	their wealth	0	0	0
 2	261	5	فِى	P	in	0	0	0
 2	261	6	سَبِيلِ	N	(the) way	0	0	0
-2	261	7	ٱللَّهِ	PN	(of) Allah,	0	1	0
+2	261	7	ٱللَّهِ	PN	(of) Allah,	0	1	1
 2	261	8	كَمَثَلِ	N	(is) like	0	0	0
 2	261	9	حَبَّةٍ	N	a grain	0	1	0
 2	261	10	أَنۢبَتَتْ	V	which grows	0	0	0
@@ -5439,7 +5439,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	261	18	وَٱللَّهُ	PN	And Allah	0	0	0
 2	261	19	يُضَٰعِفُ	V	gives manifold	0	1	0
 2	261	20	لِمَن	REL	to whom	0	0	0
-2	261	21	يَشَآءُ	V	He wills.	4	1	0
+2	261	21	يَشَآءُ	V	He wills.	4	1	1
 2	261	22	وَٱللَّهُ	PN	And Allah	0	0	0
 2	261	23	وَٰسِعٌ	N	(is) All-Encompassing,	0	0	0
 2	261	24	عَلِيمٌ	ADJ	All-Knowing.	0	1	1
@@ -5522,7 +5522,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	265	4	أَمْوَٰلَهُمُ	N	their wealth	0	1	0
 2	265	5	ٱبْتِغَآءَ	N	seeking	0	0	0
 2	265	6	مَرْضَاتِ	N	(the) pleasure	0	0	0
-2	265	7	ٱللَّهِ	PN	(of) Allah,	0	1	0
+2	265	7	ٱللَّهِ	PN	(of) Allah,	0	1	1
 2	265	8	وَتَثْبِيتًا	N	and certainty	0	0	0
 2	265	9	مِّنْ	P	from	0	0	0
 2	265	10	أَنفُسِهِمْ	N	their (inner) souls,	0	1	1
@@ -5538,7 +5538,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	265	20	لَّمْ	NEG	(does) not	0	0	0
 2	265	21	يُصِبْهَا	V	fall (on) it	0	1	0
 2	265	22	وَابِلٌ	N	heavy rain,	0	0	0
-2	265	23	فَطَلٌّ	N	then a drizzle.	4	1	0
+2	265	23	فَطَلٌّ	N	then a drizzle.	4	1	1
 2	265	24	وَٱللَّهُ	PN	And Allah	0	0	0
 2	265	25	بِمَا	REL	of what	0	0	0
 2	265	26	تَعْمَلُونَ	V	you do	0	0	0
@@ -5570,7 +5570,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	266	25	إِعْصَارٌ	N	whirlwind,	0	0	0
 2	266	26	فِيهِ	P	in it	0	0	0
 2	266	27	نَارٌ	N	(is) fire	0	1	0
-2	266	28	فَٱحْتَرَقَتْ	V	then it is burnt.	4	1	0
+2	266	28	فَٱحْتَرَقَتْ	V	then it is burnt.	4	1	1
 2	266	29	كَذَٰلِكَ	DEM	Thus	0	1	0
 2	266	30	يُبَيِّنُ	V	makes clear	0	0	0
 2	266	31	ٱللَّهُ	PN	Allah	0	0	0
@@ -5623,7 +5623,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	269	1	يُؤْتِى	V	He grants	0	0	0
 2	269	2	ٱلْحِكْمَةَ	N	[the] wisdom	0	1	0
 2	269	3	مَن	REL	(to) whom	0	0	0
-2	269	4	يَشَآءُ	V	He wills,	5	1	0
+2	269	4	يَشَآءُ	V	He wills,	5	1	1
 2	269	5	وَمَن	COND	and whoever	0	0	0
 2	269	6	يُؤْتَ	V	is granted	0	0	0
 2	269	7	ٱلْحِكْمَةَ	N	[the] wisdom,	0	1	0
@@ -5646,7 +5646,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	270	8	نَّذْرٍ	N	vow(s),	0	1	1
 2	270	9	فَإِنَّ	ACC	then indeed,	0	0	0
 2	270	10	ٱللَّهَ	PN	Allah	0	0	0
-2	270	11	يَعْلَمُهُۥ	V	knows it,	4	1	0
+2	270	11	يَعْلَمُهُۥ	V	knows it,	4	1	1
 2	270	12	وَمَا	NEG	and not	0	0	0
 2	270	13	لِلظَّٰلِمِينَ	N	for the wrongdoers	0	0	0
 2	270	14	مِنْ	P	any	0	0	0
@@ -5678,7 +5678,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	272	5	ٱللَّهَ	PN	Allah	0	0	0
 2	272	6	يَهْدِى	V	guides	0	1	0
 2	272	7	مَن	REL	whom	0	0	0
-2	272	8	يَشَآءُ	V	He wills.	4	1	0
+2	272	8	يَشَآءُ	V	He wills.	4	1	1
 2	272	9	وَمَا	COND	And whatever	0	0	0
 2	272	10	تُنفِقُوا۟	V	you spend	0	0	0
 2	272	11	مِنْ	P	of	0	0	0
@@ -5704,7 +5704,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	273	3	أُحْصِرُوا۟	V	are wrapped up	0	1	0
 2	273	4	فِى	P	in	0	0	0
 2	273	5	سَبِيلِ	N	(the) way	0	0	0
-2	273	6	ٱللَّهِ	PN	(of) Allah,	0	0	0
+2	273	6	ٱللَّهِ	PN	(of) Allah,	0	0	1
 2	273	7	لَا	NEG	not	0	1	0
 2	273	8	يَسْتَطِيعُونَ	V	they are able	0	0	0
 2	273	9	ضَرْبًا	N	(to) move about	0	1	0
@@ -5776,10 +5776,10 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	275	28	مَوْعِظَةٌ	N	(the) admonition	0	1	0
 2	275	29	مِّن	P	from	0	0	0
 2	275	30	رَّبِّهِۦ	N	His Lord	0	0	0
-2	275	31	فَٱنتَهَىٰ	V	and he refrained,	0	1	0
+2	275	31	فَٱنتَهَىٰ	V	and he refrained,	0	1	1
 2	275	32	فَلَهُۥ	PRON	then for him	0	0	0
 2	275	33	مَا	REL	what	0	0	0
-2	275	34	سَلَفَ	V	(has) passed,	0	1	0
+2	275	34	سَلَفَ	V	(has) passed,	0	1	1
 2	275	35	وَأَمْرُهُۥٓ	N	and his case	0	0	0
 2	275	36	إِلَى	P	(is) with	0	0	0
 2	275	37	ٱللَّهِ	PN	Allah,	3	1	1
@@ -5876,7 +5876,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	281	9	كُلُّ	N	every	0	0	0
 2	281	10	نَفْسٍ	N	soul	0	1	0
 2	281	11	مَّا	REL	what	0	0	0
-2	281	12	كَسَبَتْ	V	it earned	0	1	0
+2	281	12	كَسَبَتْ	V	it earned	0	1	1
 2	281	13	وَهُمْ	PRON	and they	0	0	0
 2	281	14	لَا	NEG	not	0	0	0
 2	281	15	يُظْلَمُونَ	V	will be wronged.	0	1	1
@@ -6059,10 +6059,10 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	284	17	ٱللَّهُ	PN	Allah.	3	1	1
 2	284	18	فَيَغْفِرُ	V	Then, He will forgive	0	0	0
 2	284	19	لِمَن	REL	[to] whom	0	0	0
-2	284	20	يَشَآءُ	V	He wills,	0	1	0
+2	284	20	يَشَآءُ	V	He wills,	0	1	1
 2	284	21	وَيُعَذِّبُ	V	and He will punish	0	0	0
 2	284	22	مَن	REL	whom	0	0	0
-2	284	23	يَشَآءُ	V	He wills.	4	1	0
+2	284	23	يَشَآءُ	V	He wills.	4	1	1
 2	284	24	وَٱللَّهُ	PN	And Allah	0	0	0
 2	284	25	عَلَىٰ	P	on	0	0	0
 2	284	26	كُلِّ	N	every	0	0	0
@@ -6106,7 +6106,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	286	9	كَسَبَتْ	V	it earned,	0	1	0
 2	286	10	وَعَلَيْهَا	P	and against it	0	0	0
 2	286	11	مَا	REL	what	0	0	0
-2	286	12	ٱكْتَسَبَتْ	V	it earned.	4	1	0
+2	286	12	ٱكْتَسَبَتْ	V	it earned.	4	1	1
 2	286	13	رَبَّنَا	N	"Our Lord!	0	0	0
 2	286	14	لَا	PRO	(Do) not	0	0	0
 2	286	15	تُؤَاخِذْنَآ	V	take us to task	0	1	0
@@ -6137,7 +6137,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 2	286	40	عَنَّا	P	[from] us,	0	1	0
 2	286	41	وَٱغْفِرْ	V	and forgive	0	0	0
 2	286	42	لَنَا	PRON	[for] us	0	0	0
-2	286	43	وَٱرْحَمْنَآ	V	and have mercy on us.	5	1	0
+2	286	43	وَٱرْحَمْنَآ	V	and have mercy on us.	5	1	1
 2	286	44	أَنتَ	PRON	You (are)	0	0	0
 2	286	45	مَوْلَىٰنَا	N	our Protector,	0	1	1
 2	286	46	فَٱنصُرْنَا	V	so help us	0	1	0
@@ -6198,7 +6198,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	6	4	فِى	P	in	0	0	0
 3	6	5	ٱلْأَرْحَامِ	N	the wombs	0	1	0
 3	6	6	كَيْفَ	INTG	how(ever)	0	0	0
-3	6	7	يَشَآءُ	V	He wills.	5	1	0
+3	6	7	يَشَآءُ	V	He wills.	5	1	1
 3	6	8	لَآ	NEG	(There is) no	0	0	0
 3	6	9	إِلَٰهَ	N	god	0	0	0
 3	6	10	إِلَّا	EXP	except	0	0	0
@@ -6340,7 +6340,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	13	20	يُؤَيِّدُ	V	supports	0	1	0
 3	13	21	بِنَصْرِهِۦ	N	with His help	0	0	0
 3	13	22	مَن	REL	whom	0	0	0
-3	13	23	يَشَآءُ	V	He wills.	4	1	0
+3	13	23	يَشَآءُ	V	He wills.	4	1	1
 3	13	24	إِنَّ	ACC	Indeed,	0	0	0
 3	13	25	فِى	P	in	0	0	0
 3	13	26	ذَٰلِكَ	DEM	that	0	1	0
@@ -6463,7 +6463,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	20	5	وَجْهِىَ	N	myself	0	0	0
 3	20	6	لِلَّهِ	PN	to Allah	0	1	0
 3	20	7	وَمَنِ	REL	and (those) who	0	1	0
-3	20	8	ٱتَّبَعَنِ	V	follow me."	4	1	0
+3	20	8	ٱتَّبَعَنِ	V	follow me."	4	1	1
 3	20	9	وَقُل	V	And say	0	0	0
 3	20	10	لِّلَّذِينَ	REL	to those who	0	1	0
 3	20	11	أُوتُوا۟	V	were given	0	0	0
@@ -6557,7 +6557,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	25	9	كُلُّ	N	every	0	0	0
 3	25	10	نَفْسٍ	N	soul	0	1	0
 3	25	11	مَّا	REL	what	0	0	0
-3	25	12	كَسَبَتْ	V	it earned	0	1	0
+3	25	12	كَسَبَتْ	V	it earned	0	1	1
 3	25	13	وَهُمْ	PRON	and they	0	0	0
 3	25	14	لَا	NEG	(will) not	0	0	0
 3	25	15	يُظْلَمُونَ	V	be wronged.	0	1	1
@@ -6568,17 +6568,17 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	26	5	تُؤْتِى	V	You give	0	0	0
 3	26	6	ٱلْمُلْكَ	N	the dominion	0	1	0
 3	26	7	مَن	REL	(to) whom	0	0	0
-3	26	8	تَشَآءُ	V	You will	0	1	0
+3	26	8	تَشَآءُ	V	You will	0	1	1
 3	26	9	وَتَنزِعُ	V	and You take away	0	0	0
 3	26	10	ٱلْمُلْكَ	N	the dominion	0	1	0
 3	26	11	مِمَّن	P	from whom	0	0	0
-3	26	12	تَشَآءُ	V	You will,	0	1	0
+3	26	12	تَشَآءُ	V	You will,	0	1	1
 3	26	13	وَتُعِزُّ	V	and You honor	0	0	0
 3	26	14	مَن	REL	whom	0	0	0
-3	26	15	تَشَآءُ	V	You will,	0	0	0
+3	26	15	تَشَآءُ	V	You will,	0	0	1
 3	26	16	وَتُذِلُّ	V	and You humiliate	0	0	0
 3	26	17	مَن	REL	whom	0	0	0
-3	26	18	تَشَآءُ	V	You will.	3	1	0
+3	26	18	تَشَآءُ	V	You will.	3	1	1
 3	26	19	بِيَدِكَ	N	In Your hand	0	0	0
 3	26	20	ٱلْخَيْرُ	N	(is all) the good.	3	1	1
 3	26	21	إِنَّكَ	ACC	Indeed, You	0	0	0
@@ -6744,7 +6744,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	35	17	ٱلسَّمِيعُ	N	(are) the All-Hearing,	0	0	0
 3	35	18	ٱلْعَلِيمُ	ADJ	the All-Knowing.	0	1	1
 3	36	1	فَلَمَّا	T	Then when	0	1	0
-3	36	2	وَضَعَتْهَا	V	she delivered her,	0	1	0
+3	36	2	وَضَعَتْهَا	V	she delivered her,	0	1	1
 3	36	3	قَالَتْ	V	she said,	0	1	0
 3	36	4	رَبِّ	N	"My Lord,	0	1	1
 3	36	5	إِنِّى	ACC	indeed I	0	0	0
@@ -6753,7 +6753,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	36	8	وَٱللَّهُ	PN	And Allah	0	0	0
 3	36	9	أَعْلَمُ	N	knows better	0	1	0
 3	36	10	بِمَا	REL	[of] what	0	0	0
-3	36	11	وَضَعَتْ	V	she delivered,	0	1	0
+3	36	11	وَضَعَتْ	V	she delivered,	0	1	1
 3	36	12	وَلَيْسَ	V	and is not	0	0	0
 3	36	13	ٱلذَّكَرُ	N	the male	0	0	0
 3	36	14	كَٱلْأُنثَىٰ	N	like the female.	3	1	1
@@ -6852,7 +6852,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	40	14	ٱللَّهُ	PN	Allah	0	0	0
 3	40	15	يَفْعَلُ	V	does	0	1	0
 3	40	16	مَا	REL	what	0	0	0
-3	40	17	يَشَآءُ	V	He wills."	0	1	0
+3	40	17	يَشَآءُ	V	He wills."	0	1	1
 3	41	1	قَالَ	V	He said,	0	0	0
 3	41	2	رَبِّ	N	"My Lord	0	0	0
 3	41	3	ٱجْعَل	V	make	0	0	0
@@ -6879,7 +6879,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	42	4	يَٰمَرْيَمُ	PN	"O Maryam!	0	1	0
 3	42	5	إِنَّ	ACC	Indeed,	0	0	0
 3	42	6	ٱللَّهَ	PN	Allah	0	0	0
-3	42	7	ٱصْطَفَىٰكِ	V	(has) chosen you	0	1	0
+3	42	7	ٱصْطَفَىٰكِ	V	(has) chosen you	0	1	1
 3	42	8	وَطَهَّرَكِ	V	and purified you	0	0	0
 3	42	9	وَٱصْطَفَىٰكِ	V	and chosen you	0	1	0
 3	42	10	عَلَىٰ	P	over	0	0	0
@@ -6953,7 +6953,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	47	12	ٱللَّهُ	PN	Allah	0	1	0
 3	47	13	يَخْلُقُ	V	creates	0	1	0
 3	47	14	مَا	REL	what	0	0	0
-3	47	15	يَشَآءُ	V	He wills.	5	1	0
+3	47	15	يَشَآءُ	V	He wills.	5	1	1
 3	47	16	إِذَا	T	When	0	0	0
 3	47	17	قَضَىٰٓ	V	He decrees	0	0	0
 3	47	18	أَمْرًا	N	a matter	0	1	1
@@ -6961,7 +6961,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	47	20	يَقُولُ	V	He says	0	0	0
 3	47	21	لَهُۥ	PRON	to it,	0	1	0
 3	47	22	كُن	V	"Be,"	0	0	0
-3	47	23	فَيَكُونُ	V	and it becomes.	0	1	0
+3	47	23	فَيَكُونُ	V	and it becomes.	0	1	1
 3	48	1	وَيُعَلِّمُهُ	V	And He will teach him	0	1	0
 3	48	2	ٱلْكِتَٰبَ	N	the Book,	0	0	0
 3	48	3	وَٱلْحِكْمَةَ	N	and [the] wisdom,	0	0	0
@@ -7149,7 +7149,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	59	12	قَالَ	V	He said	0	0	0
 3	59	13	لَهُۥ	PRON	to him,	0	1	0
 3	59	14	كُن	V	"Be,"	0	0	0
-3	59	15	فَيَكُونُ	V	and he was.	0	1	0
+3	59	15	فَيَكُونُ	V	and he was.	0	1	1
 3	60	1	ٱلْحَقُّ	N	The truth	0	0	0
 3	60	2	مِن	P	(is) from	0	0	0
 3	60	3	رَّبِّكَ	N	your Lord,	0	1	1
@@ -7176,7 +7176,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	61	17	وَأَنفُسَنَا	N	and ourselves	0	0	0
 3	61	18	وَأَنفُسَكُمْ	N	and yourselves,	0	1	1
 3	61	19	ثُمَّ	CONJ	then	0	0	0
-3	61	20	نَبْتَهِلْ	V	let us pray humbly,	0	1	0
+3	61	20	نَبْتَهِلْ	V	let us pray humbly,	0	1	1
 3	61	21	فَنَجْعَل	V	and [we] invoke	0	0	0
 3	61	22	لَّعْنَتَ	N	the curse	0	0	0
 3	61	23	ٱللَّهِ	PN	(of) Allah	0	1	0
@@ -7371,14 +7371,14 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	73	26	ٱللَّهِ	PN	(of) Allah.	0	0	1
 3	73	27	يُؤْتِيهِ	V	He gives it	0	1	0
 3	73	28	مَن	REL	(to) whom	0	0	0
-3	73	29	يَشَآءُ	V	He wills,	4	1	0
+3	73	29	يَشَآءُ	V	He wills,	4	1	1
 3	73	30	وَٱللَّهُ	PN	and Allah	0	0	0
 3	73	31	وَٰسِعٌ	N	(is) All-Encompassing,	0	0	0
 3	73	32	عَلِيمٌ	ADJ	All-Knowing."	0	1	1
 3	74	1	يَخْتَصُّ	V	He chooses	0	0	0
 3	74	2	بِرَحْمَتِهِۦ	N	for His Mercy	0	1	0
 3	74	3	مَن	REL	whom	0	0	0
-3	74	4	يَشَآءُ	V	He wills.	4	1	0
+3	74	4	يَشَآءُ	V	He wills.	4	1	1
 3	74	5	وَٱللَّهُ	PN	And Allah	0	0	0
 3	74	6	ذُو	N	(is) the Possessor	0	0	0
 3	74	7	ٱلْفَضْلِ	N	(of) Bounty -	0	0	0
@@ -7423,7 +7423,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	76	2	مَنْ	COND	whoever	0	0	0
 3	76	3	أَوْفَىٰ	V	fulfills	0	1	0
 3	76	4	بِعَهْدِهِۦ	N	his covenant	0	0	0
-3	76	5	وَٱتَّقَىٰ	V	and fears (Allah),	0	1	0
+3	76	5	وَٱتَّقَىٰ	V	and fears (Allah),	0	1	1
 3	76	6	فَإِنَّ	ACC	then indeed,	0	0	0
 3	76	7	ٱللَّهَ	PN	Allah	0	1	0
 3	76	8	يُحِبُّ	V	loves	0	0	0
@@ -7451,7 +7451,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	77	21	يَوْمَ	T	(on the) Day	0	0	0
 3	77	22	ٱلْقِيَٰمَةِ	N	(of) the Resurrection	0	0	1
 3	77	23	وَلَا	NEG	and not	0	0	0
-3	77	24	يُزَكِّيهِمْ	V	purify them,	0	1	0
+3	77	24	يُزَكِّيهِمْ	V	purify them,	0	1	1
 3	77	25	وَلَهُمْ	PRON	and for them	0	0	0
 3	77	26	عَذَابٌ	N	(is) a punishment	0	0	0
 3	77	27	أَلِيمٌ	ADJ	painful.	0	1	1
@@ -7543,7 +7543,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	81	16	مَعَكُمْ	LOC	(is) with you,	0	1	1
 3	81	17	لَتُؤْمِنُنَّ	V	you must believe	0	0	0
 3	81	18	بِهِۦ	PRON	in him	0	1	0
-3	81	19	وَلَتَنصُرُنَّهُۥ	V	and you must help him."	5	0	0
+3	81	19	وَلَتَنصُرُنَّهُۥ	V	and you must help him."	5	0	1
 3	81	20	قَالَ	V	He said,	0	1	0
 3	81	21	ءَأَقْرَرْتُمْ	V	"Do you affirm	0	1	0
 3	81	22	وَأَخَذْتُمْ	V	and take	0	0	0
@@ -7823,7 +7823,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	99	7	سَبِيلِ	N	(the) way	0	0	0
 3	99	8	ٱللَّهِ	PN	(of) Allah	0	1	0
 3	99	9	مَنْ	REL	(those) who	0	0	0
-3	99	10	ءَامَنَ	V	believe[d],	0	1	0
+3	99	10	ءَامَنَ	V	believe[d],	0	1	1
 3	99	11	تَبْغُونَهَا	V	seeking (to make) it	0	0	0
 3	99	12	عِوَجًا	N	(seem) crooked	0	1	0
 3	99	13	وَأَنتُمْ	PRON	while you	0	0	0
@@ -8128,7 +8128,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	117	14	قَوْمٍ	N	(of) a people	0	1	0
 3	117	15	ظَلَمُوٓا۟	V	who wronged	0	0	0
 3	117	16	أَنفُسَهُمْ	N	themselves,	0	1	0
-3	117	17	فَأَهْلَكَتْهُ	V	then destroyed it.	5	1	0
+3	117	17	فَأَهْلَكَتْهُ	V	then destroyed it.	5	1	1
 3	117	18	وَمَا	NEG	And not	0	0	0
 3	117	19	ظَلَمَهُمُ	V	(has) wronged them	0	0	0
 3	117	20	ٱللَّهُ	PN	Allah	0	1	1
@@ -8195,7 +8195,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	120	1	إِن	COND	If	0	0	0
 3	120	2	تَمْسَسْكُمْ	V	touches you	0	0	0
 3	120	3	حَسَنَةٌ	N	a good,	0	1	0
-3	120	4	تَسُؤْهُمْ	V	it grieves them	0	1	0
+3	120	4	تَسُؤْهُمْ	V	it grieves them	0	1	1
 3	120	5	وَإِن	COND	and if	0	0	0
 3	120	6	تُصِبْكُمْ	V	strikes you	0	0	0
 3	120	7	سَيِّئَةٌ	N	misfortune,	0	1	0
@@ -8309,7 +8309,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	128	7	يَتُوبَ	V	He turns	0	0	0
 3	128	8	عَلَيْهِمْ	P	to them	0	1	0
 3	128	9	أَوْ	CONJ	or	0	0	0
-3	128	10	يُعَذِّبَهُمْ	V	punishes them	0	1	0
+3	128	10	يُعَذِّبَهُمْ	V	punishes them	0	1	1
 3	128	11	فَإِنَّهُمْ	ACC	for indeed, they	0	0	0
 3	128	12	ظَٰلِمُونَ	N	(are) wrongdoers.	0	1	1
 3	129	1	وَلِلَّهِ	PN	And to Allah (belongs)	0	0	0
@@ -8321,10 +8321,10 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	129	7	ٱلْأَرْضِ	N	the earth,	5	1	1
 3	129	8	يَغْفِرُ	V	He forgives	0	0	0
 3	129	9	لِمَن	REL	[for] whom	0	0	0
-3	129	10	يَشَآءُ	V	He wills	0	1	0
+3	129	10	يَشَآءُ	V	He wills	0	1	1
 3	129	11	وَيُعَذِّبُ	V	and punishes	0	0	0
 3	129	12	مَن	REL	whom	0	0	0
-3	129	13	يَشَآءُ	V	He wills.	5	1	0
+3	129	13	يَشَآءُ	V	He wills.	5	1	1
 3	129	14	وَٱللَّهُ	PN	And Allah	0	0	0
 3	129	15	غَفُورٌ	N	(is) Oft-Forgiving,	0	0	0
 3	129	16	رَّحِيمٌ	ADJ	Most Merciful.	0	1	1
@@ -8507,7 +8507,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	144	10	أَفَإِي۟ن	COND	So if	0	0	0
 3	144	11	مَّاتَ	V	he died	0	0	0
 3	144	12	أَوْ	CONJ	or	0	0	0
-3	144	13	قُتِلَ	V	is slain	0	1	0
+3	144	13	قُتِلَ	V	is slain	0	1	1
 3	144	14	ٱنقَلَبْتُمْ	V	will you turn back	0	0	0
 3	144	15	عَلَىٰٓ	P	on	0	0	0
 3	144	16	أَعْقَٰبِكُمْ	N	your heels?	5	1	1
@@ -8526,7 +8526,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	145	2	كَانَ	V	is	0	0	0
 3	145	3	لِنَفْسٍ	N	for a soul	0	1	0
 3	145	4	أَن	SUB	that	0	0	0
-3	145	5	تَمُوتَ	V	he dies	0	1	0
+3	145	5	تَمُوتَ	V	he dies	0	1	1
 3	145	6	إِلَّا	RES	except	0	0	0
 3	145	7	بِإِذْنِ	N	by (the) permission	0	0	0
 3	145	8	ٱللَّهِ	PN	(of) Allah,	0	1	1
@@ -8664,7 +8664,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	152	29	ثُمَّ	CONJ	Then	0	0	0
 3	152	30	صَرَفَكُمْ	V	He diverted you	0	0	0
 3	152	31	عَنْهُمْ	P	from them	0	1	0
-3	152	32	لِيَبْتَلِيَكُمْ	V	so that He may test you.	3	1	0
+3	152	32	لِيَبْتَلِيَكُمْ	V	so that He may test you.	3	1	1
 3	152	33	وَلَقَدْ	CERT	And surely	0	0	0
 3	152	34	عَفَا	V	He forgave	0	0	0
 3	152	35	عَنكُمْ	P	you.	4	1	1
@@ -8690,10 +8690,10 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	153	15	تَحْزَنُوا۟	V	you grieve	0	1	0
 3	153	16	عَلَىٰ	P	over	0	0	0
 3	153	17	مَا	REL	what	0	0	0
-3	153	18	فَاتَكُمْ	V	escaped you	0	1	0
+3	153	18	فَاتَكُمْ	V	escaped you	0	1	1
 3	153	19	وَلَا	NEG	and not	0	0	0
 3	153	20	مَآ	REL	what	0	0	0
-3	153	21	أَصَٰبَكُمْ	V	(had) befallen you.	4	1	0
+3	153	21	أَصَٰبَكُمْ	V	(had) befallen you.	4	1	1
 3	153	22	وَٱللَّهُ	PN	And Allah	0	0	0
 3	153	23	خَبِيرٌۢ	N	(is) All-Aware	0	1	0
 3	153	24	بِمَا	REL	of what	0	0	0
@@ -8825,7 +8825,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	156	29	قُلُوبِهِمْ	N	their hearts.	4	1	1
 3	156	30	وَٱللَّهُ	PN	And Allah	0	0	0
 3	156	31	يُحْىِۦ	V	gives life	0	0	0
-3	156	32	وَيُمِيتُ	V	and causes death,	4	1	0
+3	156	32	وَيُمِيتُ	V	and causes death,	4	1	1
 3	156	33	وَٱللَّهُ	PN	and Allah	0	0	0
 3	156	34	بِمَا	REL	of what	0	0	0
 3	156	35	تَعْمَلُونَ	V	you do	0	0	0
@@ -8888,7 +8888,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	160	5	غَالِبَ	N	(can) overcome	0	0	0
 3	160	6	لَكُمْ	PRON	[for] you,	3	1	1
 3	160	7	وَإِن	COND	and if	0	0	0
-3	160	8	يَخْذُلْكُمْ	V	He forsakes you,	0	1	0
+3	160	8	يَخْذُلْكُمْ	V	He forsakes you,	0	1	1
 3	160	9	فَمَن	INTG	then who	0	0	0
 3	160	10	ذَا	DEM	(is)	0	0	0
 3	160	11	ٱلَّذِى	REL	the one who	0	1	0
@@ -8903,7 +8903,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	161	2	كَانَ	V	is	0	0	0
 3	161	3	لِنَبِىٍّ	N	for a Prophet	0	1	0
 3	161	4	أَن	SUB	that	0	0	0
-3	161	5	يَغُلَّ	V	he defrauds.	5	1	0
+3	161	5	يَغُلَّ	V	he defrauds.	5	1	1
 3	161	6	وَمَن	COND	And whoever	0	0	0
 3	161	7	يَغْلُلْ	V	defrauds	0	1	0
 3	161	8	يَأْتِ	V	will bring	0	1	0
@@ -8916,7 +8916,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	161	15	كُلُّ	N	every	0	1	0
 3	161	16	نَفْسٍ	N	soul	0	0	0
 3	161	17	مَّا	REL	what	0	0	0
-3	161	18	كَسَبَتْ	V	it earned	0	1	0
+3	161	18	كَسَبَتْ	V	it earned	0	1	1
 3	161	19	وَهُمْ	PRON	and they	0	0	0
 3	161	20	لَا	NEG	(will) not	0	1	0
 3	161	21	يُظْلَمُونَ	V	be wronged.	0	1	1
@@ -8955,7 +8955,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	164	12	يَتْلُوا۟	V	reciting	0	0	0
 3	164	13	عَلَيْهِمْ	P	to them	0	0	0
 3	164	14	ءَايَٰتِهِۦ	N	His Verses	0	1	0
-3	164	15	وَيُزَكِّيهِمْ	V	and purifying them,	0	0	0
+3	164	15	وَيُزَكِّيهِمْ	V	and purifying them,	0	0	1
 3	164	16	وَيُعَلِّمُهُمُ	V	and teaching them	0	0	0
 3	164	17	ٱلْكِتَٰبَ	N	the Book	0	0	0
 3	164	18	وَٱلْحِكْمَةَ	N	and the wisdom,	0	1	1
@@ -9222,7 +9222,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	179	24	مِن	P	from	0	0	0
 3	179	25	رُّسُلِهِۦ	N	His Messengers	0	1	0
 3	179	26	مَن	REL	whom	0	0	0
-3	179	27	يَشَآءُ	V	He wills,	3	1	0
+3	179	27	يَشَآءُ	V	He wills,	3	1	1
 3	179	28	فَـَٔامِنُوا۟	V	so believe	0	0	0
 3	179	29	بِٱللَّهِ	PN	in Allah	0	0	0
 3	179	30	وَرُسُلِهِۦ	N	and His Messengers,	5	1	1
@@ -9349,7 +9349,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 3	185	14	وَأُدْخِلَ	V	and admitted	0	0	0
 3	185	15	ٱلْجَنَّةَ	PN	(to) Paradise	0	1	1
 3	185	16	فَقَدْ	CERT	then surely	0	0	0
-3	185	17	فَازَ	V	he is successful.	4	1	0
+3	185	17	فَازَ	V	he is successful.	4	1	1
 3	185	18	وَمَا	NEG	And not	0	0	0
 3	185	19	ٱلْحَيَوٰةُ	N	(is) the life	0	0	0
 3	185	20	ٱلدُّنْيَآ	ADJ	(of) the world	0	1	0
@@ -9749,7 +9749,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	6	20	وَمَن	COND	And whoever	0	0	0
 4	6	21	كَانَ	V	is	0	0	0
 4	6	22	غَنِيًّا	N	rich	0	1	0
-4	6	23	فَلْيَسْتَعْفِفْ	V	then he should refrain,	3	1	0
+4	6	23	فَلْيَسْتَعْفِفْ	V	then he should refrain,	3	1	1
 4	6	24	وَمَن	COND	and whoever	0	0	0
 4	6	25	كَانَ	V	is	0	0	0
 4	6	26	فَقِيرًا	N	poor	0	0	0
@@ -9840,7 +9840,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	11	14	فَلَهُنَّ	PRON	then for them	0	0	0
 4	11	15	ثُلُثَا	N	two thirds	0	1	0
 4	11	16	مَا	REL	(of) what	0	0	0
-4	11	17	تَرَكَ	V	he left.	3	1	0
+4	11	17	تَرَكَ	V	he left.	3	1	1
 4	11	18	وَإِن	COND	And if	0	0	0
 4	11	19	كَانَتْ	V	(there) is	0	0	0
 4	11	20	وَٰحِدَةً	N	(only) one,	0	1	0
@@ -9852,7 +9852,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	11	26	مِّنْهُمَا	P	of them	0	1	0
 4	11	27	ٱلسُّدُسُ	N	a sixth	0	1	0
 4	11	28	مِمَّا	P	of what	0	0	0
-4	11	29	تَرَكَ	V	(is) left,	0	1	0
+4	11	29	تَرَكَ	V	(is) left,	0	1	1
 4	11	30	إِن	COND	if	0	0	0
 4	11	31	كَانَ	V	is	0	0	0
 4	11	32	لَهُۥ	PRON	for him	0	0	0
@@ -10166,7 +10166,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	22	8	إِلَّا	EXP	except	0	0	0
 4	22	9	مَا	REL	what	0	0	0
 4	22	10	قَدْ	CERT	has	0	0	0
-4	22	11	سَلَفَ	V	passed before,	5	1	0
+4	22	11	سَلَفَ	V	passed before,	5	1	1
 4	22	12	إِنَّهُۥ	ACC	indeed it	0	0	0
 4	22	13	كَانَ	V	was	0	1	0
 4	22	14	فَٰحِشَةً	N	an immorality	0	0	0
@@ -10221,7 +10221,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	23	46	إِلَّا	EXP	except	0	0	0
 4	23	47	مَا	REL	what	0	0	0
 4	23	48	قَدْ	CERT	has	0	0	0
-4	23	49	سَلَفَ	V	passed before.	4	1	0
+4	23	49	سَلَفَ	V	passed before.	4	1	1
 4	23	50	إِنَّ	ACC	Indeed,	0	0	0
 4	23	51	ٱللَّهَ	PN	Allah	0	1	0
 4	23	52	كَانَ	V	is	0	0	0
@@ -10607,7 +10607,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	40	7	وَإِن	COND	And if	0	0	0
 4	40	8	تَكُ	V	there is	0	0	0
 4	40	9	حَسَنَةً	N	a good	0	1	0
-4	40	10	يُضَٰعِفْهَا	V	He doubles it	0	1	0
+4	40	10	يُضَٰعِفْهَا	V	He doubles it	0	1	1
 4	40	11	وَيُؤْتِ	V	and gives	0	1	0
 4	40	12	مِن	P	from	0	0	0
 4	40	13	لَّدُنْهُ	N	near Him	0	1	0
@@ -10735,7 +10735,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	46	23	سَمِعْنَا	V	"We hear[d]	0	0	0
 4	46	24	وَأَطَعْنَا	V	and we obey[ed]"	0	1	1
 4	46	25	وَٱسْمَعْ	V	and "Hear	0	0	0
-4	46	26	وَٱنظُرْنَا	V	and look (at) us,"	0	0	0
+4	46	26	وَٱنظُرْنَا	V	and look (at) us,"	0	0	1
 4	46	27	لَكَانَ	V	surely it (would) have been	0	1	0
 4	46	28	خَيْرًا	N	better	0	0	0
 4	46	29	لَّهُمْ	PRON	for them	0	0	0
@@ -10788,7 +10788,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	48	10	دُونَ	LOC	other than	0	0	0
 4	48	11	ذَٰلِكَ	DEM	that	0	1	0
 4	48	12	لِمَن	REL	for whom	0	0	0
-4	48	13	يَشَآءُ	V	He wills.	5	1	0
+4	48	13	يَشَآءُ	V	He wills.	5	1	1
 4	48	14	وَمَن	COND	And whoever	0	0	0
 4	48	15	يُشْرِكْ	V	associates partners	0	0	0
 4	48	16	بِٱللَّهِ	PN	with Allah,	0	1	1
@@ -10806,7 +10806,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	49	8	ٱللَّهُ	PN	(it is) Allah,	0	0	0
 4	49	9	يُزَكِّى	V	He purifies	0	1	0
 4	49	10	مَن	REL	whom	0	0	0
-4	49	11	يَشَآءُ	V	He wills	0	1	0
+4	49	11	يَشَآءُ	V	He wills	0	1	1
 4	49	12	وَلَا	NEG	and not	0	0	0
 4	49	13	يُظْلَمُونَ	V	they will be wronged	0	0	0
 4	49	14	فَتِيلًا	N	(even as much as) a hair on a date-seed.	0	1	1
@@ -11053,7 +11053,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	63	7	قُلُوبِهِمْ	N	their hearts,	0	1	1
 4	63	8	فَأَعْرِضْ	V	so turn away	0	0	0
 4	63	9	عَنْهُمْ	P	from them	0	1	0
-4	63	10	وَعِظْهُمْ	V	and admonish them,	0	0	0
+4	63	10	وَعِظْهُمْ	V	and admonish them,	0	0	1
 4	63	11	وَقُل	V	and say	0	1	0
 4	63	12	لَّهُمْ	PRON	to them	0	0	0
 4	63	13	فِىٓ	P	concerning	0	0	0
@@ -11176,7 +11176,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	72	1	وَإِنَّ	ACC	And indeed,	0	0	0
 4	72	2	مِنكُمْ	P	among you	0	1	0
 4	72	3	لَمَن	REL	(is he) who	0	1	0
-4	72	4	لَّيُبَطِّئَنَّ	V	lags behind	0	1	0
+4	72	4	لَّيُبَطِّئَنَّ	V	lags behind	0	1	1
 4	72	5	فَإِنْ	COND	then if	0	0	0
 4	72	6	أَصَٰبَتْكُم	V	befalls you	0	0	0
 4	72	7	مُّصِيبَةٌ	N	a disaster	0	1	1
@@ -11224,7 +11224,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	74	14	ٱللَّهِ	PN	(of) Allah,	0	1	0
 4	74	15	فَيُقْتَلْ	V	then he is killed	0	1	0
 4	74	16	أَوْ	CONJ	or	0	0	0
-4	74	17	يَغْلِبْ	V	achieves victory	0	1	0
+4	74	17	يَغْلِبْ	V	achieves victory	0	1	1
 4	74	18	فَسَوْفَ	FUT	then soon	0	0	0
 4	74	19	نُؤْتِيهِ	V	We will grant him	0	1	0
 4	74	20	أَجْرًا	N	a reward	0	0	0
@@ -11324,7 +11324,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	77	42	وَٱلْءَاخِرَةُ	N	and the Hereafter	0	0	0
 4	77	43	خَيْرٌ	N	(is) better	0	1	0
 4	77	44	لِّمَنِ	REL	for whoever	0	0	0
-4	77	45	ٱتَّقَىٰ	V	fears (Allah)	0	1	0
+4	77	45	ٱتَّقَىٰ	V	fears (Allah)	0	1	1
 4	77	46	وَلَا	PRO	and not	0	0	0
 4	77	47	تُظْلَمُونَ	V	you will be wronged	0	0	0
 4	77	48	فَتِيلًا	N	(even as much as) a hair on a date-seed."	0	1	1
@@ -11405,7 +11405,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	81	9	مِّنْهُمْ	P	of them	0	1	0
 4	81	10	غَيْرَ	N	other than	0	0	0
 4	81	11	ٱلَّذِى	REL	that which	0	1	0
-4	81	12	تَقُولُ	V	you say.	3	1	0
+4	81	12	تَقُولُ	V	you say.	3	1	1
 4	81	13	وَٱللَّهُ	PN	But Allah	0	0	0
 4	81	14	يَكْتُبُ	V	records	0	1	0
 4	81	15	مَا	REL	what	0	0	0
@@ -11704,7 +11704,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	92	47	مُّؤْمِنَةٍ	ADJ	- believing.	3	1	1
 4	92	48	فَمَن	COND	And whoever	0	0	0
 4	92	49	لَّمْ	NEG	(does) not	0	0	0
-4	92	50	يَجِدْ	V	find,	0	1	0
+4	92	50	يَجِدْ	V	find,	0	1	1
 4	92	51	فَصِيَامُ	N	then fasting	0	0	0
 4	92	52	شَهْرَيْنِ	N	(for) two months	0	1	0
 4	92	53	مُتَتَابِعَيْنِ	ADJ	consecutively,	0	0	0
@@ -11726,7 +11726,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	93	9	وَغَضِبَ	V	and will fall the wrath	0	0	0
 4	93	10	ٱللَّهُ	PN	(of) Allah	0	0	0
 4	93	11	عَلَيْهِ	P	on him	0	1	0
-4	93	12	وَلَعَنَهُۥ	V	and He (will) curse him	0	0	0
+4	93	12	وَلَعَنَهُۥ	V	and He (will) curse him	0	0	1
 4	93	13	وَأَعَدَّ	V	and He has prepared	0	0	0
 4	93	14	لَهُۥ	PRON	for him	0	1	0
 4	93	15	عَذَابًا	N	a punishment	0	0	0
@@ -12158,7 +12158,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	113	25	مَا	REL	what	0	0	0
 4	113	26	لَمْ	NEG	not	0	0	0
 4	113	27	تَكُن	V	you did	0	0	0
-4	113	28	تَعْلَمُ	V	know.	5	1	0
+4	113	28	تَعْلَمُ	V	know.	5	1	1
 4	113	29	وَكَانَ	V	And is	0	0	0
 4	113	30	فَضْلُ	N	(the) Grace	0	0	0
 4	113	31	ٱللَّهِ	PN	(of) Allah	0	1	0
@@ -12222,7 +12222,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	116	10	دُونَ	LOC	other than	0	0	0
 4	116	11	ذَٰلِكَ	DEM	that	0	1	0
 4	116	12	لِمَن	REL	for whom	0	0	0
-4	116	13	يَشَآءُ	V	He wills.	5	1	0
+4	116	13	يَشَآءُ	V	He wills.	5	1	1
 4	116	14	وَمَن	COND	And whoever	0	0	0
 4	116	15	يُشْرِكْ	V	associates partners	0	0	0
 4	116	16	بِٱللَّهِ	PN	with Allah	0	1	1
@@ -12250,7 +12250,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	118	7	نَصِيبًا	N	a portion	0	0	0
 4	118	8	مَّفْرُوضًا	ADJ	appointed."	0	1	1
 4	119	1	وَلَأُضِلَّنَّهُمْ	V	"And I will surely mislead them	0	0	0
-4	119	2	وَلَأُمَنِّيَنَّهُمْ	V	and surely arouse desires in them,	0	0	0
+4	119	2	وَلَأُمَنِّيَنَّهُمْ	V	and surely arouse desires in them,	0	0	1
 4	119	3	وَلَءَامُرَنَّهُمْ	V	and surely I will order them	0	1	0
 4	119	4	فَلَيُبَتِّكُنَّ	V	so they will surely cut off	0	1	0
 4	119	5	ءَاذَانَ	N	(the) ears	0	0	0
@@ -12271,7 +12271,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	119	20	خُسْرَانًا	N	a loss	0	0	0
 4	119	21	مُّبِينًا	ADJ	manifest.	0	1	1
 4	120	1	يَعِدُهُمْ	V	He promises them	0	0	0
-4	120	2	وَيُمَنِّيهِمْ	V	and arouses desires in them	3	1	0
+4	120	2	وَيُمَنِّيهِمْ	V	and arouses desires in them	3	1	1
 4	120	3	وَمَا	NEG	and not	0	0	0
 4	120	4	يَعِدُهُمُ	V	promises them	0	0	0
 4	120	5	ٱلشَّيْطَٰنُ	PN	the Shaitaan -	0	1	0
@@ -12516,7 +12516,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	132	10	وَكِيلًا	N	(as) a Disposer of affairs.	0	1	1
 4	133	1	إِن	COND	If	0	0	0
 4	133	2	يَشَأْ	V	He wills	0	0	0
-4	133	3	يُذْهِبْكُمْ	V	He can take you away	0	1	0
+4	133	3	يُذْهِبْكُمْ	V	He can take you away	0	1	1
 4	133	4	أَيُّهَا	N	O	0	0	0
 4	133	5	ٱلنَّاسُ	N	people,	0	1	1
 4	133	6	وَيَأْتِ	V	and bring	0	0	0
@@ -12815,7 +12815,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	148	7	ٱلْقَوْلِ	N	[the] words	0	0	1
 4	148	8	إِلَّا	EXP	except	0	0	0
 4	148	9	مَن	REL	(by the one) who	0	0	0
-4	148	10	ظُلِمَ	V	has been wronged.	5	1	0
+4	148	10	ظُلِمَ	V	has been wronged.	5	1	1
 4	148	11	وَكَانَ	V	And is	0	0	0
 4	148	12	ٱللَّهُ	PN	Allah	0	0	0
 4	148	13	سَمِيعًا	N	All-Hearing,	0	0	0
@@ -13266,7 +13266,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	172	12	يَسْتَنكِفْ	V	disdains	0	0	0
 4	172	13	عَنْ	P	from	0	0	0
 4	172	14	عِبَادَتِهِۦ	N	His worship	0	1	0
-4	172	15	وَيَسْتَكْبِرْ	V	and is arrogant	0	0	0
+4	172	15	وَيَسْتَكْبِرْ	V	and is arrogant	0	0	1
 4	172	16	فَسَيَحْشُرُهُمْ	V	then He will gather them	0	1	0
 4	172	17	إِلَيْهِ	P	towards Him	0	0	0
 4	172	18	جَمِيعًا	N	all together.	0	1	1
@@ -13339,7 +13339,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	176	15	فَلَهَا	PRON	then for her	0	0	0
 4	176	16	نِصْفُ	N	(is) a half	0	0	0
 4	176	17	مَا	REL	(of) what	0	0	0
-4	176	18	تَرَكَ	V	he left.	5	1	0
+4	176	18	تَرَكَ	V	he left.	5	1	1
 4	176	19	وَهُوَ	PRON	And he	0	0	0
 4	176	20	يَرِثُهَآ	V	will inherit from her	0	0	0
 4	176	21	إِن	COND	if	0	0	0
@@ -13353,7 +13353,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 4	176	29	فَلَهُمَا	PRON	then for them	0	0	0
 4	176	30	ٱلثُّلُثَانِ	N	two thirds	0	1	0
 4	176	31	مِمَّا	P	of what	0	0	0
-4	176	32	تَرَكَ	V	he left.	5	1	0
+4	176	32	تَرَكَ	V	he left.	5	1	1
 4	176	33	وَإِن	COND	But if	0	0	0
 4	176	34	كَانُوٓا۟	V	they were	0	0	0
 4	176	35	إِخْوَةً	N	brothers and sisters	0	1	0
@@ -13394,7 +13394,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 5	1	20	ٱللَّهَ	PN	Allah	0	0	0
 5	1	21	يَحْكُمُ	V	decrees	0	0	0
 5	1	22	مَا	REL	what	0	0	0
-5	1	23	يُرِيدُ	V	He wills.	0	1	0
+5	1	23	يُرِيدُ	V	He wills.	0	1	1
 5	2	1	يَٰٓأَيُّهَا	N	O you	0	0	0
 5	2	2	ٱلَّذِينَ	REL	who	0	0	0
 5	2	3	ءَامَنُوا۟	V	believe!	0	0	1
@@ -13637,7 +13637,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 5	6	53	حَرَجٍ	N	difficulty	0	1	1
 5	6	54	وَلَٰكِن	AMD	but	0	0	0
 5	6	55	يُرِيدُ	V	He intends	0	1	0
-5	6	56	لِيُطَهِّرَكُمْ	V	to purify you	0	1	0
+5	6	56	لِيُطَهِّرَكُمْ	V	to purify you	0	1	1
 5	6	57	وَلِيُتِمَّ	V	and to complete	0	0	0
 5	6	58	نِعْمَتَهُۥ	N	His Favor	0	0	0
 5	6	59	عَلَيْكُمْ	P	upon you	0	1	1
@@ -13800,7 +13800,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 5	13	25	مِّنْهُمْ	P	of them.	3	1	1
 5	13	26	فَٱعْفُ	V	But forgive	0	0	0
 5	13	27	عَنْهُمْ	P	them	0	0	0
-5	13	28	وَٱصْفَحْ	V	and overlook.	5	1	0
+5	13	28	وَٱصْفَحْ	V	and overlook.	5	1	1
 5	13	29	إِنَّ	ACC	Indeed,	0	0	0
 5	13	30	ٱللَّهَ	PN	Allah	0	0	0
 5	13	31	يُحِبُّ	V	loves	0	1	0
@@ -13907,7 +13907,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 5	17	34	بَيْنَهُمَا	LOC	(is) between both of them.	5	1	1
 5	17	35	يَخْلُقُ	V	He creates	0	0	0
 5	17	36	مَا	REL	what	0	0	0
-5	17	37	يَشَآءُ	V	He wills,	5	1	0
+5	17	37	يَشَآءُ	V	He wills,	5	1	1
 5	17	38	وَٱللَّهُ	PN	and Allah	0	0	0
 5	17	39	عَلَىٰ	P	(is) on	0	0	0
 5	17	40	كُلِّ	N	every	0	0	0
@@ -13928,13 +13928,13 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 5	18	13	أَنتُم	PRON	you (are)	0	0	0
 5	18	14	بَشَرٌ	N	human beings	0	1	0
 5	18	15	مِّمَّنْ	P	from among (those)	0	0	0
-5	18	16	خَلَقَ	V	He created.	5	1	0
+5	18	16	خَلَقَ	V	He created.	5	1	1
 5	18	17	يَغْفِرُ	V	He forgives	0	0	0
 5	18	18	لِمَن	REL	[for] whom	0	0	0
 5	18	19	يَشَآءُ	V	He wills	0	1	0
 5	18	20	وَيُعَذِّبُ	V	and punishes	0	0	0
 5	18	21	مَن	REL	whom	0	0	0
-5	18	22	يَشَآءُ	V	He wills.	5	1	0
+5	18	22	يَشَآءُ	V	He wills.	5	1	1
 5	18	23	وَلِلَّهِ	PN	And for Allah	0	0	0
 5	18	24	مُلْكُ	N	(is the) dominion	0	0	0
 5	18	25	ٱلسَّمَٰوَٰتِ	N	(of) the heavens	0	0	0
@@ -14105,7 +14105,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 5	27	15	مِنَ	P	from	0	0	0
 5	27	16	ٱلْءَاخَرِ	N	the other.	0	1	1
 5	27	17	قَالَ	V	Said (the latter),	0	0	0
-5	27	18	لَأَقْتُلَنَّكَ	V	"Surely I will kill you."	3	1	0
+5	27	18	لَأَقْتُلَنَّكَ	V	"Surely I will kill you."	3	1	1
 5	27	19	قَالَ	V	Said (the former),	0	0	0
 5	27	20	إِنَّمَا	ACC	"Only	0	0	0
 5	27	21	يَتَقَبَّلُ	V	accepts	0	0	0
@@ -14116,13 +14116,13 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 5	28	2	بَسَطتَ	V	you stretch	0	0	0
 5	28	3	إِلَىَّ	P	towards me	0	0	0
 5	28	4	يَدَكَ	N	your hand	0	1	0
-5	28	5	لِتَقْتُلَنِى	V	to kill me,	0	1	0
+5	28	5	لِتَقْتُلَنِى	V	to kill me,	0	1	1
 5	28	6	مَآ	NEG	not	0	0	0
 5	28	7	أَنَا۠	PRON	will I	0	0	0
 5	28	8	بِبَاسِطٍ	N	stretch	0	1	0
 5	28	9	يَدِىَ	N	my hand	0	0	0
 5	28	10	إِلَيْكَ	P	towards you	0	1	0
-5	28	11	لِأَقْتُلَكَ	V	to kill you,	3	1	0
+5	28	11	لِأَقْتُلَكَ	V	to kill you,	3	1	1
 5	28	12	إِنِّىٓ	ACC	indeed I	0	0	0
 5	28	13	أَخَافُ	V	fear	0	0	0
 5	28	14	ٱللَّهَ	PN	Allah	0	1	0
@@ -14329,7 +14329,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 5	39	3	مِنۢ	P	from	0	0	0
 5	39	4	بَعْدِ	N	after	0	0	0
 5	39	5	ظُلْمِهِۦ	N	his wrongdoing	0	1	0
-5	39	6	وَأَصْلَحَ	V	and reforms,	0	0	0
+5	39	6	وَأَصْلَحَ	V	and reforms,	0	0	1
 5	39	7	فَإِنَّ	ACC	then indeed,	0	0	0
 5	39	8	ٱللَّهَ	PN	Allah	0	1	0
 5	39	9	يَتُوبُ	V	will turn in forgiveness	0	0	0
@@ -14351,7 +14351,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 5	40	11	يَشَآءُ	V	He wills	0	1	0
 5	40	12	وَيَغْفِرُ	V	and He forgives	0	0	0
 5	40	13	لِمَن	REL	[to] whom	0	0	0
-5	40	14	يَشَآءُ	V	He wills.	4	1	0
+5	40	14	يَشَآءُ	V	He wills.	4	1	1
 5	40	15	وَٱللَّهُ	PN	And Allah	0	0	0
 5	40	16	عَلَىٰ	P	(is) on	0	0	0
 5	40	17	كُلِّ	N	every	0	1	0
@@ -14618,7 +14618,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 5	48	37	لِّيَبْلُوَكُمْ	V	to test you	0	1	0
 5	48	38	فِى	P	in	0	0	0
 5	48	39	مَآ	REL	what	0	0	0
-5	48	40	ءَاتَىٰكُمْ	V	He (has) given you,	3	1	0
+5	48	40	ءَاتَىٰكُمْ	V	He (has) given you,	3	1	1
 5	48	41	فَٱسْتَبِقُوا۟	V	so race	0	0	0
 5	48	42	ٱلْخَيْرَٰتِ	N	(to) the good.	5	1	1
 5	48	43	إِلَى	P	To	0	0	0
@@ -14771,7 +14771,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 5	54	31	ٱللَّهِ	PN	(of) Allah,	0	1	1
 5	54	32	يُؤْتِيهِ	V	He grants	0	0	0
 5	54	33	مَن	REL	whom	0	0	0
-5	54	34	يَشَآءُ	V	He wills.	5	1	0
+5	54	34	يَشَآءُ	V	He wills.	5	1	1
 5	54	35	وَٱللَّهُ	PN	And Allah	0	0	0
 5	54	36	وَٰسِعٌ	N	(is) All-Encompassing,	0	0	0
 5	54	37	عَلِيمٌ	ADJ	All-Knowing.	0	1	1
@@ -14938,7 +14938,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 5	64	13	مَبْسُوطَتَانِ	N	(are) stretched out	0	1	1
 5	64	14	يُنفِقُ	V	He spends	0	0	0
 5	64	15	كَيْفَ	N	how	0	0	0
-5	64	16	يَشَآءُ	V	He wills.	5	1	0
+5	64	16	يَشَآءُ	V	He wills.	5	1	1
 5	64	17	وَلَيَزِيدَنَّ	V	And surely increase	0	1	0
 5	64	18	كَثِيرًا	N	many	0	0	0
 5	64	19	مِّنْهُم	P	of them,	0	1	0
@@ -15602,7 +15602,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 5	95	38	عَفَا	V	Pardoned	0	0	0
 5	95	39	ٱللَّهُ	PN	(by) Allah	0	0	0
 5	95	40	عَمَّا	P	what	0	0	0
-5	95	41	سَلَفَ	V	(has) passed,	5	1	0
+5	95	41	سَلَفَ	V	(has) passed,	5	1	1
 5	95	42	وَمَنْ	COND	but whoever	0	0	0
 5	95	43	عَادَ	V	returned,	0	0	0
 5	95	44	فَيَنتَقِمُ	V	then will take retribution	0	0	0
@@ -15704,7 +15704,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 5	101	8	إِن	COND	if	0	0	0
 5	101	9	تُبْدَ	V	made clear	0	0	0
 5	101	10	لَكُمْ	PRON	to you,	0	0	0
-5	101	11	تَسُؤْكُمْ	V	it may distress you	0	1	0
+5	101	11	تَسُؤْكُمْ	V	it may distress you	0	1	1
 5	101	12	وَإِن	COND	and if	0	0	0
 5	101	13	تَسْـَٔلُوا۟	V	you ask	0	0	0
 5	101	14	عَنْهَا	P	about it	0	1	0
@@ -16036,7 +16036,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 5	114	16	وَءَاخِرِنَا	N	and last of us	0	1	1
 5	114	17	وَءَايَةً	N	and a sign	0	0	0
 5	114	18	مِّنكَ	P	from You.	3	1	1
-5	114	19	وَٱرْزُقْنَا	V	And provide us,	0	1	0
+5	114	19	وَٱرْزُقْنَا	V	And provide us,	0	1	1
 5	114	20	وَأَنتَ	PRON	and You	0	0	0
 5	114	21	خَيْرُ	N	(are) best	0	0	0
 5	114	22	ٱلرَّٰزِقِينَ	N	(of) the providers.	0	1	1
@@ -16231,7 +16231,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	5	2	كَذَّبُوا۟	V	they denied	0	0	0
 6	5	3	بِٱلْحَقِّ	N	the truth	0	1	0
 6	5	4	لَمَّا	T	when	0	0	0
-6	5	5	جَآءَهُمْ	V	it came to them,	3	1	0
+6	5	5	جَآءَهُمْ	V	it came to them,	3	1	1
 6	5	6	فَسَوْفَ	FUT	but soon	0	0	0
 6	5	7	يَأْتِيهِمْ	V	will come to them	0	1	0
 6	5	8	أَنۢبَٰٓؤُا۟	N	news	0	0	0
@@ -16376,7 +16376,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	14	9	وَهُوَ	PRON	while (it is) He	0	0	0
 6	14	10	يُطْعِمُ	V	Who feeds	0	0	0
 6	14	11	وَلَا	NEG	and not	0	0	0
-6	14	12	يُطْعَمُ	V	He is fed?"	4	1	0
+6	14	12	يُطْعَمُ	V	He is fed?"	4	1	1
 6	14	13	قُلْ	V	Say,	0	0	0
 6	14	14	إِنِّىٓ	ACC	"Indeed I	0	0	0
 6	14	15	أُمِرْتُ	V	[I] am commanded	0	1	0
@@ -16384,7 +16384,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	14	17	أَكُونَ	V	I be	0	1	0
 6	14	18	أَوَّلَ	N	(the) first	0	0	0
 6	14	19	مَنْ	REL	who	0	0	0
-6	14	20	أَسْلَمَ	V	submits (to Allah)	3	1	0
+6	14	20	أَسْلَمَ	V	submits (to Allah)	3	1	1
 6	14	21	وَلَا	NEG	and not	0	0	0
 6	14	22	تَكُونَنَّ	V	be	0	0	0
 6	14	23	مِنَ	P	of	0	0	0
@@ -16403,7 +16403,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	16	3	عَنْهُ	P	from it	0	1	0
 6	16	4	يَوْمَئِذٍ	T	that Day	0	1	1
 6	16	5	فَقَدْ	CERT	then surely	0	0	0
-6	16	6	رَحِمَهُۥ	V	He had Mercy on him.	5	1	0
+6	16	6	رَحِمَهُۥ	V	He had Mercy on him.	5	1	1
 6	16	7	وَذَٰلِكَ	DEM	And that	0	0	0
 6	16	8	ٱلْفَوْزُ	N	(is) the success	0	0	0
 6	16	9	ٱلْمُبِينُ	ADJ	(the) clear.	0	1	1
@@ -16448,7 +16448,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	19	15	لِأُنذِرَكُم	V	that I may warn you	0	0	0
 6	19	16	بِهِۦ	PRON	with it	0	1	0
 6	19	17	وَمَنۢ	REL	and whoever	0	0	0
-6	19	18	بَلَغَ	V	it reaches.	5	1	0
+6	19	18	بَلَغَ	V	it reaches.	5	1	1
 6	19	19	أَئِنَّكُمْ	ACC	Do you truly	0	0	0
 6	19	20	لَتَشْهَدُونَ	V	testify	0	1	0
 6	19	21	أَنَّ	ACC	that	0	0	0
@@ -16458,7 +16458,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	19	25	أُخْرَىٰ	ADJ	other?"	5	1	1
 6	19	26	قُل	V	Say,	0	0	0
 6	19	27	لَّآ	NEG	Not	0	0	0
-6	19	28	أَشْهَدُ	V	(do) I testify.	5	1	0
+6	19	28	أَشْهَدُ	V	(do) I testify.	5	1	1
 6	19	29	قُلْ	V	Say,	0	0	0
 6	19	30	إِنَّمَا	ACC	"Only	0	0	0
 6	19	31	هُوَ	PRON	He	0	0	0
@@ -16580,7 +16580,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	27	6	ٱلنَّارِ	N	the Fire	0	1	1
 6	27	7	فَقَالُوا۟	V	then they (will) say,	0	1	0
 6	27	8	يَٰلَيْتَنَا	ACC	"Oh! Would that we	0	0	0
-6	27	9	نُرَدُّ	V	were sent back	0	1	0
+6	27	9	نُرَدُّ	V	were sent back	0	1	1
 6	27	10	وَلَا	NEG	and not	0	0	0
 6	27	11	نُكَذِّبَ	V	we would deny	0	0	0
 6	27	12	بِـَٔايَٰتِ	N	(the) Signs	0	0	0
@@ -16796,7 +16796,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	39	8	مَن	COND	Whoever	0	0	0
 6	39	9	يَشَإِ	V	wills	0	0	0
 6	39	10	ٱللَّهُ	PN	Allah -	0	0	0
-6	39	11	يُضْلِلْهُ	V	He lets him go astray	0	1	0
+6	39	11	يُضْلِلْهُ	V	He lets him go astray	0	1	1
 6	39	12	وَمَن	COND	and whoever	0	0	0
 6	39	13	يَشَأْ	V	He wills -	0	0	0
 6	39	14	يَجْعَلْهُ	V	He places him	0	1	0
@@ -16826,7 +16826,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	41	6	تَدْعُونَ	V	you call	0	1	0
 6	41	7	إِلَيْهِ	P	upon Him	0	0	0
 6	41	8	إِن	COND	if	0	0	0
-6	41	9	شَآءَ	V	He wills,	0	1	0
+6	41	9	شَآءَ	V	He wills,	0	1	1
 6	41	10	وَتَنسَوْنَ	V	and you will forget	0	0	0
 6	41	11	مَا	REL	what	0	0	0
 6	41	12	تُشْرِكُونَ	V	you associate (with Him)."	0	1	1
@@ -17052,7 +17052,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	54	21	تَابَ	V	repents	0	0	0
 6	54	22	مِنۢ	P	from	0	0	0
 6	54	23	بَعْدِهِۦ	N	after it	0	0	0
-6	54	24	وَأَصْلَحَ	V	and reforms,	0	1	0
+6	54	24	وَأَصْلَحَ	V	and reforms,	0	1	1
 6	54	25	فَأَنَّهُۥ	ACC	then, indeed He	0	0	0
 6	54	26	غَفُورٌ	N	(is) Oft-Forgiving,	0	0	0
 6	54	27	رَّحِيمٌ	ADJ	Most Merciful."	0	1	1
@@ -17136,7 +17136,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	59	15	مِن	P	of	0	0	0
 6	59	16	وَرَقَةٍ	N	any leaf	0	1	0
 6	59	17	إِلَّا	RES	but	0	0	0
-6	59	18	يَعْلَمُهَا	V	He knows it.	0	1	0
+6	59	18	يَعْلَمُهَا	V	He knows it.	0	1	1
 6	59	19	وَلَا	NEG	And not	0	0	0
 6	59	20	حَبَّةٍ	N	a grain	0	0	0
 6	59	21	فِى	P	in	0	0	0
@@ -17319,7 +17319,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	70	13	تُبْسَلَ	V	is given up to destruction	0	0	0
 6	70	14	نَفْسٌۢ	N	a soul	0	1	0
 6	70	15	بِمَا	REL	for what	0	0	0
-6	70	16	كَسَبَتْ	V	it (has) earned,	0	1	0
+6	70	16	كَسَبَتْ	V	it (has) earned,	0	1	1
 6	70	17	لَيْسَ	V	not	0	0	0
 6	70	18	لَهَا	PRON	(is) for it	0	0	0
 6	70	19	مِن	P	from	0	0	0
@@ -17356,9 +17356,9 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	71	5	ٱللَّهِ	PN	Allah	0	1	0
 6	71	6	مَا	REL	what	0	0	0
 6	71	7	لَا	NEG	not	0	0	0
-6	71	8	يَنفَعُنَا	V	benefits us	0	1	0
+6	71	8	يَنفَعُنَا	V	benefits us	0	1	1
 6	71	9	وَلَا	NEG	and not	0	0	0
-6	71	10	يَضُرُّنَا	V	harms us,	0	1	0
+6	71	10	يَضُرُّنَا	V	harms us,	0	1	1
 6	71	11	وَنُرَدُّ	V	and we turn back	0	0	0
 6	71	12	عَلَىٰٓ	P	on	0	0	0
 6	71	13	أَعْقَابِنَا	N	our heels	0	1	0
@@ -17377,7 +17377,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	71	26	يَدْعُونَهُۥٓ	V	who call him	0	0	0
 6	71	27	إِلَى	P	towards	0	0	0
 6	71	28	ٱلْهُدَى	N	the guidance,	0	1	0
-6	71	29	ٱئْتِنَا	V	'Come to us.'"	4	1	0
+6	71	29	ٱئْتِنَا	V	'Come to us.'"	4	1	1
 6	71	30	قُلْ	V	Say,	0	0	0
 6	71	31	إِنَّ	ACC	"Indeed,	0	0	0
 6	71	32	هُدَى	N	(the) Guidance	0	0	0
@@ -17405,7 +17405,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	73	7	وَيَوْمَ	T	And (the) Day	0	0	0
 6	73	8	يَقُولُ	V	He says,	0	1	0
 6	73	9	كُن	V	"Be"	0	0	0
-6	73	10	فَيَكُونُ	V	and it is,	5	1	0
+6	73	10	فَيَكُونُ	V	and it is,	5	1	1
 6	73	11	قَوْلُهُ	N	His word	0	0	0
 6	73	12	ٱلْحَقُّ	N	(is) the truth.	5	1	1
 6	73	13	وَلَهُ	PRON	And for Him	0	0	0
@@ -17512,7 +17512,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	80	5	فِى	P	concerning	0	0	0
 6	80	6	ٱللَّهِ	PN	Allah	0	1	1
 6	80	7	وَقَدْ	CERT	while certainly	0	0	0
-6	80	8	هَدَىٰنِ	V	He has guided me?	5	1	0
+6	80	8	هَدَىٰنِ	V	He has guided me?	5	1	1
 6	80	9	وَلَآ	NEG	And not	0	0	0
 6	80	10	أَخَافُ	V	(do) I fear	0	0	0
 6	80	11	مَا	REL	what	0	1	0
@@ -17572,7 +17572,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	83	7	نَرْفَعُ	V	We raise	0	0	0
 6	83	8	دَرَجَٰتٍ	N	(by) degrees	0	0	0
 6	83	9	مَّن	REL	whom	0	0	0
-6	83	10	نَّشَآءُ	V	We will.	4	1	0
+6	83	10	نَّشَآءُ	V	We will.	4	1	1
 6	83	11	إِنَّ	ACC	Indeed,	0	0	0
 6	83	12	رَبَّكَ	N	your Lord	0	0	0
 6	83	13	حَكِيمٌ	N	(is) All-Wise,	0	0	0
@@ -17660,7 +17660,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	90	3	هَدَى	V	(have been) guided	0	0	0
 6	90	4	ٱللَّهُ	PN	(by) Allah	3	1	1
 6	90	5	فَبِهُدَىٰهُمُ	N	so of their guidance	0	0	0
-6	90	6	ٱقْتَدِهْ	V	you follow.	4	1	0
+6	90	6	ٱقْتَدِهْ	V	you follow.	4	1	1
 6	90	7	قُل	V	Say,	0	1	0
 6	90	8	لَّآ	NEG	"Not	0	0	0
 6	90	9	أَسْـَٔلُكُمْ	V	I ask you	0	0	0
@@ -17921,7 +17921,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	100	2	لِلَّهِ	PN	with Allah	0	1	0
 6	100	3	شُرَكَآءَ	N	partners -	0	0	0
 6	100	4	ٱلْجِنَّ	N	jinn	0	1	0
-6	100	5	وَخَلَقَهُمْ	V	though He has created them,	3	1	0
+6	100	5	وَخَلَقَهُمْ	V	though He has created them,	3	1	1
 6	100	6	وَخَرَقُوا۟	V	and they falsely attribute	0	0	0
 6	100	7	لَهُۥ	PRON	to Him	0	1	0
 6	100	8	بَنِينَ	N	sons	0	0	0
@@ -18319,7 +18319,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	124	3	ءَايَةٌ	N	a Sign	0	1	1
 6	124	4	قَالُوا۟	V	they say,	0	1	0
 6	124	5	لَن	NEG	"Never	0	0	0
-6	124	6	نُّؤْمِنَ	V	we will believe	0	1	0
+6	124	6	نُّؤْمِنَ	V	we will believe	0	1	1
 6	124	7	حَتَّىٰ	P	until	0	0	0
 6	124	8	نُؤْتَىٰ	V	we are given	0	1	0
 6	124	9	مِثْلَ	N	like	0	0	0
@@ -18347,14 +18347,14 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	125	2	يُرِدِ	V	wants	0	0	0
 6	125	3	ٱللَّهُ	PN	Allah	0	1	0
 6	125	4	أَن	SUB	that	0	0	0
-6	125	5	يَهْدِيَهُۥ	V	He guides him -	0	1	0
+6	125	5	يَهْدِيَهُۥ	V	He guides him -	0	1	1
 6	125	6	يَشْرَحْ	V	He expands	0	0	0
 6	125	7	صَدْرَهُۥ	N	his breast	0	0	0
 6	125	8	لِلْإِسْلَٰمِ	PN	to Islam;	3	1	1
 6	125	9	وَمَن	COND	and whoever	0	0	0
 6	125	10	يُرِدْ	V	He wants	0	0	0
 6	125	11	أَن	SUB	that	0	0	0
-6	125	12	يُضِلَّهُۥ	V	He lets him go astray	0	0	0
+6	125	12	يُضِلَّهُۥ	V	He lets him go astray	0	0	1
 6	125	13	يَجْعَلْ	V	He makes	0	0	0
 6	125	14	صَدْرَهُۥ	N	his breast	0	1	0
 6	125	15	ضَيِّقًا	N	tight	0	0	0
@@ -18485,12 +18485,12 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	133	4	ٱلرَّحْمَةِ	N	(of) mercy.	5	1	1
 6	133	5	إِن	COND	If	0	0	0
 6	133	6	يَشَأْ	V	He wills	0	0	0
-6	133	7	يُذْهِبْكُمْ	V	He can take you away	0	1	0
+6	133	7	يُذْهِبْكُمْ	V	He can take you away	0	1	1
 6	133	8	وَيَسْتَخْلِفْ	V	and grant succession	0	0	0
 6	133	9	مِنۢ	P	from	0	0	0
 6	133	10	بَعْدِكُم	N	after you	0	1	0
 6	133	11	مَّا	REL	(to) whom	0	0	0
-6	133	12	يَشَآءُ	V	He wills.	0	1	0
+6	133	12	يَشَآءُ	V	He wills.	0	1	1
 6	133	13	كَمَآ	SUB	as	0	0	0
 6	133	14	أَنشَأَكُم	V	He raised you	0	1	0
 6	133	15	مِّن	P	from	0	0	0
@@ -18582,7 +18582,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	138	7	يَطْعَمُهَآ	V	can eat them	0	0	0
 6	138	8	إِلَّا	RES	except	0	0	0
 6	138	9	مَن	REL	whom	0	0	0
-6	138	10	نَّشَآءُ	V	we will,"	0	0	0
+6	138	10	نَّشَآءُ	V	we will,"	0	0	1
 6	138	11	بِزَعْمِهِمْ	N	by their claim.	0	1	1
 6	138	12	وَأَنْعَٰمٌ	N	And cattle,	0	0	0
 6	138	13	حُرِّمَتْ	V	forbidden	0	0	0
@@ -18661,7 +18661,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	141	18	مِن	P	of	0	0	0
 6	141	19	ثَمَرِهِۦٓ	N	its fruit	0	1	0
 6	141	20	إِذَآ	T	when	0	0	0
-6	141	21	أَثْمَرَ	V	it bears fruit,	0	1	0
+6	141	21	أَثْمَرَ	V	it bears fruit,	0	1	1
 6	141	22	وَءَاتُوا۟	V	and give	0	0	0
 6	141	23	حَقَّهُۥ	N	its due	0	1	0
 6	141	24	يَوْمَ	T	(on the) day	0	0	0
@@ -18761,7 +18761,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	145	8	مُحَرَّمًا	N	(anything) forbidden	0	1	0
 6	145	9	عَلَىٰ	P	to	0	0	0
 6	145	10	طَاعِمٍ	N	an eater	0	0	0
-6	145	11	يَطْعَمُهُۥٓ	V	who eats it	0	1	0
+6	145	11	يَطْعَمُهُۥٓ	V	who eats it	0	1	1
 6	145	12	إِلَّآ	EXP	except	0	0	0
 6	145	13	أَن	SUB	that	0	0	0
 6	145	14	يَكُونَ	V	it be	0	0	0
@@ -18931,7 +18931,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	151	26	ظَهَرَ	V	(is) apparent	0	0	0
 6	151	27	مِنْهَا	P	of them	0	0	0
 6	151	28	وَمَا	REL	and what	0	0	0
-6	151	29	بَطَنَ	V	(is) concealed.	3	1	0
+6	151	29	بَطَنَ	V	(is) concealed.	3	1	1
 6	151	30	وَلَا	PRO	And (do) not	0	0	0
 6	151	31	تَقْتُلُوا۟	V	kill	0	0	0
 6	151	32	ٱلنَّفْسَ	N	the soul	0	0	0
@@ -19004,7 +19004,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	154	5	تَمَامًا	N	completing (Our Favor)	0	0	0
 6	154	6	عَلَى	P	on	0	0	0
 6	154	7	ٱلَّذِىٓ	REL	the one who	0	0	0
-6	154	8	أَحْسَنَ	V	did good	0	1	0
+6	154	8	أَحْسَنَ	V	did good	0	1	1
 6	154	9	وَتَفْصِيلًا	N	and an explanation	0	0	0
 6	154	10	لِّكُلِّ	N	of every	0	0	0
 6	154	11	شَىْءٍ	N	thing,	0	1	0
@@ -19218,7 +19218,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 6	165	11	لِّيَبْلُوَكُمْ	V	so that He may test you	0	1	0
 6	165	12	فِى	P	in	0	0	0
 6	165	13	مَآ	REL	what	0	0	0
-6	165	14	ءَاتَىٰكُمْ	V	He has given you.	4	1	0
+6	165	14	ءَاتَىٰكُمْ	V	He has given you.	4	1	1
 6	165	15	إِنَّ	ACC	Indeed,	0	0	0
 6	165	16	رَبَّكَ	N	your Lord	0	0	0
 6	165	17	سَرِيعُ	N	(is) swift	0	0	0
@@ -19337,7 +19337,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	11	16	ٱلسَّٰجِدِينَ	N	those who prostrated.	0	1	1
 7	12	1	قَالَ	V	(Allah) said,	0	1	0
 7	12	2	مَا	INTG	"What	0	0	0
-7	12	3	مَنَعَكَ	V	prevented you	0	0	0
+7	12	3	مَنَعَكَ	V	prevented you	0	0	1
 7	12	4	أَلَّا	SUB	that not	0	0	0
 7	12	5	تَسْجُدَ	V	you prostrate	0	1	0
 7	12	6	إِذْ	T	when	0	0	0
@@ -19490,7 +19490,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	23	6	لَّمْ	NEG	not	0	0	0
 7	23	7	تَغْفِرْ	V	You forgive	0	0	0
 7	23	8	لَنَا	PRON	[for] us	0	1	0
-7	23	9	وَتَرْحَمْنَا	V	and have mercy (on) us,	0	1	0
+7	23	9	وَتَرْحَمْنَا	V	and have mercy (on) us,	0	1	1
 7	23	10	لَنَكُونَنَّ	V	surely, we will be	0	1	0
 7	23	11	مِنَ	P	among	0	0	0
 7	23	12	ٱلْخَٰسِرِينَ	N	the losers."	0	1	1
@@ -19601,7 +19601,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	29	15	بَدَأَكُمْ	V	He originated you	0	1	0
 7	29	16	تَعُودُونَ	V	(so) will you return."	0	1	1
 7	30	1	فَرِيقًا	N	A group	0	0	0
-7	30	2	هَدَىٰ	V	He guided	0	1	0
+7	30	2	هَدَىٰ	V	He guided	0	1	1
 7	30	3	وَفَرِيقًا	N	and a group	0	0	0
 7	30	4	حَقَّ	V	deserved -	0	0	0
 7	30	5	عَلَيْهِمُ	P	[on] they	0	0	0
@@ -19666,7 +19666,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	33	7	ظَهَرَ	V	(is) apparent	0	0	0
 7	33	8	مِنْهَا	P	of it	0	0	0
 7	33	9	وَمَا	REL	and what	0	0	0
-7	33	10	بَطَنَ	V	is concealed,	0	1	0
+7	33	10	بَطَنَ	V	is concealed,	0	1	1
 7	33	11	وَٱلْإِثْمَ	N	and the sin,	0	0	0
 7	33	12	وَٱلْبَغْىَ	N	and the oppression	0	0	0
 7	33	13	بِغَيْرِ	N	without	0	0	0
@@ -19708,7 +19708,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	35	9	ءَايَٰتِى	N	My Verses,	2	1	1
 7	35	10	فَمَنِ	COND	then whoever	0	0	0
 7	35	11	ٱتَّقَىٰ	V	fears Allah,	0	0	0
-7	35	12	وَأَصْلَحَ	V	and reforms,	0	1	0
+7	35	12	وَأَصْلَحَ	V	and reforms,	0	1	1
 7	35	13	فَلَا	NEG	then no	0	0	0
 7	35	14	خَوْفٌ	N	fear	0	0	0
 7	35	15	عَلَيْهِمْ	P	on them	0	1	1
@@ -19883,7 +19883,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	43	16	لِهَٰذَا	DEM	to this,	0	1	1
 7	43	17	وَمَا	NEG	and not	0	0	0
 7	43	18	كُنَّا	V	we were	0	0	0
-7	43	19	لِنَهْتَدِىَ	V	to receive guidance	0	1	0
+7	43	19	لِنَهْتَدِىَ	V	to receive guidance	0	1	1
 7	43	20	لَوْلَآ	COND	if not	0	1	0
 7	43	21	أَنْ	SUB	[that]	0	0	0
 7	43	22	هَدَىٰنَا	V	(had) guided us	0	0	0
@@ -20072,12 +20072,12 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	53	22	فَيَشْفَعُوا۟	V	so (that) they intercede	0	0	0
 7	53	23	لَنَآ	PRON	for us	0	1	1
 7	53	24	أَوْ	CONJ	or	0	0	0
-7	53	25	نُرَدُّ	V	we are sent back	0	1	0
+7	53	25	نُرَدُّ	V	we are sent back	0	1	1
 7	53	26	فَنَعْمَلَ	V	so (that) we do (deeds)	0	0	0
 7	53	27	غَيْرَ	N	other than	0	0	0
 7	53	28	ٱلَّذِى	REL	that which	0	1	0
 7	53	29	كُنَّا	V	we used to	0	0	0
-7	53	30	نَعْمَلُ	V	do."	5	1	0
+7	53	30	نَعْمَلُ	V	do."	5	1	1
 7	53	31	قَدْ	CERT	Verily,	0	0	0
 7	53	32	خَسِرُوٓا۟	V	they lost	0	0	0
 7	53	33	أَنفُسَهُمْ	N	themselves,	0	1	1
@@ -20246,7 +20246,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	63	7	عَلَىٰ	P	on	0	0	0
 7	63	8	رَجُلٍ	N	a man	0	0	0
 7	63	9	مِّنكُمْ	P	among you,	0	1	0
-7	63	10	لِيُنذِرَكُمْ	V	that he may warn you	0	1	0
+7	63	10	لِيُنذِرَكُمْ	V	that he may warn you	0	1	1
 7	63	11	وَلِتَتَّقُوا۟	V	and that you may fear,	0	1	1
 7	63	12	وَلَعَلَّكُمْ	ACC	and so that you may	0	1	0
 7	63	13	تُرْحَمُونَ	V	receive mercy."	0	1	1
@@ -20319,7 +20319,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	69	7	عَلَىٰ	P	on	0	0	0
 7	69	8	رَجُلٍ	N	a man	0	0	0
 7	69	9	مِّنكُمْ	P	among you	0	0	0
-7	69	10	لِيُنذِرَكُمْ	V	that he may warn you?	5	1	0
+7	69	10	لِيُنذِرَكُمْ	V	that he may warn you?	5	1	1
 7	69	11	وَٱذْكُرُوٓا۟	V	And remember	0	0	0
 7	69	12	إِذْ	T	when	0	0	0
 7	69	13	جَعَلَكُمْ	V	He made you	0	0	0
@@ -20349,7 +20349,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	70	10	ءَابَآؤُنَا	N	our forefathers?	3	1	1
 7	70	11	فَأْتِنَا	V	Then bring us	0	0	0
 7	70	12	بِمَا	REL	of what	0	0	0
-7	70	13	تَعِدُنَآ	V	you promise us,	0	1	0
+7	70	13	تَعِدُنَآ	V	you promise us,	0	1	1
 7	70	14	إِن	COND	if	0	0	0
 7	70	15	كُنتَ	V	you are	0	0	0
 7	70	16	مِنَ	P	of	0	0	0
@@ -20492,7 +20492,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	77	8	يَٰصَٰلِحُ	PN	"O Salih!	0	0	1
 7	77	9	ٱئْتِنَا	V	Bring us	0	1	0
 7	77	10	بِمَا	REL	what	0	0	0
-7	77	11	تَعِدُنَآ	V	you promise us	0	1	0
+7	77	11	تَعِدُنَآ	V	you promise us	0	1	1
 7	77	12	إِن	COND	if	0	0	0
 7	77	13	كُنتَ	V	you are	0	0	0
 7	77	14	مِنَ	P	of	0	0	0
@@ -20624,7 +20624,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	86	16	إِذْ	T	when	0	0	0
 7	86	17	كُنتُمْ	V	you were	0	0	0
 7	86	18	قَلِيلًا	N	few	0	1	0
-7	86	19	فَكَثَّرَكُمْ	V	and He increased you.	3	1	0
+7	86	19	فَكَثَّرَكُمْ	V	and He increased you.	3	1	1
 7	86	20	وَٱنظُرُوا۟	V	And see	0	0	0
 7	86	21	كَيْفَ	INTG	how	0	0	0
 7	86	22	كَانَ	V	was	0	0	0
@@ -20998,7 +20998,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	115	2	يَٰمُوسَىٰٓ	PN	"O Musa!	0	1	0
 7	115	3	إِمَّآ	EXL	Whether	0	0	0
 7	115	4	أَن	SUB	[that]	0	0	0
-7	115	5	تُلْقِىَ	V	you throw	0	1	0
+7	115	5	تُلْقِىَ	V	you throw	0	1	1
 7	115	6	وَإِمَّآ	EXL	or Whether	0	0	0
 7	115	7	أَن	SUB	[that]	0	0	0
 7	115	8	نَّكُونَ	V	we will be	0	1	0
@@ -21087,7 +21087,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	126	7	بِـَٔايَٰتِ	N	in (the) Signs	0	0	0
 7	126	8	رَبِّنَا	N	(of) our Lord	0	1	0
 7	126	9	لَمَّا	T	when	0	0	0
-7	126	10	جَآءَتْنَا	V	they came to us.	5	1	0
+7	126	10	جَآءَتْنَا	V	they came to us.	5	1	1
 7	126	11	رَبَّنَآ	N	Our Lord!	0	1	0
 7	126	12	أَفْرِغْ	V	Pour	0	0	0
 7	126	13	عَلَيْنَا	P	upon us	0	0	0
@@ -21136,7 +21136,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	129	3	مِن	P	from	0	0	0
 7	129	4	قَبْلِ	N	before	0	0	0
 7	129	5	أَن	SUB	[that]	0	0	0
-7	129	6	تَأْتِيَنَا	V	you came to us	0	1	0
+7	129	6	تَأْتِيَنَا	V	you came to us	0	1	1
 7	129	7	وَمِنۢ	P	from	0	0	0
 7	129	8	بَعْدِ	N	and after	0	0	0
 7	129	9	مَا	SUB	[what]	0	0	0
@@ -21361,7 +21361,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	142	16	ٱخْلُفْنِى	V	"Take my place	0	0	0
 7	142	17	فِى	P	in	0	0	0
 7	142	18	قَوْمِى	N	my people,	0	1	0
-7	142	19	وَأَصْلِحْ	V	and do right	0	0	0
+7	142	19	وَأَصْلِحْ	V	and do right	0	0	1
 7	142	20	وَلَا	PRO	and (do) not	0	0	0
 7	142	21	تَتَّبِعْ	V	follow	0	1	0
 7	142	22	سَبِيلَ	N	(the) way	0	0	0
@@ -21379,7 +21379,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	143	11	إِلَيْكَ	P	at You."	5	1	1
 7	143	12	قَالَ	V	He said,	0	0	0
 7	143	13	لَن	NEG	"Never	0	0	0
-7	143	14	تَرَىٰنِى	V	you (can) see Me,	0	1	0
+7	143	14	تَرَىٰنِى	V	you (can) see Me,	0	1	1
 7	143	15	وَلَٰكِنِ	AMD	but	0	0	0
 7	143	16	ٱنظُرْ	V	look	0	0	0
 7	143	17	إِلَى	P	at	0	0	0
@@ -21388,7 +21388,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	143	20	ٱسْتَقَرَّ	V	it remains	0	0	0
 7	143	21	مَكَانَهُۥ	N	in its place	0	1	0
 7	143	22	فَسَوْفَ	FUT	then	0	0	0
-7	143	23	تَرَىٰنِى	V	you (will) see Me."	5	1	0
+7	143	23	تَرَىٰنِى	V	you (will) see Me."	5	1	1
 7	143	24	فَلَمَّا	T	But when	0	0	0
 7	143	25	تَجَلَّىٰ	V	revealed (His) Glory	0	0	0
 7	143	26	رَبُّهُۥ	N	his Lord	0	1	0
@@ -21505,7 +21505,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	148	13	يَرَوْا۟	V	they see	0	1	0
 7	148	14	أَنَّهُۥ	ACC	that it	0	0	0
 7	148	15	لَا	NEG	(could) not	0	0	0
-7	148	16	يُكَلِّمُهُمْ	V	speak to them	0	1	0
+7	148	16	يُكَلِّمُهُمْ	V	speak to them	0	1	1
 7	148	17	وَلَا	NEG	and not	0	0	0
 7	148	18	يَهْدِيهِمْ	V	guide them	0	0	0
 7	148	19	سَبِيلًا	N	(to) a way?	1	1	1
@@ -21653,15 +21653,15 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	155	27	تُضِلُّ	V	You let go astray	0	0	0
 7	155	28	بِهَا	PRON	by it	0	0	0
 7	155	29	مَن	REL	whom	0	0	0
-7	155	30	تَشَآءُ	V	You will	0	1	0
+7	155	30	تَشَآءُ	V	You will	0	1	1
 7	155	31	وَتَهْدِى	V	and You guide	0	0	0
 7	155	32	مَن	REL	whom	0	0	0
-7	155	33	تَشَآءُ	V	You will.	3	1	0
+7	155	33	تَشَآءُ	V	You will.	3	1	1
 7	155	34	أَنتَ	PRON	You	0	0	0
 7	155	35	وَلِيُّنَا	N	(are) our Protector,	0	1	1
 7	155	36	فَٱغْفِرْ	V	so forgive	0	0	0
 7	155	37	لَنَا	PRON	us	0	0	0
-7	155	38	وَٱرْحَمْنَا	V	and have mercy upon us,	3	1	0
+7	155	38	وَٱرْحَمْنَا	V	and have mercy upon us,	3	1	1
 7	155	39	وَأَنتَ	PRON	and You	0	0	0
 7	155	40	خَيْرُ	N	(are) Best	0	0	0
 7	155	41	ٱلْغَٰفِرِينَ	N	(of) Forgivers.	0	1	1
@@ -21681,7 +21681,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	156	14	أُصِيبُ	V	I afflict	0	0	0
 7	156	15	بِهِۦ	PRON	with it	0	1	0
 7	156	16	مَنْ	REL	whom	0	0	0
-7	156	17	أَشَآءُ	V	I will,	3	1	0
+7	156	17	أَشَآءُ	V	I will,	3	1	1
 7	156	18	وَرَحْمَتِى	N	but My Mercy	0	0	0
 7	156	19	وَسِعَتْ	V	encompasses	0	0	0
 7	156	20	كُلَّ	N	every	0	0	0
@@ -21756,7 +21756,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	158	16	إِلَّا	EXP	except	0	0	0
 7	158	17	هُوَ	PRON	Him,	0	1	1
 7	158	18	يُحْىِۦ	V	He gives life	0	0	0
-7	158	19	وَيُمِيتُ	V	and causes death.	3	1	0
+7	158	19	وَيُمِيتُ	V	and causes death.	3	1	1
 7	158	20	فَـَٔامِنُوا۟	V	So believe	0	0	0
 7	158	21	بِٱللَّهِ	PN	in Allah	0	0	0
 7	158	22	وَرَسُولِهِ	N	and His Messenger,	0	1	0
@@ -21878,7 +21878,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	163	19	لَا	NEG	not	0	0	0
 7	163	20	يَسْبِتُونَ	V	they had Sabbath	2	1	1
 7	163	21	لَا	NEG	(they did) not	0	0	0
-7	163	22	تَأْتِيهِمْ	V	come to them.	5	1	0
+7	163	22	تَأْتِيهِمْ	V	come to them.	5	1	1
 7	163	23	كَذَٰلِكَ	DEM	Thus	0	0	0
 7	163	24	نَبْلُوهُم	V	We test them	0	1	0
 7	163	25	بِمَا	REL	because	0	0	0
@@ -22109,10 +22109,10 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	176	14	إِن	COND	if	0	0	0
 7	176	15	تَحْمِلْ	V	you attack	0	0	0
 7	176	16	عَلَيْهِ	P	[on] him,	0	0	0
-7	176	17	يَلْهَثْ	V	he lolls out his tongue	0	1	0
+7	176	17	يَلْهَثْ	V	he lolls out his tongue	0	1	1
 7	176	18	أَوْ	CONJ	or	0	0	0
 7	176	19	تَتْرُكْهُ	V	if you leave him,	0	0	0
-7	176	20	يَلْهَث	V	he lolls out his tongue.	5	1	0
+7	176	20	يَلْهَث	V	he lolls out his tongue.	5	1	1
 7	176	21	ذَّٰلِكَ	DEM	That	0	0	0
 7	176	22	مَثَلُ	N	(is the) example	0	0	0
 7	176	23	ٱلْقَوْمِ	N	(of) the people	0	1	0
@@ -22350,7 +22350,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 7	190	5	لَهُۥ	PRON	for Him	0	0	0
 7	190	6	شُرَكَآءَ	N	partners	0	1	0
 7	190	7	فِيمَآ	P	in what	0	0	0
-7	190	8	ءَاتَىٰهُمَا	V	He has given them.	5	1	0
+7	190	8	ءَاتَىٰهُمَا	V	He has given them.	5	1	1
 7	190	9	فَتَعَٰلَى	V	But exalted	0	0	0
 7	190	10	ٱللَّهُ	PN	(is) Allah	0	1	0
 7	190	11	عَمَّا	P	above what	0	0	0
@@ -22613,7 +22613,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 8	6	2	فِى	P	concerning	0	0	0
 8	6	3	ٱلْحَقِّ	N	the truth	0	1	0
 8	6	4	بَعْدَمَا	T	after what	0	0	0
-8	6	5	تَبَيَّنَ	V	was made clear,	0	1	0
+8	6	5	تَبَيَّنَ	V	was made clear,	0	1	1
 8	6	6	كَأَنَّمَا	ACC	as if	0	0	0
 8	6	7	يُسَاقُونَ	V	they were driven	0	0	0
 8	6	8	إِلَى	P	to	0	0	0
@@ -22778,14 +22778,14 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 8	17	2	تَقْتُلُوهُمْ	V	you kill them,	0	1	1
 8	17	3	وَلَٰكِنَّ	ACC	but	0	0	0
 8	17	4	ٱللَّهَ	PN	Allah	0	0	0
-8	17	5	قَتَلَهُمْ	V	killed them.	5	1	0
+8	17	5	قَتَلَهُمْ	V	killed them.	5	1	1
 8	17	6	وَمَا	NEG	And not	0	0	0
 8	17	7	رَمَيْتَ	V	you threw	0	0	0
 8	17	8	إِذْ	T	when	0	0	0
 8	17	9	رَمَيْتَ	V	you threw,	0	1	1
 8	17	10	وَلَٰكِنَّ	ACC	but	0	0	0
 8	17	11	ٱللَّهَ	PN	Allah	0	0	0
-8	17	12	رَمَىٰ	V	threw	5	1	0
+8	17	12	رَمَىٰ	V	threw	5	1	1
 8	17	13	وَلِيُبْلِىَ	V	and that He may test	0	0	0
 8	17	14	ٱلْمُؤْمِنِينَ	N	the believers	0	1	0
 8	17	15	مِنْهُ	P	from Him	0	0	0
@@ -22795,7 +22795,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 8	17	19	ٱللَّهَ	PN	Allah	0	0	0
 8	17	20	سَمِيعٌ	N	(is) All-Hearing,	0	0	0
 8	17	21	عَلِيمٌ	ADJ	All-Knowing.	0	1	1
-8	18	1	ذَٰلِكُمْ	DEM	That (is the case)	0	1	0
+8	18	1	ذَٰلِكُمْ	DEM	That (is the case)	0	1	1
 8	18	2	وَأَنَّ	ACC	and that,	0	0	0
 8	18	3	ٱللَّهَ	PN	Allah (is)	0	1	0
 8	18	4	مُوهِنُ	N	one who makes weak	0	0	0
@@ -22813,14 +22813,14 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 8	19	10	لَّكُمْ	PRON	for you,	3	1	1
 8	19	11	وَإِن	COND	but if	0	0	0
 8	19	12	تَعُودُوا۟	V	you return,	0	0	0
-8	19	13	نَعُدْ	V	We will return (too).	0	1	0
+8	19	13	نَعُدْ	V	We will return (too).	0	1	1
 8	19	14	وَلَن	NEG	And never	0	0	0
 8	19	15	تُغْنِىَ	V	will avail	0	0	0
 8	19	16	عَنكُمْ	P	you	0	1	0
 8	19	17	فِئَتُكُمْ	N	your forces	0	0	0
 8	19	18	شَيْـًٔا	N	anything,	0	1	1
 8	19	19	وَلَوْ	COND	even if	0	0	0
-8	19	20	كَثُرَتْ	V	(they are) numerous.	0	1	0
+8	19	20	كَثُرَتْ	V	(they are) numerous.	0	1	1
 8	19	21	وَأَنَّ	ACC	And that	0	0	0
 8	19	22	ٱللَّهَ	PN	Allah	0	1	0
 8	19	23	مَعَ	LOC	(is) with	0	0	0
@@ -22859,7 +22859,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 8	23	3	ٱللَّهُ	PN	Allah	0	1	0
 8	23	4	فِيهِمْ	P	in them	0	0	0
 8	23	5	خَيْرًا	N	any good,	0	1	1
-8	23	6	لَّأَسْمَعَهُمْ	V	surely, He (would) have made them hear.	3	1	0
+8	23	6	لَّأَسْمَعَهُمْ	V	surely, He (would) have made them hear.	3	1	1
 8	23	7	وَلَوْ	COND	And if	0	0	0
 8	23	8	أَسْمَعَهُمْ	V	He had made them hear,	0	1	0
 8	23	9	لَتَوَلَّوا۟	V	surely they would have turned away,	0	1	1
@@ -22874,7 +22874,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 8	24	7	إِذَا	T	when	0	0	0
 8	24	8	دَعَاكُمْ	V	he calls you	0	0	0
 8	24	9	لِمَا	REL	to what	0	1	0
-8	24	10	يُحْيِيكُمْ	V	gives you life.	3	1	0
+8	24	10	يُحْيِيكُمْ	V	gives you life.	3	1	1
 8	24	11	وَٱعْلَمُوٓا۟	V	And know	0	0	0
 8	24	12	أَنَّ	ACC	that	0	0	0
 8	24	13	ٱللَّهَ	PN	Allah	0	1	0
@@ -23011,7 +23011,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 8	33	1	وَمَا	NEG	But not	0	0	0
 8	33	2	كَانَ	V	is	0	0	0
 8	33	3	ٱللَّهُ	PN	(for) Allah	0	1	0
-8	33	4	لِيُعَذِّبَهُمْ	V	that He punishes them	0	1	0
+8	33	4	لِيُعَذِّبَهُمْ	V	that He punishes them	0	1	1
 8	33	5	وَأَنتَ	PRON	while you	0	0	0
 8	33	6	فِيهِمْ	P	(are) among them,	5	1	1
 8	33	7	وَمَا	NEG	and not	0	0	0
@@ -23102,7 +23102,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 8	38	7	لَهُم	PRON	for them	0	0	0
 8	38	8	مَّا	REL	what	0	0	0
 8	38	9	قَدْ	CERT	[verily]	0	0	0
-8	38	10	سَلَفَ	V	(is) past.	0	1	0
+8	38	10	سَلَفَ	V	(is) past.	0	1	1
 8	38	11	وَإِن	COND	But if	0	0	0
 8	38	12	يَعُودُوا۟	V	they return	0	1	0
 8	38	13	فَقَدْ	CERT	then verily	0	0	0
@@ -23218,7 +23218,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 8	43	13	ٱلْأَمْرِ	N	the matter,	0	0	1
 8	43	14	وَلَٰكِنَّ	ACC	but	0	1	0
 8	43	15	ٱللَّهَ	PN	Allah	0	0	0
-8	43	16	سَلَّمَ	V	saved (you).	4	1	0
+8	43	16	سَلَّمَ	V	saved (you).	4	1	1
 8	43	17	إِنَّهُۥ	ACC	Indeed, He	0	0	0
 8	43	18	عَلِيمٌۢ	N	(is) All-Knower	0	0	0
 8	43	19	بِذَاتِ	N	of what is in	0	0	0
@@ -23486,7 +23486,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 8	60	18	لَا	NEG	not	0	0	0
 8	60	19	تَعْلَمُونَهُمُ	V	(do) you know them	0	1	1
 8	60	20	ٱللَّهُ	PN	(but) Allah	0	0	0
-8	60	21	يَعْلَمُهُمْ	V	knows them.	5	1	0
+8	60	21	يَعْلَمُهُمْ	V	knows them.	5	1	1
 8	60	22	وَمَا	COND	And whatever	0	0	0
 8	60	23	تُنفِقُوا۟	V	you spend	0	0	0
 8	60	24	مِن	P	from	0	0	0
@@ -23627,7 +23627,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 8	68	2	كِتَٰبٌ	N	an ordainment	0	0	0
 8	68	3	مِّنَ	P	from	0	0	0
 8	68	4	ٱللَّهِ	PN	Allah	0	0	0
-8	68	5	سَبَقَ	V	preceded,	0	1	0
+8	68	5	سَبَقَ	V	preceded,	0	1	1
 8	68	6	لَمَسَّكُمْ	V	surely (would) have touched you	0	0	0
 8	68	7	فِيمَآ	P	for what	0	1	0
 8	68	8	أَخَذْتُمْ	V	you took -	0	1	0
@@ -23816,7 +23816,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 9	3	12	بَرِىٓءٌ	N	(is) free from obligations	0	0	0
 9	3	13	مِّنَ	P	[of]	0	0	0
 9	3	14	ٱلْمُشْرِكِينَ	N	(to) the polytheists,	2	0	0
-9	3	15	وَرَسُولُهُۥ	N	and (so is) His Messenger.	5	1	0
+9	3	15	وَرَسُولُهُۥ	N	and (so is) His Messenger.	5	1	1
 9	3	16	فَإِن	COND	So if	0	0	0
 9	3	17	تُبْتُمْ	V	you repent,	0	1	0
 9	3	18	فَهُوَ	PRON	then, it is	0	0	0
@@ -23886,7 +23886,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 9	6	2	أَحَدٌ	N	anyone	0	0	0
 9	6	3	مِّنَ	P	of	0	0	0
 9	6	4	ٱلْمُشْرِكِينَ	N	the polytheists	0	1	0
-9	6	5	ٱسْتَجَارَكَ	V	seek your protection	0	1	0
+9	6	5	ٱسْتَجَارَكَ	V	seek your protection	0	1	1
 9	6	6	فَأَجِرْهُ	V	then grant him protection	0	1	0
 9	6	7	حَتَّىٰ	P	until	0	0	0
 9	6	8	يَسْمَعَ	V	he hears	0	0	0
@@ -24031,7 +24031,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 9	15	5	ٱللَّهُ	PN	(does) Allah	0	1	0
 9	15	6	عَلَىٰ	P	of	0	0	0
 9	15	7	مَن	REL	whom	0	0	0
-9	15	8	يَشَآءُ	V	He wills.	4	1	0
+9	15	8	يَشَآءُ	V	He wills.	4	1	1
 9	15	9	وَٱللَّهُ	PN	And Allah	0	0	0
 9	15	10	عَلِيمٌ	N	(is) All-Knower,	0	0	0
 9	15	11	حَكِيمٌ	ADJ	All-Wise.	0	1	1
@@ -24229,7 +24229,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 9	25	17	عَلَيْكُمُ	P	for you	0	0	0
 9	25	18	ٱلْأَرْضُ	N	the earth	0	1	0
 9	25	19	بِمَا	SUB	(in spite) of	0	0	0
-9	25	20	رَحُبَتْ	V	its vastness,	0	1	0
+9	25	20	رَحُبَتْ	V	its vastness,	0	1	1
 9	25	21	ثُمَّ	CONJ	then	0	0	0
 9	25	22	وَلَّيْتُم	V	you turned back,	0	0	0
 9	25	23	مُّدْبِرِينَ	N	fleeing.	0	1	1
@@ -24259,7 +24259,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 9	27	6	ذَٰلِكَ	DEM	that	0	1	0
 9	27	7	عَلَىٰ	P	for	0	0	0
 9	27	8	مَن	REL	whom	0	0	0
-9	27	9	يَشَآءُ	V	He wills.	4	1	0
+9	27	9	يَشَآءُ	V	He wills.	4	1	1
 9	27	10	وَٱللَّهُ	PN	And Allah	0	0	0
 9	27	11	غَفُورٌ	N	(is) Oft-Forgiving,	0	0	0
 9	27	12	رَّحِيمٌ	ADJ	Most Merciful.	0	1	1
@@ -24285,7 +24285,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 9	28	20	مِن	P	from	0	0	0
 9	28	21	فَضْلِهِۦٓ	N	His Bounty,	0	1	1
 9	28	22	إِن	COND	if	0	0	0
-9	28	23	شَآءَ	V	He wills.	5	1	0
+9	28	23	شَآءَ	V	He wills.	5	1	1
 9	28	24	إِنَّ	ACC	Indeed,	0	0	0
 9	28	25	ٱللَّهَ	PN	Allah	0	0	0
 9	28	26	عَلِيمٌ	N	(is) All-Knower,	0	0	0
@@ -24571,7 +24571,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 9	40	17	يَقُولُ	V	he said	0	0	0
 9	40	18	لِصَٰحِبِهِۦ	N	to his companion,	0	1	0
 9	40	19	لَا	PRO	"(Do) not	0	0	0
-9	40	20	تَحْزَنْ	V	grieve,	0	0	0
+9	40	20	تَحْزَنْ	V	grieve,	0	0	1
 9	40	21	إِنَّ	ACC	indeed,	0	0	0
 9	40	22	ٱللَّهَ	PN	Allah	0	0	0
 9	40	23	مَعَنَا	LOC	(is) with us."	3	1	1
@@ -24684,7 +24684,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 9	46	8	كَرِهَ	V	disliked	0	0	0
 9	46	9	ٱللَّهُ	PN	(did) Allah	0	0	0
 9	46	10	ٱنۢبِعَاثَهُمْ	N	their being sent,	0	1	1
-9	46	11	فَثَبَّطَهُمْ	V	so He made them lag behind	0	1	0
+9	46	11	فَثَبَّطَهُمْ	V	so He made them lag behind	0	1	1
 9	46	12	وَقِيلَ	V	and it was said,	0	0	0
 9	46	13	ٱقْعُدُوا۟	V	"Sit	0	1	0
 9	46	14	مَعَ	LOC	with	0	0	0
@@ -24728,7 +24728,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 9	49	4	ٱئْذَن	V	"Grant leave	0	0	0
 9	49	5	لِّى	PRON	(to) me	0	1	1
 9	49	6	وَلَا	NEG	and (do) not	0	0	0
-9	49	7	تَفْتِنِّىٓ	V	put me to trial."	5	1	0
+9	49	7	تَفْتِنِّىٓ	V	put me to trial."	5	1	1
 9	49	8	أَلَا	INC	Surely,	0	0	0
 9	49	9	فِى	P	in	0	0	0
 9	49	10	ٱلْفِتْنَةِ	N	the trial	0	0	0
@@ -24740,7 +24740,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 9	50	1	إِن	COND	If	0	0	0
 9	50	2	تُصِبْكَ	V	befalls you	0	0	0
 9	50	3	حَسَنَةٌ	N	good,	0	0	0
-9	50	4	تَسُؤْهُمْ	V	it distresses them,	3	1	0
+9	50	4	تَسُؤْهُمْ	V	it distresses them,	3	1	1
 9	50	5	وَإِن	COND	but if	0	0	0
 9	50	6	تُصِبْكَ	V	befalls you	0	0	0
 9	50	7	مُصِيبَةٌ	N	a calamity	0	1	1
@@ -24995,7 +24995,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 9	65	4	إِنَّمَا	ACC	"Only	0	0	0
 9	65	5	كُنَّا	V	we were	0	0	0
 9	65	6	نَخُوضُ	V	conversing	0	0	0
-9	65	7	وَنَلْعَبُ	V	and playing."	5	1	0
+9	65	7	وَنَلْعَبُ	V	and playing."	5	1	1
 9	65	8	قُلْ	V	Say,	0	1	0
 9	65	9	أَبِٱللَّهِ	PN	"Is it Allah	0	0	0
 9	65	10	وَءَايَٰتِهِۦ	N	and His Verses	0	0	0
@@ -25032,7 +25032,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 9	67	12	أَيْدِيَهُمْ	N	their hands.	5	1	1
 9	67	13	نَسُوا۟	V	They forget	0	0	0
 9	67	14	ٱللَّهَ	PN	Allah,	0	0	0
-9	67	15	فَنَسِيَهُمْ	V	so He has forgotten them.	4	1	0
+9	67	15	فَنَسِيَهُمْ	V	so He has forgotten them.	4	1	1
 9	67	16	إِنَّ	ACC	Indeed,	0	0	0
 9	67	17	ٱلْمُنَٰفِقِينَ	N	the hypocrites,	0	1	0
 9	67	18	هُمُ	PRON	they (are)	0	0	0
@@ -25106,7 +25106,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 9	70	19	فَمَا	NEG	And not	0	0	0
 9	70	20	كَانَ	V	was	0	0	0
 9	70	21	ٱللَّهُ	PN	Allah	0	1	0
-9	70	22	لِيَظْلِمَهُمْ	V	to wrong them	0	1	0
+9	70	22	لِيَظْلِمَهُمْ	V	to wrong them	0	1	1
 9	70	23	وَلَٰكِن	AMD	but	0	0	0
 9	70	24	كَانُوٓا۟	V	they were	0	1	0
 9	70	25	أَنفُسَهُمْ	N	(to) themselves	0	1	0
@@ -25224,7 +25224,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 9	75	6	ءَاتَىٰنَا	V	He gives us	0	0	0
 9	75	7	مِن	P	of	0	0	0
 9	75	8	فَضْلِهِۦ	N	His bounty,	0	1	0
-9	75	9	لَنَصَّدَّقَنَّ	V	surely we will give charity	0	1	0
+9	75	9	لَنَصَّدَّقَنَّ	V	surely we will give charity	0	1	1
 9	75	10	وَلَنَكُونَنَّ	V	and surely we will be	0	1	0
 9	75	11	مِنَ	P	among	0	0	0
 9	75	12	ٱلصَّٰلِحِينَ	N	the righteous."	0	1	1
@@ -25588,7 +25588,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 59	5	8	عَلَىٰٓ	P	on	0	0	0
 59	5	9	أُصُولِهَا	N	their roots,	0	1	1
 59	5	10	فَبِإِذْنِ	N	it (was) by the permission	0	0	0
-59	5	11	ٱللَّهِ	PN	(of) Allah,	0	1	0
+59	5	11	ٱللَّهِ	PN	(of) Allah,	0	1	1
 59	5	12	وَلِيُخْزِىَ	V	and that He may disgrace	0	0	0
 59	5	13	ٱلْفَٰسِقِينَ	N	the defiantly disobedient.	0	1	1
 59	6	1	وَمَآ	COND	And what	0	0	0
@@ -25610,7 +25610,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 59	6	17	رُسُلَهُۥ	N	(to) His Messengers	0	1	0
 59	6	18	عَلَىٰ	P	over	0	0	0
 59	6	19	مَن	REL	whom	0	0	0
-59	6	20	يَشَآءُ	V	He wills.	5	1	0
+59	6	20	يَشَآءُ	V	He wills.	5	1	1
 59	6	21	وَٱللَّهُ	PN	And Allah	0	0	0
 59	6	22	عَلَىٰ	P	(is) on	0	0	0
 59	6	23	كُلِّ	N	every	0	1	0
@@ -25748,7 +25748,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 59	11	21	أَبَدًا	T	ever;	0	1	1
 59	11	22	وَإِن	COND	and if	0	0	0
 59	11	23	قُوتِلْتُمْ	V	you are fought,	0	0	0
-59	11	24	لَنَنصُرَنَّكُمْ	V	certainly we will help you."	0	1	0
+59	11	24	لَنَنصُرَنَّكُمْ	V	certainly we will help you."	0	1	1
 59	11	25	وَٱللَّهُ	PN	And Allah	0	0	0
 59	11	26	يَشْهَدُ	V	bears witness	0	1	0
 59	11	27	إِنَّهُمْ	ACC	that they	0	0	0
@@ -25820,7 +25820,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 59	16	3	إِذْ	T	when	0	0	0
 59	16	4	قَالَ	V	he says	0	0	0
 59	16	5	لِلْإِنسَٰنِ	N	to man,	0	1	0
-59	16	6	ٱكْفُرْ	V	"Disbelieve."	0	1	0
+59	16	6	ٱكْفُرْ	V	"Disbelieve."	0	1	1
 59	16	7	فَلَمَّا	T	But when	0	0	0
 59	16	8	كَفَرَ	V	he disbelieves,	0	1	0
 59	16	9	قَالَ	V	he says,	0	1	0
@@ -26561,7 +26561,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 62	4	3	ٱللَّهِ	PN	(of) Allah,	0	1	1
 62	4	4	يُؤْتِيهِ	V	He gives it	0	1	0
 62	4	5	مَن	REL	(to) whom	0	0	0
-62	4	6	يَشَآءُ	V	He wills.	5	1	0
+62	4	6	يَشَآءُ	V	He wills.	5	1	1
 62	4	7	وَٱللَّهُ	PN	And Allah	0	0	0
 62	4	8	ذُو	N	(is the) Possessor	0	1	0
 62	4	9	ٱلْفَضْلِ	N	(of) Bounty	0	0	0
@@ -26747,7 +26747,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 63	4	15	عَلَيْهِمْ	P	(is) against them.	5	1	1
 63	4	16	هُمُ	PRON	They	0	0	0
 63	4	17	ٱلْعَدُوُّ	N	(are) the enemy,	0	1	0
-63	4	18	فَٱحْذَرْهُمْ	V	so beware of them.	5	1	0
+63	4	18	فَٱحْذَرْهُمْ	V	so beware of them.	5	1	1
 63	4	19	قَٰتَلَهُمُ	V	May destroy them	0	0	0
 63	4	20	ٱللَّهُ	PN	Allah!	3	1	1
 63	4	21	أَنَّىٰ	INTG	How	0	0	0
@@ -26889,7 +26889,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 64	1	17	قَدِيرٌ	N	All-Powerful.	0	1	1
 64	2	1	هُوَ	PRON	He	0	0	0
 64	2	2	ٱلَّذِى	REL	(is) the One Who	0	1	0
-64	2	3	خَلَقَكُمْ	V	created you	0	1	0
+64	2	3	خَلَقَكُمْ	V	created you	0	1	1
 64	2	4	فَمِنكُمْ	P	and among you	0	0	0
 64	2	5	كَافِرٌ	N	(is) a disbeliever	0	0	0
 64	2	6	وَمِنكُم	P	and among you	0	0	0
@@ -26959,7 +26959,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 64	7	7	قُلْ	V	Say,	0	1	0
 64	7	8	بَلَىٰ	ANS	"Yes,	0	0	0
 64	7	9	وَرَبِّى	N	by my Lord,	0	1	0
-64	7	10	لَتُبْعَثُنَّ	V	surely you will be raised;	0	1	0
+64	7	10	لَتُبْعَثُنَّ	V	surely you will be raised;	0	1	1
 64	7	11	ثُمَّ	CONJ	then	0	0	0
 64	7	12	لَتُنَبَّؤُنَّ	V	surely you will be informed	0	0	0
 64	7	13	بِمَا	REL	of what	0	0	0
@@ -27186,7 +27186,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 65	3	2	مِنْ	P	from	0	0	0
 65	3	3	حَيْثُ	N	where	0	1	0
 65	3	4	لَا	NEG	not	0	0	0
-65	3	5	يَحْتَسِبُ	V	he thinks.	5	1	0
+65	3	5	يَحْتَسِبُ	V	he thinks.	5	1	1
 65	3	6	وَمَن	COND	And whoever	0	0	0
 65	3	7	يَتَوَكَّلْ	V	puts his trust	0	1	0
 65	3	8	عَلَى	P	upon	0	0	0
@@ -27296,7 +27296,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 65	7	17	نَفْسًا	N	any soul	0	1	0
 65	7	18	إِلَّا	EXP	except	0	0	0
 65	7	19	مَآ	REL	(with) what	0	0	0
-65	7	20	ءَاتَىٰهَا	V	He has given it.	5	1	0
+65	7	20	ءَاتَىٰهَا	V	He has given it.	5	1	1
 65	7	21	سَيَجْعَلُ	V	Will bring about	0	0	0
 65	7	22	ٱللَّهُ	PN	Allah	0	1	0
 65	7	23	بَعْدَ	T	after	0	0	0
@@ -27476,7 +27476,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 66	5	1	عَسَىٰ	V	Perhaps	0	0	0
 66	5	2	رَبُّهُۥٓ	N	his Lord,	0	1	0
 66	5	3	إِن	COND	if	0	0	0
-66	5	4	طَلَّقَكُنَّ	V	he divorced you,	0	1	0
+66	5	4	طَلَّقَكُنَّ	V	he divorced you,	0	1	1
 66	5	5	أَن	SUB	[that]	0	0	0
 66	5	6	يُبْدِلَهُۥٓ	V	He will substitute for him	0	1	0
 66	5	7	أَزْوَٰجًا	N	wives	0	0	0
@@ -27508,7 +27508,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 66	6	16	يَعْصُونَ	V	they disobey	0	0	0
 66	6	17	ٱللَّهَ	PN	Allah	0	1	0
 66	6	18	مَآ	REL	(in) what	0	0	0
-66	6	19	أَمَرَهُمْ	V	He Commands them	0	1	0
+66	6	19	أَمَرَهُمْ	V	He Commands them	0	1	1
 66	6	20	وَيَفْعَلُونَ	V	but they do	0	0	0
 66	6	21	مَا	REL	what	0	0	0
 66	6	22	يُؤْمَرُونَ	V	they are commanded.	0	1	1
@@ -27721,7 +27721,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 67	7	5	لَهَا	PRON	from it	0	0	0
 67	7	6	شَهِيقًا	N	an inhaling	0	1	0
 67	7	7	وَهِىَ	PRON	while it	0	0	0
-67	7	8	تَفُورُ	V	boils up.	0	1	0
+67	7	8	تَفُورُ	V	boils up.	0	1	1
 67	8	1	تَكَادُ	V	It almost	0	0	0
 67	8	2	تَمَيَّزُ	V	bursts	0	1	0
 67	8	3	مِنَ	P	from	0	0	0
@@ -27790,7 +27790,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 67	14	1	أَلَا	NEG	Does not	0	0	0
 67	14	2	يَعْلَمُ	V	know	0	1	0
 67	14	3	مَنْ	REL	(the One) Who	0	0	0
-67	14	4	خَلَقَ	V	created?	0	1	0
+67	14	4	خَلَقَ	V	created?	0	1	1
 67	14	5	وَهُوَ	PRON	And He	0	0	0
 67	14	6	ٱللَّطِيفُ	N	(is) the Subtle,	0	0	0
 67	14	7	ٱلْخَبِيرُ	ADJ	the All-Aware.	0	1	1
@@ -27818,7 +27818,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 67	16	8	ٱلْأَرْضَ	N	the earth	0	1	1
 67	16	9	فَإِذَا	SUR	when	0	0	0
 67	16	10	هِىَ	PRON	it	0	0	0
-67	16	11	تَمُورُ	V	sways?	0	1	0
+67	16	11	تَمُورُ	V	sways?	0	1	1
 67	17	1	أَمْ	CONJ	Or	0	0	0
 67	17	2	أَمِنتُم	V	do you feel secure	0	0	0
 67	17	3	مَّن	REL	(from Him) Who	0	0	0
@@ -27950,7 +27950,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 67	28	6	وَمَن	REL	and whoever	0	0	0
 67	28	7	مَّعِىَ	LOC	(is) with me	0	1	0
 67	28	8	أَوْ	CONJ	or	0	0	0
-67	28	9	رَحِمَنَا	V	has mercy upon us,	0	1	0
+67	28	9	رَحِمَنَا	V	has mercy upon us,	0	1	1
 67	28	10	فَمَن	INTG	then who	0	0	0
 67	28	11	يُجِيرُ	V	(can) protect	0	0	0
 67	28	12	ٱلْكَٰفِرِينَ	N	the disbelievers	0	1	0
@@ -28490,13 +28490,13 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 69	41	4	شَاعِرٍ	N	(of) a poet;	5	1	1
 69	41	5	قَلِيلًا	ADJ	little	0	0	0
 69	41	6	مَّا	REL	(is) what	0	0	0
-69	41	7	تُؤْمِنُونَ	V	you believe!	0	1	0
+69	41	7	تُؤْمِنُونَ	V	you believe!	0	1	1
 69	42	1	وَلَا	NEG	And not	0	0	0
 69	42	2	بِقَوْلِ	N	(it is the) word	0	0	0
 69	42	3	كَاهِنٍ	N	(of) a soothsayer;	5	0	1
 69	42	4	قَلِيلًا	ADJ	little	0	0	0
 69	42	5	مَّا	REL	(is) what	0	0	0
-69	42	6	تَذَكَّرُونَ	V	you take heed.	0	1	0
+69	42	6	تَذَكَّرُونَ	V	you take heed.	0	1	1
 69	43	1	تَنزِيلٌ	N	(It is) a revelation	0	1	0
 69	43	2	مِّن	P	from	0	0	0
 69	43	3	رَّبِّ	N	(the) Lord	0	0	0
@@ -28593,13 +28593,13 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 70	12	2	وَأَخِيهِ	N	and his brother,	0	1	0
 70	13	1	وَفَصِيلَتِهِ	N	And his nearest kindred	0	0	0
 70	13	2	ٱلَّتِى	REL	who	0	1	0
-70	13	3	تُـْٔوِيهِ	V	sheltered him,	0	1	0
+70	13	3	تُـْٔوِيهِ	V	sheltered him,	0	1	1
 70	14	1	وَمَن	REL	And whoever	0	0	0
 70	14	2	فِى	P	(is) on	0	0	0
 70	14	3	ٱلْأَرْضِ	N	the earth	0	1	0
 70	14	4	جَمِيعًا	N	all,	0	1	0
 70	14	5	ثُمَّ	CONJ	then	0	0	0
-70	14	6	يُنجِيهِ	V	it (could) save him.	0	1	0
+70	14	6	يُنجِيهِ	V	it (could) save him.	0	1	1
 70	15	1	كَلَّآ	AVR	By no means!	3	1	0
 70	15	2	إِنَّهَا	ACC	Indeed, it (is)	0	0	0
 70	15	3	لَظَىٰ	PN	surely a Flame of Hell,	0	1	0
@@ -28608,9 +28608,9 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 70	17	1	تَدْعُوا۟	V	Inviting	0	1	0
 70	17	2	مَنْ	REL	(him) who	0	0	0
 70	17	3	أَدْبَرَ	V	turned his back	0	1	0
-70	17	4	وَتَوَلَّىٰ	V	and went away	0	1	0
+70	17	4	وَتَوَلَّىٰ	V	and went away	0	1	1
 70	18	1	وَجَمَعَ	V	And collected	0	0	0
-70	18	2	فَأَوْعَىٰٓ	V	and hoarded.	0	1	0
+70	18	2	فَأَوْعَىٰٓ	V	and hoarded.	0	1	1
 70	19	1	إِنَّ	ACC	Indeed,	0	0	0
 70	19	2	ٱلْإِنسَٰنَ	N	the man	0	1	0
 70	19	3	خُلِقَ	V	was created	0	0	0
@@ -28794,7 +28794,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 71	4	12	إِذَا	T	when	0	0	0
 71	4	13	جَآءَ	V	it comes	0	0	0
 71	4	14	لَا	NEG	not	0	0	0
-71	4	15	يُؤَخَّرُ	V	is delayed,	3	1	0
+71	4	15	يُؤَخَّرُ	V	is delayed,	3	1	1
 71	4	16	لَوْ	COND	if	0	0	0
 71	4	17	كُنتُمْ	V	you	0	0	0
 71	4	18	تَعْلَمُونَ	V	know."	0	1	1
@@ -29162,7 +29162,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 72	19	3	قَامَ	V	stood up	0	1	0
 72	19	4	عَبْدُ	N	(the) slave	0	0	0
 72	19	5	ٱللَّهِ	PN	(of) Allah	0	1	0
-72	19	6	يَدْعُوهُ	V	calling (upon) Him,	0	1	0
+72	19	6	يَدْعُوهُ	V	calling (upon) Him,	0	1	1
 72	19	7	كَادُوا۟	V	they almost	0	1	0
 72	19	8	يَكُونُونَ	V	became	0	1	0
 72	19	9	عَلَيْهِ	P	around him	0	0	0
@@ -29468,18 +29468,18 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 74	1	1	يَٰٓأَيُّهَا	N	O you	0	0	0
 74	1	2	ٱلْمُدَّثِّرُ	N	who covers himself!	0	1	1
 74	2	1	قُمْ	V	Stand up	0	0	0
-74	2	2	فَأَنذِرْ	V	and warn,	0	1	0
+74	2	2	فَأَنذِرْ	V	and warn,	0	1	1
 74	3	1	وَرَبَّكَ	N	And your Lord	0	1	0
-74	3	2	فَكَبِّرْ	V	magnify,	0	1	0
+74	3	2	فَكَبِّرْ	V	magnify,	0	1	1
 74	4	1	وَثِيَابَكَ	N	And your clothing	0	0	0
-74	4	2	فَطَهِّرْ	V	purify,	0	1	0
+74	4	2	فَطَهِّرْ	V	purify,	0	1	1
 74	5	1	وَٱلرُّجْزَ	N	And uncleanliness	0	0	0
-74	5	2	فَٱهْجُرْ	V	avoid,	0	1	0
+74	5	2	فَٱهْجُرْ	V	avoid,	0	1	1
 74	6	1	وَلَا	PRO	And (do) not	0	0	0
 74	6	2	تَمْنُن	V	confer favor	0	1	0
-74	6	3	تَسْتَكْثِرُ	V	(to) acquire more,	0	1	0
+74	6	3	تَسْتَكْثِرُ	V	(to) acquire more,	0	1	1
 74	7	1	وَلِرَبِّكَ	N	And for your Lord	0	1	0
-74	7	2	فَٱصْبِرْ	V	be patient.	0	1	0
+74	7	2	فَٱصْبِرْ	V	be patient.	0	1	1
 74	8	1	فَإِذَا	T	Then when	0	1	0
 74	8	2	نُقِرَ	V	is blown	0	0	0
 74	8	3	فِى	P	in	0	0	0
@@ -29508,7 +29508,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 74	15	1	ثُمَّ	CONJ	Then	0	0	0
 74	15	2	يَطْمَعُ	V	he desires	0	1	0
 74	15	3	أَنْ	SUB	that	0	0	0
-74	15	4	أَزِيدَ	V	I (should) add more.	0	1	0
+74	15	4	أَزِيدَ	V	I (should) add more.	0	1	1
 74	16	1	كَلَّآ	AVR	By no means!	3	0	0
 74	16	2	إِنَّهُۥ	ACC	Indeed, he	0	1	0
 74	16	3	كَانَ	V	has been	0	0	0
@@ -29518,28 +29518,28 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 74	17	2	صَعُودًا	N	(with) a laborious punishment.	0	1	1
 74	18	1	إِنَّهُۥ	ACC	Indeed, he	0	0	0
 74	18	2	فَكَّرَ	V	thought	0	1	0
-74	18	3	وَقَدَّرَ	V	and plotted.	0	1	0
+74	18	3	وَقَدَّرَ	V	and plotted.	0	1	1
 74	19	1	فَقُتِلَ	V	So may he be destroyed,	0	1	0
 74	19	2	كَيْفَ	INTG	how	0	0	0
-74	19	3	قَدَّرَ	V	he plotted!	0	1	0
+74	19	3	قَدَّرَ	V	he plotted!	0	1	1
 74	20	1	ثُمَّ	CONJ	Then	0	0	0
 74	20	2	قُتِلَ	V	may he be destroyed,	0	0	0
 74	20	3	كَيْفَ	INTG	how	0	0	0
-74	20	4	قَدَّرَ	V	he plotted!	0	1	0
+74	20	4	قَدَّرَ	V	he plotted!	0	1	1
 74	21	1	ثُمَّ	CONJ	Then	0	0	0
-74	21	2	نَظَرَ	V	he looked;	0	1	0
+74	21	2	نَظَرَ	V	he looked;	0	1	1
 74	22	1	ثُمَّ	CONJ	Then	0	0	0
 74	22	2	عَبَسَ	V	he frowned	0	0	0
-74	22	3	وَبَسَرَ	V	and scowled;	0	1	0
+74	22	3	وَبَسَرَ	V	and scowled;	0	1	1
 74	23	1	ثُمَّ	CONJ	Then	0	0	0
 74	23	2	أَدْبَرَ	V	he turned back	0	0	0
-74	23	3	وَٱسْتَكْبَرَ	V	and was proud,	0	1	0
+74	23	3	وَٱسْتَكْبَرَ	V	and was proud,	0	1	1
 74	24	1	فَقَالَ	V	Then he said,	0	1	0
 74	24	2	إِنْ	NEG	"Not	0	0	0
 74	24	3	هَٰذَآ	DEM	(is) this	0	0	0
 74	24	4	إِلَّا	RES	but	0	1	0
 74	24	5	سِحْرٌ	N	magic	0	0	0
-74	24	6	يُؤْثَرُ	V	imitated.	0	1	0
+74	24	6	يُؤْثَرُ	V	imitated.	0	1	1
 74	25	1	إِنْ	NEG	Not	0	0	0
 74	25	2	هَٰذَآ	DEM	(is) this	0	0	0
 74	25	3	إِلَّا	RES	but	0	0	0
@@ -29554,7 +29554,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 74	28	1	لَا	NEG	Not	0	0	0
 74	28	2	تُبْقِى	V	it lets remain	0	1	0
 74	28	3	وَلَا	NEG	and not	0	0	0
-74	28	4	تَذَرُ	V	it leaves,	0	1	0
+74	28	4	تَذَرُ	V	it leaves,	0	1	1
 74	29	1	لَوَّاحَةٌ	N	Scorching	0	0	0
 74	29	2	لِّلْبَشَرِ	N	the human (skin).	0	1	1
 74	30	1	عَلَيْهَا	P	Over it	0	0	0
@@ -29602,10 +29602,10 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 74	31	40	يُضِلُّ	V	does let go astray	0	0	0
 74	31	41	ٱللَّهُ	PN	Allah	0	1	0
 74	31	42	مَن	REL	whom	0	0	0
-74	31	43	يَشَآءُ	V	He wills	0	1	0
+74	31	43	يَشَآءُ	V	He wills	0	1	1
 74	31	44	وَيَهْدِى	V	and guides	0	0	0
 74	31	45	مَن	REL	whom	0	0	0
-74	31	46	يَشَآءُ	V	He wills.	5	1	0
+74	31	46	يَشَآءُ	V	He wills.	5	1	1
 74	31	47	وَمَا	NEG	And none	0	0	0
 74	31	48	يَعْلَمُ	V	knows	0	0	0
 74	31	49	جُنُودَ	N	(the) hosts	0	1	0
@@ -29621,10 +29621,10 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 74	32	2	وَٱلْقَمَرِ	N	By the moon,	0	1	1
 74	33	1	وَٱلَّيْلِ	N	And the night	0	0	0
 74	33	2	إِذْ	T	when	0	1	0
-74	33	3	أَدْبَرَ	V	it departs,	0	1	0
+74	33	3	أَدْبَرَ	V	it departs,	0	1	1
 74	34	1	وَٱلصُّبْحِ	N	And the morning	0	0	0
 74	34	2	إِذَآ	T	when	0	0	0
-74	34	3	أَسْفَرَ	V	it brightens,	0	1	0
+74	34	3	أَسْفَرَ	V	it brightens,	0	1	1
 74	35	1	إِنَّهَا	ACC	Indeed, it	0	1	0
 74	35	2	لَإِحْدَى	N	(is) surely one	0	1	0
 74	35	3	ٱلْكُبَرِ	N	(of) the greatest,	0	1	1
@@ -29636,7 +29636,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 74	37	4	أَن	SUB	to	0	0	0
 74	37	5	يَتَقَدَّمَ	V	proceed	0	1	0
 74	37	6	أَوْ	CONJ	or	0	0	0
-74	37	7	يَتَأَخَّرَ	V	stay behind.	0	1	0
+74	37	7	يَتَأَخَّرَ	V	stay behind.	0	1	1
 74	38	1	كُلُّ	N	Every	0	0	0
 74	38	2	نَفْسٍۭ	N	soul,	0	1	0
 74	38	3	بِمَا	REL	for what	0	0	0
@@ -29708,7 +29708,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 74	54	3	تَذْكِرَةٌ	N	(is) a Reminder.	0	1	1
 74	55	1	فَمَن	COND	So whoever	0	1	0
 74	55	2	شَآءَ	V	wills,	0	1	0
-74	55	3	ذَكَرَهُۥ	V	(may) pay heed to it.	0	1	0
+74	55	3	ذَكَرَهُۥ	V	(may) pay heed to it.	0	1	1
 74	56	1	وَمَا	NEG	And not	0	0	0
 74	56	2	يَذْكُرُونَ	V	will pay heed	0	1	0
 74	56	3	إِلَّآ	RES	except	0	0	0
@@ -29763,7 +29763,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 75	10	5	ٱلْمَفَرُّ	N	(is) the escape?"	0	1	1
 75	11	1	كَلَّا	AVR	By no means!	0	0	0
 75	11	2	لَا	NEG	(There is) no	0	1	0
-75	11	3	وَزَرَ	N	refuge.	0	1	0
+75	11	3	وَزَرَ	N	refuge.	0	1	1
 75	12	1	إِلَىٰ	P	To	0	0	0
 75	12	2	رَبِّكَ	N	your Lord,	0	0	0
 75	12	3	يَوْمَئِذٍ	T	that Day,	0	1	0
@@ -29773,7 +29773,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 75	13	3	يَوْمَئِذٍۭ	T	that Day	0	0	0
 75	13	4	بِمَا	REL	of what	0	1	0
 75	13	5	قَدَّمَ	V	he sent forth	0	0	0
-75	13	6	وَأَخَّرَ	V	and kept back.	0	1	0
+75	13	6	وَأَخَّرَ	V	and kept back.	0	1	1
 75	14	1	بَلِ	RET	Nay!	0	0	0
 75	14	2	ٱلْإِنسَٰنُ	N	[The] man	0	1	0
 75	14	3	عَلَىٰ	P	against	0	0	0
@@ -29840,15 +29840,15 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 75	31	1	فَلَا	NEG	And not	0	0	0
 75	31	2	صَدَّقَ	V	he accepted (the) truth	0	1	0
 75	31	3	وَلَا	NEG	and not	0	0	0
-75	31	4	صَلَّىٰ	V	he prayed.	0	1	0
+75	31	4	صَلَّىٰ	V	he prayed.	0	1	1
 75	32	1	وَلَٰكِن	AMD	But	0	1	0
 75	32	2	كَذَّبَ	V	he denied	0	0	0
-75	32	3	وَتَوَلَّىٰ	V	and turned away.	0	1	0
+75	32	3	وَتَوَلَّىٰ	V	and turned away.	0	1	1
 75	33	1	ثُمَّ	CONJ	Then	0	0	0
 75	33	2	ذَهَبَ	V	he went	0	1	0
 75	33	3	إِلَىٰٓ	P	to	0	0	0
 75	33	4	أَهْلِهِۦ	N	his family,	0	0	0
-75	33	5	يَتَمَطَّىٰٓ	V	swaggering.	0	1	0
+75	33	5	يَتَمَطَّىٰٓ	V	swaggering.	0	1	1
 75	34	1	أَوْلَىٰ	N	Woe	0	0	0
 75	34	2	لَكَ	PRON	to you,	0	1	0
 75	34	3	فَأَوْلَىٰ	N	and woe!	0	1	1
@@ -29866,12 +29866,12 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 75	37	3	نُطْفَةً	N	a semen-drop	0	1	0
 75	37	4	مِّن	P	of	0	0	0
 75	37	5	مَّنِىٍّ	N	semen	0	0	0
-75	37	6	يُمْنَىٰ	V	emitted?	0	1	0
+75	37	6	يُمْنَىٰ	V	emitted?	0	1	1
 75	38	1	ثُمَّ	CONJ	Then	0	0	0
 75	38	2	كَانَ	V	he was	0	0	0
 75	38	3	عَلَقَةً	N	a clinging substance,	0	1	0
 75	38	4	فَخَلَقَ	V	then He created	0	1	0
-75	38	5	فَسَوَّىٰ	V	and proportioned.	0	1	0
+75	38	5	فَسَوَّىٰ	V	and proportioned.	0	1	1
 75	39	1	فَجَعَلَ	V	Then made	0	0	0
 75	39	2	مِنْهُ	P	of him	0	1	0
 75	39	3	ٱلزَّوْجَيْنِ	N	two kinds,	0	1	0
@@ -30157,7 +30157,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 77	11	3	أُقِّتَتْ	V	are gathered to their appointed time.	0	1	1
 77	12	1	لِأَىِّ	N	For what	0	0	0
 77	12	2	يَوْمٍ	N	Day	0	1	0
-77	12	3	أُجِّلَتْ	V	are (these) postponed?	0	1	0
+77	12	3	أُجِّلَتْ	V	are (these) postponed?	0	1	1
 77	13	1	لِيَوْمِ	N	For (the) Day	0	0	0
 77	13	2	ٱلْفَصْلِ	N	(of) Judgment.	0	1	1
 77	14	1	وَمَآ	INTG	And what	0	0	0
@@ -30536,27 +30536,27 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 79	17	2	إِلَىٰ	P	to	0	0	0
 79	17	3	فِرْعَوْنَ	PN	Firaun.	0	1	0
 79	17	4	إِنَّهُۥ	ACC	Indeed, he	0	0	0
-79	17	5	طَغَىٰ	V	(has) transgressed.	0	1	0
+79	17	5	طَغَىٰ	V	(has) transgressed.	0	1	1
 79	18	1	فَقُلْ	V	And say,	0	0	0
 79	18	2	هَل	INTG	"Would	0	1	0
 79	18	3	لَّكَ	PRON	[for] you	0	1	0
 79	18	4	إِلَىٰٓ	P	[to]	0	0	0
 79	18	5	أَن	SUB	[that]	0	0	0
-79	18	6	تَزَكَّىٰ	V	purify yourself?	0	1	0
+79	18	6	تَزَكَّىٰ	V	purify yourself?	0	1	1
 79	19	1	وَأَهْدِيَكَ	V	And I will guide you	0	1	0
 79	19	2	إِلَىٰ	P	to	0	0	0
 79	19	3	رَبِّكَ	N	your Lord	0	1	0
-79	19	4	فَتَخْشَىٰ	V	so you would fear."	0	1	0
+79	19	4	فَتَخْشَىٰ	V	so you would fear."	0	1	1
 79	20	1	فَأَرَىٰهُ	V	Then he showed him	0	1	0
 79	20	2	ٱلْءَايَةَ	N	the sign	0	0	0
 79	20	3	ٱلْكُبْرَىٰ	ADJ	the great.	0	1	1
 79	21	1	فَكَذَّبَ	V	But he denied	0	1	0
-79	21	2	وَعَصَىٰ	V	and disobeyed.	0	1	0
+79	21	2	وَعَصَىٰ	V	and disobeyed.	0	1	1
 79	22	1	ثُمَّ	CONJ	Then	0	0	0
 79	22	2	أَدْبَرَ	V	he turned his back,	0	0	0
-79	22	3	يَسْعَىٰ	V	striving,	0	1	0
+79	22	3	يَسْعَىٰ	V	striving,	0	1	1
 79	23	1	فَحَشَرَ	V	And he gathered	0	1	0
-79	23	2	فَنَادَىٰ	V	and called out,	0	1	0
+79	23	2	فَنَادَىٰ	V	and called out,	0	1	1
 79	24	1	فَقَالَ	V	Then he said,	0	1	0
 79	24	2	أَنَا۠	PRON	"I am	0	0	0
 79	24	3	رَبُّكُمُ	N	your Lord,	0	1	0
@@ -30571,16 +30571,16 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 79	26	3	ذَٰلِكَ	DEM	that	0	1	0
 79	26	4	لَعِبْرَةً	N	surely (is) a lesson	0	1	0
 79	26	5	لِّمَن	REL	for whoever	0	0	0
-79	26	6	يَخْشَىٰٓ	V	fears.	0	1	0
+79	26	6	يَخْشَىٰٓ	V	fears.	0	1	1
 79	27	1	ءَأَنتُمْ	PRON	Are you	0	0	0
 79	27	2	أَشَدُّ	N	a more difficult	0	0	0
 79	27	3	خَلْقًا	N	creation	0	1	0
 79	27	4	أَمِ	CONJ	or	0	0	0
-79	27	5	ٱلسَّمَآءُ	N	the heaven.	5	1	0
-79	27	6	بَنَىٰهَا	V	He constructed it?	0	1	0
+79	27	5	ٱلسَّمَآءُ	N	the heaven.	5	1	1
+79	27	6	بَنَىٰهَا	V	He constructed it?	0	1	1
 79	28	1	رَفَعَ	V	He raised	0	0	0
 79	28	2	سَمْكَهَا	N	its ceiling	0	1	0
-79	28	3	فَسَوَّىٰهَا	V	and proportioned it.	0	1	0
+79	28	3	فَسَوَّىٰهَا	V	and proportioned it.	0	1	1
 79	29	1	وَأَغْطَشَ	V	And He darkened	0	0	0
 79	29	2	لَيْلَهَا	N	its night	0	1	0
 79	29	3	وَأَخْرَجَ	V	and brought out	0	0	0
@@ -30588,13 +30588,13 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 79	30	1	وَٱلْأَرْضَ	N	And the earth	0	0	0
 79	30	2	بَعْدَ	T	after	0	1	0
 79	30	3	ذَٰلِكَ	DEM	that	0	0	0
-79	30	4	دَحَىٰهَآ	V	He spread it.	0	1	0
+79	30	4	دَحَىٰهَآ	V	He spread it.	0	1	1
 79	31	1	أَخْرَجَ	V	He brought forth	0	0	0
 79	31	2	مِنْهَا	P	from it,	0	1	0
 79	31	3	مَآءَهَا	N	its water	0	1	0
 79	31	4	وَمَرْعَىٰهَا	N	and its pasture,	0	1	1
 79	32	1	وَٱلْجِبَالَ	N	And the mountains,	0	0	0
-79	32	2	أَرْسَىٰهَا	V	He made them firm,	0	1	0
+79	32	2	أَرْسَىٰهَا	V	He made them firm,	0	1	1
 79	33	1	مَتَٰعًا	N	(As) a provision	0	0	0
 79	33	2	لَّكُمْ	PRON	for you	0	1	0
 79	33	3	وَلِأَنْعَٰمِكُمْ	N	and for your cattle.	0	1	1
@@ -30606,14 +30606,14 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 79	35	2	يَتَذَكَّرُ	V	will remember	0	1	0
 79	35	3	ٱلْإِنسَٰنُ	N	man	0	0	0
 79	35	4	مَا	REL	what	0	0	0
-79	35	5	سَعَىٰ	V	he strove (for),	0	1	0
+79	35	5	سَعَىٰ	V	he strove (for),	0	1	1
 79	36	1	وَبُرِّزَتِ	V	And will be made manifest	0	0	0
 79	36	2	ٱلْجَحِيمُ	N	the Hellfire	0	1	0
 79	36	3	لِمَن	REL	to (him) who	0	0	0
-79	36	4	يَرَىٰ	V	sees,	0	1	0
+79	36	4	يَرَىٰ	V	sees,	0	1	1
 79	37	1	فَأَمَّا	EXL	Then as for	0	1	0
 79	37	2	مَن	COND	(him) who	0	0	0
-79	37	3	طَغَىٰ	V	transgressed,	0	1	0
+79	37	3	طَغَىٰ	V	transgressed,	0	1	1
 79	38	1	وَءَاثَرَ	V	And preferred	0	0	0
 79	38	2	ٱلْحَيَوٰةَ	N	the life	0	1	0
 79	38	3	ٱلدُّنْيَا	ADJ	(of) the world,	0	1	1
@@ -30650,7 +30650,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 79	45	2	أَنتَ	PRON	you	0	0	0
 79	45	3	مُنذِرُ	N	(are) a warner	0	1	0
 79	45	4	مَن	REL	(for him) who	0	0	0
-79	45	5	يَخْشَىٰهَا	V	fears it.	0	1	0
+79	45	5	يَخْشَىٰهَا	V	fears it.	0	1	1
 79	46	1	كَأَنَّهُمْ	ACC	As though they,	0	0	0
 79	46	2	يَوْمَ	T	(the) Day	0	1	0
 79	46	3	يَرَوْنَهَا	V	they see it,	0	0	0
@@ -30661,43 +30661,43 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 79	46	8	أَوْ	CONJ	or	0	1	0
 79	46	9	ضُحَىٰهَا	N	a morning thereof.	0	1	1
 80	1	1	عَبَسَ	V	He frowned	0	0	0
-80	1	2	وَتَوَلَّىٰٓ	V	and turned away,	0	1	0
+80	1	2	وَتَوَلَّىٰٓ	V	and turned away,	0	1	1
 80	2	1	أَن	SUB	Because	0	0	0
 80	2	2	جَآءَهُ	V	came to him	0	1	0
 80	2	3	ٱلْأَعْمَىٰ	N	the blind man.	0	1	1
 80	3	1	وَمَا	INTG	But what	0	0	0
 80	3	2	يُدْرِيكَ	V	would make you know	0	1	0
 80	3	3	لَعَلَّهُۥ	ACC	that he might	0	1	0
-80	3	4	يَزَّكَّىٰٓ	V	purify himself,	0	1	0
+80	3	4	يَزَّكَّىٰٓ	V	purify himself,	0	1	1
 80	4	1	أَوْ	CONJ	Or	0	0	0
 80	4	2	يَذَّكَّرُ	V	be reminded	0	1	0
 80	4	3	فَتَنفَعَهُ	V	so would benefit him	0	0	0
 80	4	4	ٱلذِّكْرَىٰٓ	N	the reminder?	0	1	1
 80	5	1	أَمَّا	EXL	As for	0	0	0
 80	5	2	مَنِ	COND	(him) who	0	1	0
-80	5	3	ٱسْتَغْنَىٰ	V	considers himself free from need,	0	1	0
+80	5	3	ٱسْتَغْنَىٰ	V	considers himself free from need,	0	1	1
 80	6	1	فَأَنتَ	PRON	So you	0	1	0
 80	6	2	لَهُۥ	PRON	to him	0	0	0
-80	6	3	تَصَدَّىٰ	V	give attention.	0	1	0
+80	6	3	تَصَدَّىٰ	V	give attention.	0	1	1
 80	7	1	وَمَا	NEG	And not	0	0	0
 80	7	2	عَلَيْكَ	P	upon you	0	1	0
 80	7	3	أَلَّا	SUB	that not	0	0	0
-80	7	4	يَزَّكَّىٰ	V	he purifies himself.	0	1	0
+80	7	4	يَزَّكَّىٰ	V	he purifies himself.	0	1	1
 80	8	1	وَأَمَّا	EXL	But as for	0	0	0
 80	8	2	مَن	COND	(he) who	0	0	0
 80	8	3	جَآءَكَ	V	came to you	0	0	0
-80	8	4	يَسْعَىٰ	V	striving,	0	1	0
+80	8	4	يَسْعَىٰ	V	striving,	0	1	1
 80	9	1	وَهُوَ	PRON	While he	0	0	0
-80	9	2	يَخْشَىٰ	V	fears,	0	1	0
+80	9	2	يَخْشَىٰ	V	fears,	0	1	1
 80	10	1	فَأَنتَ	PRON	But you	0	0	0
 80	10	2	عَنْهُ	P	from him	0	0	0
-80	10	3	تَلَهَّىٰ	V	(are) distracted.	0	1	0
+80	10	3	تَلَهَّىٰ	V	(are) distracted.	0	1	1
 80	11	1	كَلَّآ	AVR	Nay!	0	1	0
 80	11	2	إِنَّهَا	ACC	Indeed, it	0	0	0
 80	11	3	تَذْكِرَةٌ	N	(is) a reminder,	0	1	1
 80	12	1	فَمَن	COND	So whosoever	0	1	0
 80	12	2	شَآءَ	V	wills	0	1	0
-80	12	3	ذَكَرَهُۥ	V	may remember it.	0	1	0
+80	12	3	ذَكَرَهُۥ	V	may remember it.	0	1	1
 80	13	1	فِى	P	In	0	0	0
 80	13	2	صُحُفٍ	N	sheets	0	0	0
 80	13	3	مُّكَرَّمَةٍ	ADJ	honored,	0	1	0
@@ -30710,30 +30710,30 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 80	17	1	قُتِلَ	V	Is destroyed	0	0	0
 80	17	2	ٱلْإِنسَٰنُ	N	[the] man,	0	1	0
 80	17	3	مَآ	INTG	how	0	0	0
-80	17	4	أَكْفَرَهُۥ	V	ungrateful is he!	0	1	0
+80	17	4	أَكْفَرَهُۥ	V	ungrateful is he!	0	1	1
 80	18	1	مِنْ	P	From	0	0	0
 80	18	2	أَىِّ	INTG	what	0	0	0
 80	18	3	شَىْءٍ	N	thing	0	1	0
-80	18	4	خَلَقَهُۥ	V	He created him?	0	1	0
+80	18	4	خَلَقَهُۥ	V	He created him?	0	1	1
 80	19	1	مِن	P	From	0	0	0
 80	19	2	نُّطْفَةٍ	N	a semen-drop	0	0	0
 80	19	3	خَلَقَهُۥ	V	He created him,	0	1	0
-80	19	4	فَقَدَّرَهُۥ	V	then He proportioned him,	0	1	0
+80	19	4	فَقَدَّرَهُۥ	V	then He proportioned him,	0	1	1
 80	20	1	ثُمَّ	CONJ	Then	0	0	0
 80	20	2	ٱلسَّبِيلَ	N	the way,	0	1	0
-80	20	3	يَسَّرَهُۥ	V	He made easy for him,	0	1	0
+80	20	3	يَسَّرَهُۥ	V	He made easy for him,	0	1	1
 80	21	1	ثُمَّ	CONJ	Then	0	0	0
 80	21	2	أَمَاتَهُۥ	V	He causes him to die	0	0	0
-80	21	3	فَأَقْبَرَهُۥ	V	and provides a grave for him,	0	1	0
+80	21	3	فَأَقْبَرَهُۥ	V	and provides a grave for him,	0	1	1
 80	22	1	ثُمَّ	CONJ	Then	0	0	0
 80	22	2	إِذَا	T	when	0	1	0
 80	22	3	شَآءَ	V	He wills,	0	1	0
-80	22	4	أَنشَرَهُۥ	V	He will resurrect him.	0	1	0
+80	22	4	أَنشَرَهُۥ	V	He will resurrect him.	0	1	1
 80	23	1	كَلَّا	AVR	Nay!	0	0	0
 80	23	2	لَمَّا	NEG	Not	0	1	0
 80	23	3	يَقْضِ	V	he has accomplished	0	1	0
 80	23	4	مَآ	REL	what	0	0	0
-80	23	5	أَمَرَهُۥ	V	He commanded him.	0	1	0
+80	23	5	أَمَرَهُۥ	V	He commanded him.	0	1	1
 80	24	1	فَلْيَنظُرِ	V	Then let look	0	0	0
 80	24	2	ٱلْإِنسَٰنُ	N	the man	0	1	0
 80	24	3	إِلَىٰ	P	at	0	0	0
@@ -30777,7 +30777,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 80	37	3	مِّنْهُمْ	P	among them	0	0	0
 80	37	4	يَوْمَئِذٍ	T	that Day	0	1	0
 80	37	5	شَأْنٌ	N	(will be) a matter	0	0	0
-80	37	6	يُغْنِيهِ	V	occupying him.	0	1	0
+80	37	6	يُغْنِيهِ	V	occupying him.	0	1	1
 80	38	1	وُجُوهٌ	N	Faces,	0	0	0
 80	38	2	يَوْمَئِذٍ	T	that Day	0	0	0
 80	38	3	مُّسْفِرَةٌ	N	(will be) bright,	0	1	0
@@ -30819,7 +30819,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 81	8	3	سُئِلَتْ	V	is asked	0	1	0
 81	9	1	بِأَىِّ	INTG	For what	0	0	0
 81	9	2	ذَنۢبٍ	N	sin	0	0	0
-81	9	3	قُتِلَتْ	V	she was killed.	0	1	0
+81	9	3	قُتِلَتْ	V	she was killed.	0	1	1
 81	10	1	وَإِذَا	T	And when	0	0	0
 81	10	2	ٱلصُّحُفُ	N	the pages	0	0	0
 81	10	3	نُشِرَتْ	V	are laid open,	0	1	1
@@ -30835,7 +30835,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 81	14	1	عَلِمَتْ	V	Will know	0	1	0
 81	14	2	نَفْسٌ	N	a soul	0	0	0
 81	14	3	مَّآ	REL	what	0	0	0
-81	14	4	أَحْضَرَتْ	V	it has brought.	0	1	0
+81	14	4	أَحْضَرَتْ	V	it has brought.	0	1	1
 81	15	1	فَلَآ	NEG	But nay!	0	0	0
 81	15	2	أُقْسِمُ	V	I swear	0	0	0
 81	15	3	بِٱلْخُنَّسِ	N	by the retreating planets,	0	1	0
@@ -30843,10 +30843,10 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 81	16	2	ٱلْكُنَّسِ	ADJ	(and) disappear,	0	1	1
 81	17	1	وَٱلَّيْلِ	N	And the night	0	1	0
 81	17	2	إِذَا	T	when	0	0	0
-81	17	3	عَسْعَسَ	V	it departs,	0	1	0
+81	17	3	عَسْعَسَ	V	it departs,	0	1	1
 81	18	1	وَٱلصُّبْحِ	N	And the dawn	0	0	0
 81	18	2	إِذَا	T	when	0	0	0
-81	18	3	تَنَفَّسَ	V	it breathes	0	1	0
+81	18	3	تَنَفَّسَ	V	it breathes	0	1	1
 81	19	1	إِنَّهُۥ	ACC	Indeed, it	0	0	0
 81	19	2	لَقَوْلُ	N	(is) surely a word	0	1	0
 81	19	3	رَسُولٍ	N	(of) a Messenger	0	0	0
@@ -30888,7 +30888,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 81	28	2	شَآءَ	V	wills	0	1	0
 81	28	3	مِنكُمْ	P	among you	0	1	0
 81	28	4	أَن	SUB	to	0	0	0
-81	28	5	يَسْتَقِيمَ	V	take a straight way.	0	1	0
+81	28	5	يَسْتَقِيمَ	V	take a straight way.	0	1	1
 81	29	1	وَمَا	NEG	And not	0	0	0
 81	29	2	تَشَآءُونَ	V	you will	0	0	0
 81	29	3	إِلَّآ	RES	except	0	0	0
@@ -30913,7 +30913,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 82	5	2	نَفْسٌ	N	a soul	0	0	0
 82	5	3	مَّا	REL	what	0	0	0
 82	5	4	قَدَّمَتْ	V	it has sent forth	0	0	0
-82	5	5	وَأَخَّرَتْ	V	and left behind.	0	1	0
+82	5	5	وَأَخَّرَتْ	V	and left behind.	0	1	1
 82	6	1	يَٰٓأَيُّهَا	N	O	0	0	0
 82	6	2	ٱلْإِنسَٰنُ	N	man!	0	1	0
 82	6	3	مَا	REL	What	0	0	0
@@ -30923,13 +30923,13 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 82	7	1	ٱلَّذِى	REL	Who	0	0	0
 82	7	2	خَلَقَكَ	V	created you,	0	1	0
 82	7	3	فَسَوَّىٰكَ	V	then fashioned you	0	0	0
-82	7	4	فَعَدَلَكَ	V	then balanced you?	0	1	0
+82	7	4	فَعَدَلَكَ	V	then balanced you?	0	1	1
 82	8	1	فِىٓ	P	In	0	0	0
 82	8	2	أَىِّ	N	whatever	0	0	0
 82	8	3	صُورَةٍ	N	form	0	1	0
 82	8	4	مَّا	REL	what	0	0	0
 82	8	5	شَآءَ	V	He willed,	0	1	0
-82	8	6	رَكَّبَكَ	V	He assembled you.	0	1	0
+82	8	6	رَكَّبَكَ	V	He assembled you.	0	1	1
 82	9	1	كَلَّا	AVR	Nay!	0	1	0
 82	9	2	بَلْ	RET	But	0	0	0
 82	9	3	تُكَذِّبُونَ	V	you deny	0	1	0
@@ -31151,17 +31151,17 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 84	1	3	ٱنشَقَّتْ	V	is split asunder,	0	1	1
 84	2	1	وَأَذِنَتْ	V	And has listened	0	0	0
 84	2	2	لِرَبِّهَا	N	to its Lord	0	1	0
-84	2	3	وَحُقَّتْ	V	and was obligated,	0	1	0
+84	2	3	وَحُقَّتْ	V	and was obligated,	0	1	1
 84	3	1	وَإِذَا	T	And when	0	0	0
 84	3	2	ٱلْأَرْضُ	N	the earth	0	0	0
 84	3	3	مُدَّتْ	V	is spread,	0	1	1
 84	4	1	وَأَلْقَتْ	V	And has cast out	0	0	0
 84	4	2	مَا	REL	what	0	0	0
 84	4	3	فِيهَا	P	(is) in it	0	1	0
-84	4	4	وَتَخَلَّتْ	V	and becomes empty,	0	1	0
+84	4	4	وَتَخَلَّتْ	V	and becomes empty,	0	1	1
 84	5	1	وَأَذِنَتْ	V	And has listened	0	0	0
 84	5	2	لِرَبِّهَا	N	to its Lord	0	0	0
-84	5	3	وَحُقَّتْ	V	and was obligated.	0	1	0
+84	5	3	وَحُقَّتْ	V	and was obligated.	0	1	1
 84	6	1	يَٰٓأَيُّهَا	N	O	0	0	0
 84	6	2	ٱلْإِنسَٰنُ	N	mankind!	0	1	0
 84	6	3	إِنَّكَ	ACC	Indeed, you	0	0	0
@@ -31203,7 +31203,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 84	14	2	ظَنَّ	V	(had) thought	0	1	0
 84	14	3	أَن	SUB	that	0	0	0
 84	14	4	لَّن	NEG	never	0	0	0
-84	14	5	يَحُورَ	V	he would return.	0	1	0
+84	14	5	يَحُورَ	V	he would return.	0	1	1
 84	15	1	بَلَىٰٓ	ANS	Yes!	0	1	0
 84	15	2	إِنَّ	ACC	Indeed,	0	0	0
 84	15	3	رَبَّهُۥ	N	his Lord	0	1	0
@@ -31215,10 +31215,10 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 84	16	3	بِٱلشَّفَقِ	N	by the twilight glow,	0	1	0
 84	17	1	وَٱلَّيْلِ	N	And the night	0	0	0
 84	17	2	وَمَا	REL	and what	0	1	0
-84	17	3	وَسَقَ	V	it envelops,	0	1	0
+84	17	3	وَسَقَ	V	it envelops,	0	1	1
 84	18	1	وَٱلْقَمَرِ	N	And the moon	0	0	0
 84	18	2	إِذَا	T	when	0	0	0
-84	18	3	ٱتَّسَقَ	V	it becomes full,	0	1	0
+84	18	3	ٱتَّسَقَ	V	it becomes full,	0	1	1
 84	19	1	لَتَرْكَبُنَّ	V	You will surely embark	0	1	0
 84	19	2	طَبَقًا	N	(to) stage	0	0	0
 84	19	3	عَن	P	from	0	0	0
@@ -31330,7 +31330,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 85	13	1	إِنَّهُۥ	ACC	Indeed He,	0	0	0
 85	13	2	هُوَ	PRON	He	0	1	0
 85	13	3	يُبْدِئُ	V	originates	0	0	0
-85	13	4	وَيُعِيدُ	V	and repeats,	0	1	0
+85	13	4	وَيُعِيدُ	V	and repeats,	0	1	1
 85	14	1	وَهُوَ	PRON	And He	0	0	0
 85	14	2	ٱلْغَفُورُ	N	(is) the Oft-Forgiving,	0	0	0
 85	14	3	ٱلْوَدُودُ	N	the Most Loving,	0	1	0
@@ -31339,7 +31339,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 85	15	3	ٱلْمَجِيدُ	ADJ	the Glorious,	0	1	0
 85	16	1	فَعَّالٌ	N	Doer	0	0	0
 85	16	2	لِّمَا	REL	of what	0	1	0
-85	16	3	يُرِيدُ	V	He intends.	0	1	0
+85	16	3	يُرِيدُ	V	He intends.	0	1	1
 85	17	1	هَلْ	INTG	Has	0	0	0
 85	17	2	أَتَىٰكَ	V	come to you	0	1	0
 85	17	3	حَدِيثُ	N	(the) story	0	0	0
@@ -31379,7 +31379,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 86	5	1	فَلْيَنظُرِ	V	So let see	0	0	0
 86	5	2	ٱلْإِنسَٰنُ	N	man	0	1	0
 86	5	3	مِمَّ	P	from what	0	0	0
-86	5	4	خُلِقَ	V	he is created.	0	1	0
+86	5	4	خُلِقَ	V	he is created.	0	1	1
 86	6	1	خُلِقَ	V	He is created	0	0	0
 86	6	2	مِن	P	from	0	0	0
 86	6	3	مَّآءٍ	N	a water,	0	0	0
@@ -31429,10 +31429,10 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 87	1	4	ٱلْأَعْلَى	ADJ	the Most High,	0	1	1
 87	2	1	ٱلَّذِى	REL	The One Who	0	1	0
 87	2	2	خَلَقَ	V	created,	0	0	0
-87	2	3	فَسَوَّىٰ	V	then proportioned,	0	1	0
+87	2	3	فَسَوَّىٰ	V	then proportioned,	0	1	1
 87	3	1	وَٱلَّذِى	REL	And the One Who	0	0	0
 87	3	2	قَدَّرَ	V	measured	0	0	0
-87	3	3	فَهَدَىٰ	V	then guided,	0	1	0
+87	3	3	فَهَدَىٰ	V	then guided,	0	1	1
 87	4	1	وَٱلَّذِىٓ	REL	And the One Who	0	0	0
 87	4	2	أَخْرَجَ	V	brings forth	0	0	0
 87	4	3	ٱلْمَرْعَىٰ	N	the pasture,	0	1	1
@@ -31441,7 +31441,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 87	5	3	أَحْوَىٰ	ADJ	dark.	0	1	1
 87	6	1	سَنُقْرِئُكَ	V	We will make you recite	0	1	0
 87	6	2	فَلَا	NEG	so not	0	0	0
-87	6	3	تَنسَىٰٓ	V	you will forget,	0	1	0
+87	6	3	تَنسَىٰٓ	V	you will forget,	0	1	1
 87	7	1	إِلَّا	EXP	Except	0	0	0
 87	7	2	مَا	REL	what	0	0	0
 87	7	3	شَآءَ	V	wills	0	0	0
@@ -31450,7 +31450,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 87	7	6	يَعْلَمُ	V	knows	0	0	0
 87	7	7	ٱلْجَهْرَ	N	the manifest	0	1	0
 87	7	8	وَمَا	REL	and what	0	0	0
-87	7	9	يَخْفَىٰ	V	is hidden.	0	1	0
+87	7	9	يَخْفَىٰ	V	is hidden.	0	1	1
 87	8	1	وَنُيَسِّرُكَ	V	And We will ease you	0	0	0
 87	8	2	لِلْيُسْرَىٰ	N	to the ease.	0	1	1
 87	9	1	فَذَكِّرْ	V	So remind,	0	1	0
@@ -31459,7 +31459,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 87	9	4	ٱلذِّكْرَىٰ	N	the reminder.	0	1	1
 87	10	1	سَيَذَّكَّرُ	V	He will pay heed -	0	0	0
 87	10	2	مَن	REL	(one) who	0	1	0
-87	10	3	يَخْشَىٰ	V	fears (Allah).	0	1	0
+87	10	3	يَخْشَىٰ	V	fears (Allah).	0	1	1
 87	11	1	وَيَتَجَنَّبُهَا	V	And will avoid it	0	0	0
 87	11	2	ٱلْأَشْقَى	N	the wretched one.	0	1	0
 87	12	1	ٱلَّذِى	REL	The one who	0	1	0
@@ -31471,7 +31471,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 87	13	3	يَمُوتُ	V	he will die	0	0	0
 87	13	4	فِيهَا	P	therein	0	1	0
 87	13	5	وَلَا	NEG	and not	0	0	0
-87	13	6	يَحْيَىٰ	V	will live.	0	1	0
+87	13	6	يَحْيَىٰ	V	will live.	0	1	1
 87	14	1	قَدْ	CERT	Certainly,	0	0	0
 87	14	2	أَفْلَحَ	V	has succeeded	0	0	0
 87	14	3	مَن	REL	(one) who	0	1	0
@@ -31479,7 +31479,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 87	15	1	وَذَكَرَ	V	And remembers	0	0	0
 87	15	2	ٱسْمَ	N	(the) name	0	0	0
 87	15	3	رَبِّهِۦ	N	(of) his Lord	0	1	0
-87	15	4	فَصَلَّىٰ	V	and prays.	0	1	0
+87	15	4	فَصَلَّىٰ	V	and prays.	0	1	1
 87	16	1	بَلْ	RET	Nay!	0	0	0
 87	16	2	تُؤْثِرُونَ	V	You prefer	0	1	0
 87	16	3	ٱلْحَيَوٰةَ	N	the life	0	0	0
@@ -31552,19 +31552,19 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 88	17	3	إِلَى	P	towards	0	0	0
 88	17	4	ٱلْإِبِلِ	N	the camels,	0	0	0
 88	17	5	كَيْفَ	INTG	how	0	1	0
-88	17	6	خُلِقَتْ	V	they are created?	0	1	0
+88	17	6	خُلِقَتْ	V	they are created?	0	1	1
 88	18	1	وَإِلَى	P	And towards	0	0	0
 88	18	2	ٱلسَّمَآءِ	N	the sky,	0	0	0
 88	18	3	كَيْفَ	INTG	how	0	0	0
-88	18	4	رُفِعَتْ	V	it is raised?	0	1	0
+88	18	4	رُفِعَتْ	V	it is raised?	0	1	1
 88	19	1	وَإِلَى	P	And towards	0	0	0
 88	19	2	ٱلْجِبَالِ	N	the mountains,	0	0	0
 88	19	3	كَيْفَ	INTG	how	0	0	0
-88	19	4	نُصِبَتْ	V	they are fixed?	0	1	0
+88	19	4	نُصِبَتْ	V	they are fixed?	0	1	1
 88	20	1	وَإِلَى	P	And towards	0	0	0
 88	20	2	ٱلْأَرْضِ	N	the earth,	0	0	0
 88	20	3	كَيْفَ	INTG	how	0	0	0
-88	20	4	سُطِحَتْ	V	it is spread out?	0	1	0
+88	20	4	سُطِحَتْ	V	it is spread out?	0	1	1
 88	21	1	فَذَكِّرْ	V	So remind,	0	1	0
 88	21	2	إِنَّمَآ	ACC	only	0	0	0
 88	21	3	أَنتَ	PRON	you	0	0	0
@@ -31575,7 +31575,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 88	23	1	إِلَّا	EXP	But	0	0	0
 88	23	2	مَن	REL	whoever	0	1	0
 88	23	3	تَوَلَّىٰ	V	turns away	0	0	0
-88	23	4	وَكَفَرَ	V	and disbelieves,	0	1	0
+88	23	4	وَكَفَرَ	V	and disbelieves,	0	1	1
 88	24	1	فَيُعَذِّبُهُ	V	Then will punish him	0	0	0
 88	24	2	ٱللَّهُ	PN	Allah	0	1	0
 88	24	3	ٱلْعَذَابَ	N	(with) the punishment	0	0	0
@@ -31594,7 +31594,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 89	3	2	وَٱلْوَتْرِ	N	and the odd,	0	1	1
 89	4	1	وَٱلَّيْلِ	N	And the night	0	0	0
 89	4	2	إِذَا	T	when	0	1	0
-89	4	3	يَسْرِ	V	it passes.	0	1	0
+89	4	3	يَسْرِ	V	it passes.	0	1	1
 89	5	1	هَلْ	INTG	Is	0	0	0
 89	5	2	فِى	P	in	0	0	0
 89	5	3	ذَٰلِكَ	DEM	that	0	1	0
@@ -31646,10 +31646,10 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 89	15	5	ٱبْتَلَىٰهُ	V	try him	0	0	0
 89	15	6	رَبُّهُۥ	N	his Lord	0	1	0
 89	15	7	فَأَكْرَمَهُۥ	V	and is generous to him	0	0	0
-89	15	8	وَنَعَّمَهُۥ	V	and favors him,	0	1	0
+89	15	8	وَنَعَّمَهُۥ	V	and favors him,	0	1	1
 89	15	9	فَيَقُولُ	V	he says,	0	1	0
 89	15	10	رَبِّىٓ	N	"My Lord	0	0	0
-89	15	11	أَكْرَمَنِ	V	has honored me."	0	1	0
+89	15	11	أَكْرَمَنِ	V	has honored me."	0	1	1
 89	16	1	وَأَمَّآ	EXL	But	0	0	0
 89	16	2	إِذَا	T	when	0	0	0
 89	16	3	مَا	SUP	does	0	0	0
@@ -31659,7 +31659,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 89	16	7	رِزْقَهُۥ	N	his provision,	0	0	1
 89	16	8	فَيَقُولُ	V	then he says	0	0	0
 89	16	9	رَبِّىٓ	N	"My Lord	0	0	0
-89	16	10	أَهَٰنَنِ	V	(has) humiliated me."	0	1	0
+89	16	10	أَهَٰنَنِ	V	(has) humiliated me."	0	1	1
 89	17	1	كَلَّا	AVR	Nay!	3	0	0
 89	17	2	بَل	RET	But	0	0	0
 89	17	3	لَّا	NEG	not	0	1	0
@@ -31734,7 +31734,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 90	2	4	ٱلْبَلَدِ	N	city.	0	1	1
 90	3	1	وَوَالِدٍ	N	And the begetter	0	0	0
 90	3	2	وَمَا	REL	and what	0	0	0
-90	3	3	وَلَدَ	V	he begot.	0	1	0
+90	3	3	وَلَدَ	V	he begot.	0	1	1
 90	4	1	لَقَدْ	CERT	Certainly,	0	0	0
 90	4	2	خَلَقْنَا	V	We have created	0	1	0
 90	4	3	ٱلْإِنسَٰنَ	N	man	0	0	0
@@ -31810,33 +31810,33 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 91	1	2	وَضُحَىٰهَا	N	and its brightness,	0	1	1
 91	2	1	وَٱلْقَمَرِ	N	And the moon	0	0	0
 91	2	2	إِذَا	T	when	0	1	0
-91	2	3	تَلَىٰهَا	V	it follows it,	0	1	0
+91	2	3	تَلَىٰهَا	V	it follows it,	0	1	1
 91	3	1	وَٱلنَّهَارِ	N	And the day	0	0	0
 91	3	2	إِذَا	T	when	0	0	0
-91	3	3	جَلَّىٰهَا	V	it displays it,	0	1	0
+91	3	3	جَلَّىٰهَا	V	it displays it,	0	1	1
 91	4	1	وَٱلَّيْلِ	N	And the night	0	0	0
 91	4	2	إِذَا	T	when	0	0	0
-91	4	3	يَغْشَىٰهَا	V	it covers it,	0	1	0
+91	4	3	يَغْشَىٰهَا	V	it covers it,	0	1	1
 91	5	1	وَٱلسَّمَآءِ	N	And the heaven	0	0	0
 91	5	2	وَمَا	REL	and (He) Who	0	1	0
-91	5	3	بَنَىٰهَا	V	constructed it,	0	1	0
+91	5	3	بَنَىٰهَا	V	constructed it,	0	1	1
 91	6	1	وَٱلْأَرْضِ	N	And the earth	0	0	0
 91	6	2	وَمَا	REL	and by (He) Who	0	0	0
-91	6	3	طَحَىٰهَا	V	spread it,	0	1	0
+91	6	3	طَحَىٰهَا	V	spread it,	0	1	1
 91	7	1	وَنَفْسٍ	N	And (the) soul	0	0	0
 91	7	2	وَمَا	REL	and (He) Who	0	0	0
-91	7	3	سَوَّىٰهَا	V	proportioned it,	0	1	0
+91	7	3	سَوَّىٰهَا	V	proportioned it,	0	1	1
 91	8	1	فَأَلْهَمَهَا	V	And He inspired it	0	1	0
 91	8	2	فُجُورَهَا	N	(to distinguish) its wickedness	0	0	0
 91	8	3	وَتَقْوَىٰهَا	N	and its righteousness	0	1	1
 91	9	1	قَدْ	CERT	Indeed,	0	1	0
 91	9	2	أَفْلَحَ	V	he succeeds	0	0	0
 91	9	3	مَن	REL	who	0	0	0
-91	9	4	زَكَّىٰهَا	V	purifies it,	0	1	0
+91	9	4	زَكَّىٰهَا	V	purifies it,	0	1	1
 91	10	1	وَقَدْ	CERT	And indeed,	0	0	0
 91	10	2	خَابَ	V	he fails	0	0	0
 91	10	3	مَن	REL	who	0	0	0
-91	10	4	دَسَّىٰهَا	V	buries it.	0	1	0
+91	10	4	دَسَّىٰهَا	V	buries it.	0	1	1
 91	11	1	كَذَّبَتْ	V	Denied	0	0	0
 91	11	2	ثَمُودُ	PN	Thamud	0	1	0
 91	11	3	بِطَغْوَىٰهَآ	N	by their transgression,	0	1	1
@@ -31856,16 +31856,16 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 91	14	4	عَلَيْهِمْ	P	them	0	0	0
 91	14	5	رَبُّهُم	N	their Lord	0	1	0
 91	14	6	بِذَنۢبِهِمْ	N	for their sin	0	1	0
-91	14	7	فَسَوَّىٰهَا	V	and leveled them.	0	1	0
+91	14	7	فَسَوَّىٰهَا	V	and leveled them.	0	1	1
 91	15	1	وَلَا	NEG	And not	0	0	0
 91	15	2	يَخَافُ	V	He fears	0	1	0
 91	15	3	عُقْبَٰهَا	N	its consequences.	0	1	1
 92	1	1	وَٱلَّيْلِ	N	By the night	0	0	0
 92	1	2	إِذَا	T	when	0	0	0
-92	1	3	يَغْشَىٰ	V	it covers,	0	1	0
+92	1	3	يَغْشَىٰ	V	it covers,	0	1	1
 92	2	1	وَٱلنَّهَارِ	N	And the day	0	0	0
 92	2	2	إِذَا	T	when	0	0	0
-92	2	3	تَجَلَّىٰ	V	it shines in brightness,	0	1	0
+92	2	3	تَجَلَّىٰ	V	it shines in brightness,	0	1	1
 92	3	1	وَمَا	REL	And He Who	0	0	0
 92	3	2	خَلَقَ	V	created	0	1	0
 92	3	3	ٱلذَّكَرَ	N	the male	0	0	0
@@ -31894,7 +31894,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 92	11	3	عَنْهُ	P	him	0	0	0
 92	11	4	مَالُهُۥٓ	N	his wealth	0	1	0
 92	11	5	إِذَا	T	when	0	0	0
-92	11	6	تَرَدَّىٰٓ	V	he falls.	0	1	0
+92	11	6	تَرَدَّىٰٓ	V	he falls.	0	1	1
 92	12	1	إِنَّ	ACC	Indeed,	0	0	0
 92	12	2	عَلَيْنَا	P	upon Us	0	1	0
 92	12	3	لَلْهُدَىٰ	N	(is) the guidance.	0	1	1
@@ -31904,42 +31904,42 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 92	13	4	وَٱلْأُولَىٰ	N	and the first (life).	0	1	1
 92	14	1	فَأَنذَرْتُكُمْ	V	So I warn you	0	1	0
 92	14	2	نَارًا	N	(of) a Fire	0	0	0
-92	14	3	تَلَظَّىٰ	V	blazing,	0	1	0
+92	14	3	تَلَظَّىٰ	V	blazing,	0	1	1
 92	15	1	لَا	NEG	Not	0	0	0
 92	15	2	يَصْلَىٰهَآ	V	will burn (in) it	0	0	0
 92	15	3	إِلَّا	RES	except	0	1	0
 92	15	4	ٱلْأَشْقَى	N	the most wretched,	0	1	1
 92	16	1	ٱلَّذِى	REL	The one who	0	1	0
 92	16	2	كَذَّبَ	V	denied	0	0	0
-92	16	3	وَتَوَلَّىٰ	V	and turned away.	0	1	0
+92	16	3	وَتَوَلَّىٰ	V	and turned away.	0	1	1
 92	17	1	وَسَيُجَنَّبُهَا	V	But will be removed from it	0	0	0
 92	17	2	ٱلْأَتْقَى	N	the righteous,	0	1	1
 92	18	1	ٱلَّذِى	REL	The one who	0	1	0
 92	18	2	يُؤْتِى	V	gives	0	0	0
 92	18	3	مَالَهُۥ	N	his wealth	0	1	0
-92	18	4	يَتَزَكَّىٰ	V	(to) purify himself,	0	1	0
+92	18	4	يَتَزَكَّىٰ	V	(to) purify himself,	0	1	1
 92	19	1	وَمَا	NEG	And not	0	0	0
 92	19	2	لِأَحَدٍ	N	for anyone	0	0	0
 92	19	3	عِندَهُۥ	LOC	with him	0	1	0
 92	19	4	مِن	P	any	0	0	0
 92	19	5	نِّعْمَةٍ	N	favor	0	0	0
-92	19	6	تُجْزَىٰٓ	V	to be recompensed	0	1	0
+92	19	6	تُجْزَىٰٓ	V	to be recompensed	0	1	1
 92	20	1	إِلَّا	EXP	Except	0	0	0
 92	20	2	ٱبْتِغَآءَ	N	seeking	0	1	0
 92	20	3	وَجْهِ	N	(the) Countenance	0	0	0
 92	20	4	رَبِّهِ	N	(of) his Lord,	0	0	0
 92	20	5	ٱلْأَعْلَىٰ	ADJ	the Most High.	0	1	1
 92	21	1	وَلَسَوْفَ	FUT	And soon, surely	0	0	0
-92	21	2	يَرْضَىٰ	V	he will be pleased.	0	1	0
+92	21	2	يَرْضَىٰ	V	he will be pleased.	0	1	1
 93	1	1	وَٱلضُّحَىٰ	N	By the morning brightness,	0	1	0
 93	2	1	وَٱلَّيْلِ	N	And the night	0	0	0
 93	2	2	إِذَا	T	when	0	0	0
-93	2	3	سَجَىٰ	V	it covers with darkness,	0	1	0
+93	2	3	سَجَىٰ	V	it covers with darkness,	0	1	1
 93	3	1	مَا	NEG	Not	0	0	0
 93	3	2	وَدَّعَكَ	V	has forsaken you	0	0	0
 93	3	3	رَبُّكَ	N	your Lord	0	1	0
 93	3	4	وَمَا	NEG	and not	0	0	0
-93	3	5	قَلَىٰ	V	He is displeased,	0	1	0
+93	3	5	قَلَىٰ	V	He is displeased,	0	1	1
 93	4	1	وَلَلْءَاخِرَةُ	N	And surely the Hereafter	0	0	0
 93	4	2	خَيْرٌ	N	(is) better	0	1	0
 93	4	3	لَّكَ	PRON	for you	0	0	0
@@ -31948,29 +31948,29 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 93	5	1	وَلَسَوْفَ	FUT	And soon	0	0	0
 93	5	2	يُعْطِيكَ	V	will give you	0	1	0
 93	5	3	رَبُّكَ	N	your Lord	0	1	0
-93	5	4	فَتَرْضَىٰٓ	V	then you will be satisfied.	0	1	0
+93	5	4	فَتَرْضَىٰٓ	V	then you will be satisfied.	0	1	1
 93	6	1	أَلَمْ	NEG	Did not	0	1	0
 93	6	2	يَجِدْكَ	V	He find you	0	0	0
 93	6	3	يَتِيمًا	N	an orphan	0	1	0
-93	6	4	فَـَٔاوَىٰ	V	and give shelter?	0	1	0
+93	6	4	فَـَٔاوَىٰ	V	and give shelter?	0	1	1
 93	7	1	وَوَجَدَكَ	V	And He found you	0	0	0
 93	7	2	ضَآلًّا	N	lost,	0	0	0
-93	7	3	فَهَدَىٰ	V	so He guided,	0	1	0
+93	7	3	فَهَدَىٰ	V	so He guided,	0	1	1
 93	8	1	وَوَجَدَكَ	V	And He found you	0	0	0
 93	8	2	عَآئِلًا	N	in need,	0	0	0
-93	8	3	فَأَغْنَىٰ	V	so He made self-sufficient.	0	1	0
+93	8	3	فَأَغْنَىٰ	V	so He made self-sufficient.	0	1	1
 93	9	1	فَأَمَّا	EXL	So as for	0	0	0
 93	9	2	ٱلْيَتِيمَ	N	the orphan,	0	1	0
 93	9	3	فَلَا	PRO	then (do) not	0	0	0
-93	9	4	تَقْهَرْ	V	oppress,	0	1	0
+93	9	4	تَقْهَرْ	V	oppress,	0	1	1
 93	10	1	وَأَمَّا	EXL	And as for	0	0	0
 93	10	2	ٱلسَّآئِلَ	N	one who asks,	0	0	0
 93	10	3	فَلَا	PRO	then (do) not	0	0	0
-93	10	4	تَنْهَرْ	V	repel,	0	1	0
+93	10	4	تَنْهَرْ	V	repel,	0	1	1
 93	11	1	وَأَمَّا	EXL	But as for	0	0	0
 93	11	2	بِنِعْمَةِ	N	(the) Favor	0	1	0
 93	11	3	رَبِّكَ	N	(of) your Lord	0	1	0
-93	11	4	فَحَدِّثْ	V	narrate.	0	1	0
+93	11	4	فَحَدِّثْ	V	narrate.	0	1	1
 94	1	1	أَلَمْ	NEG	Have not	0	0	0
 94	1	2	نَشْرَحْ	V	We expanded	0	1	0
 94	1	3	لَكَ	PRON	for you	0	0	0
@@ -31994,10 +31994,10 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 94	6	4	يُسْرًا	N	(is) ease.	0	1	1
 94	7	1	فَإِذَا	T	So when	0	1	0
 94	7	2	فَرَغْتَ	V	you have finished	0	1	0
-94	7	3	فَٱنصَبْ	V	then labor hard.	0	1	0
+94	7	3	فَٱنصَبْ	V	then labor hard.	0	1	1
 94	8	1	وَإِلَىٰ	P	And to	0	0	0
 94	8	2	رَبِّكَ	N	your Lord	0	1	0
-94	8	3	فَٱرْغَب	V	turn your attention.	0	1	0
+94	8	3	فَٱرْغَب	V	turn your attention.	0	1	1
 95	1	1	وَٱلتِّينِ	N	By the fig,	0	0	0
 95	1	2	وَٱلزَّيْتُونِ	N	and the olive,	0	1	0
 95	2	1	وَطُورِ	N	And (the) Mount	0	0	0
@@ -32036,14 +32036,14 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 96	1	2	بِٱسْمِ	N	in (the) name	0	1	0
 96	1	3	رَبِّكَ	N	(of) your Lord	0	0	0
 96	1	4	ٱلَّذِى	REL	the One Who	0	1	0
-96	1	5	خَلَقَ	V	created -	0	1	0
+96	1	5	خَلَقَ	V	created -	0	1	1
 96	2	1	خَلَقَ	V	He created	0	0	0
 96	2	2	ٱلْإِنسَٰنَ	N	man	0	1	0
 96	2	3	مِنْ	P	from	0	0	0
 96	2	4	عَلَقٍ	N	a clinging substance.	0	1	1
 96	3	1	ٱقْرَأْ	V	Read,	0	1	0
 96	3	2	وَرَبُّكَ	N	and your Lord	0	0	0
-96	3	3	ٱلْأَكْرَمُ	ADJ	(is) the Most Generous,	0	1	0
+96	3	3	ٱلْأَكْرَمُ	ADJ	(is) the Most Generous,	0	1	1
 96	4	1	ٱلَّذِى	REL	The One Who	0	1	0
 96	4	2	عَلَّمَ	V	taught	0	0	0
 96	4	3	بِٱلْقَلَمِ	N	by the pen,	0	1	1
@@ -32051,14 +32051,14 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 96	5	2	ٱلْإِنسَٰنَ	N	man	0	1	0
 96	5	3	مَا	REL	what	0	0	0
 96	5	4	لَمْ	NEG	not	0	0	0
-96	5	5	يَعْلَمْ	V	he knew.	0	1	0
+96	5	5	يَعْلَمْ	V	he knew.	0	1	1
 96	6	1	كَلَّآ	AVR	Nay!	0	1	0
 96	6	2	إِنَّ	ACC	Indeed,	0	0	0
 96	6	3	ٱلْإِنسَٰنَ	N	man	0	1	0
-96	6	4	لَيَطْغَىٰٓ	V	surely transgresses,	0	1	0
+96	6	4	لَيَطْغَىٰٓ	V	surely transgresses,	0	1	1
 96	7	1	أَن	SUB	That	0	0	0
 96	7	2	رَّءَاهُ	V	he sees himself	0	1	0
-96	7	3	ٱسْتَغْنَىٰٓ	V	self-sufficient.	0	1	0
+96	7	3	ٱسْتَغْنَىٰٓ	V	self-sufficient.	0	1	1
 96	8	1	إِنَّ	ACC	Indeed,	0	0	0
 96	8	2	إِلَىٰ	P	to	0	0	0
 96	8	3	رَبِّكَ	N	your Lord	0	1	0
@@ -32068,7 +32068,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 96	9	3	يَنْهَىٰ	V	forbids	0	1	0
 96	10	1	عَبْدًا	N	A slave	0	0	0
 96	10	2	إِذَا	T	when	0	0	0
-96	10	3	صَلَّىٰٓ	V	he prays?	0	1	0
+96	10	3	صَلَّىٰٓ	V	he prays?	0	1	1
 96	11	1	أَرَءَيْتَ	V	Have you seen	0	0	0
 96	11	2	إِن	COND	if	0	0	0
 96	11	3	كَانَ	V	he is	0	1	0
@@ -32080,12 +32080,12 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 96	13	1	أَرَءَيْتَ	V	Have you seen	0	0	0
 96	13	2	إِن	COND	if	0	0	0
 96	13	3	كَذَّبَ	V	he denies	0	1	0
-96	13	4	وَتَوَلَّىٰٓ	V	and turns away?	0	1	0
+96	13	4	وَتَوَلَّىٰٓ	V	and turns away?	0	1	1
 96	14	1	أَلَمْ	NEG	Does not	0	0	0
 96	14	2	يَعْلَم	V	he know	0	1	0
 96	14	3	بِأَنَّ	ACC	that	0	0	0
 96	14	4	ٱللَّهَ	PN	Allah	0	1	0
-96	14	5	يَرَىٰ	V	sees?	0	1	0
+96	14	5	يَرَىٰ	V	sees?	0	1	1
 96	15	1	كَلَّا	AVR	Nay!	0	1	0
 96	15	2	لَئِن	COND	If	0	0	0
 96	15	3	لَّمْ	NEG	not	0	0	0
@@ -32103,7 +32103,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 96	19	2	لَا	PRO	(Do) not	0	0	0
 96	19	3	تُطِعْهُ	V	obey him.	0	1	0
 96	19	4	وَٱسْجُدْ	V	But prostrate	0	1	0
-96	19	5	وَٱقْتَرِب	V	and draw near (to Allah).	0	1	0
+96	19	5	وَٱقْتَرِب	V	and draw near (to Allah).	0	1	1
 97	1	1	إِنَّآ	ACC	Indeed, We	0	1	0
 97	1	2	أَنزَلْنَٰهُ	V	revealed it	0	1	0
 97	1	3	فِى	P	in	0	0	0
@@ -32202,7 +32202,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 98	7	2	ٱلَّذِينَ	REL	those who	0	0	0
 98	7	3	ءَامَنُوا۟	V	believe	0	0	0
 98	7	4	وَعَمِلُوا۟	V	and do	0	0	0
-98	7	5	ٱلصَّٰلِحَٰتِ	N	righteous deeds,	0	0	0
+98	7	5	ٱلصَّٰلِحَٰتِ	N	righteous deeds,	0	0	1
 98	7	6	أُو۟لَٰٓئِكَ	DEM	those -	0	0	0
 98	7	7	هُمْ	PRON	they	0	0	0
 98	7	8	خَيْرُ	N	(are the) best	0	0	0
@@ -32257,13 +32257,13 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 99	7	3	مِثْقَالَ	N	(equal to the) weight	0	0	0
 99	7	4	ذَرَّةٍ	N	(of) an atom	0	1	0
 99	7	5	خَيْرًا	N	good,	0	0	0
-99	7	6	يَرَهُۥ	V	will see it,	0	1	0
+99	7	6	يَرَهُۥ	V	will see it,	0	1	1
 99	8	1	وَمَن	COND	And whoever	0	0	0
 99	8	2	يَعْمَلْ	V	does	0	0	0
 99	8	3	مِثْقَالَ	N	(equal to the) weight	0	0	0
 99	8	4	ذَرَّةٍ	N	(of) an atom	0	0	0
 99	8	5	شَرًّا	N	evil,	0	0	0
-99	8	6	يَرَهُۥ	V	will see it.	0	1	0
+99	8	6	يَرَهُۥ	V	will see it.	0	1	1
 100	1	1	وَٱلْعَٰدِيَٰتِ	N	By the racers	0	1	0
 100	1	2	ضَبْحًا	N	panting,	0	1	0
 100	2	1	فَٱلْمُورِيَٰتِ	N	And the producers of sparks,	0	0	0
@@ -32351,7 +32351,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 102	4	1	ثُمَّ	CONJ	Then,	0	0	0
 102	4	2	كَلَّا	AVR	nay!	0	0	0
 102	4	3	سَوْفَ	FUT	Soon	0	0	0
-102	4	4	تَعْلَمُونَ	V	you will know.	0	1	0
+102	4	4	تَعْلَمُونَ	V	you will know.	0	1	1
 102	5	1	كَلَّا	AVR	Nay!	0	0	0
 102	5	2	لَوْ	COND	If	0	0	0
 102	5	3	تَعْلَمُونَ	V	you know	0	1	0
@@ -32389,11 +32389,11 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 104	2	1	ٱلَّذِى	REL	The one who	0	1	0
 104	2	2	جَمَعَ	V	collects	0	0	0
 104	2	3	مَالًا	N	wealth	0	1	0
-104	2	4	وَعَدَّدَهُۥ	V	and counts it.	0	1	0
+104	2	4	وَعَدَّدَهُۥ	V	and counts it.	0	1	1
 104	3	1	يَحْسَبُ	V	Thinking	0	1	0
 104	3	2	أَنَّ	ACC	that	0	0	0
 104	3	3	مَالَهُۥٓ	N	his wealth	0	1	0
-104	3	4	أَخْلَدَهُۥ	V	will make him immortal	0	1	0
+104	3	4	أَخْلَدَهُۥ	V	will make him immortal	0	1	1
 104	4	1	كَلَّا	AVR	Nay!	3	1	0
 104	4	2	لَيُنۢبَذَنَّ	V	Surely he will be thrown	0	1	0
 104	4	3	فِى	P	in	0	0	0
@@ -32443,7 +32443,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 106	2	1	إِۦلَٰفِهِمْ	N	Their familiarity	0	1	0
 106	2	2	رِحْلَةَ	N	(with the) journey	0	0	0
 106	2	3	ٱلشِّتَآءِ	N	(of) winter	0	0	0
-106	2	4	وَٱلصَّيْفِ	N	and summer,	0	1	0
+106	2	4	وَٱلصَّيْفِ	N	and summer,	0	1	1
 106	3	1	فَلْيَعْبُدُوا۟	V	So let them worship	0	1	0
 106	3	2	رَبَّ	N	(the) Lord	0	0	0
 106	3	3	هَٰذَا	DEM	(of) this	0	1	0
@@ -32485,7 +32485,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 108	1	3	ٱلْكَوْثَرَ	N	Al-Kauthar,	0	1	1
 108	2	1	فَصَلِّ	V	So pray	0	1	0
 108	2	2	لِرَبِّكَ	N	to your Lord	0	0	0
-108	2	3	وَٱنْحَرْ	V	and sacrifice.	0	1	0
+108	2	3	وَٱنْحَرْ	V	and sacrifice.	0	1	1
 108	3	1	إِنَّ	ACC	Indeed,	0	0	0
 108	3	2	شَانِئَكَ	N	your enemy -	0	1	0
 108	3	3	هُوَ	PRON	he (is)	0	0	0
@@ -32501,7 +32501,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 109	3	2	أَنتُمْ	PRON	you	0	1	0
 109	3	3	عَٰبِدُونَ	N	(are) worshippers	0	0	0
 109	3	4	مَآ	REL	(of) what	0	0	0
-109	3	5	أَعْبُدُ	V	I worship	0	1	0
+109	3	5	أَعْبُدُ	V	I worship	0	1	1
 109	4	1	وَلَآ	NEG	And not	0	0	0
 109	4	2	أَنَا۠	PRON	I am	0	0	0
 109	4	3	عَابِدٌ	N	a worshipper	0	1	0
@@ -32511,7 +32511,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 109	5	2	أَنتُمْ	PRON	you	0	0	0
 109	5	3	عَٰبِدُونَ	N	(are) worshippers	0	0	0
 109	5	4	مَآ	REL	(of) what	0	0	0
-109	5	5	أَعْبُدُ	V	I worship.	0	1	0
+109	5	5	أَعْبُدُ	V	I worship.	0	1	1
 109	6	1	لَكُمْ	PRON	For you	0	0	0
 109	6	2	دِينُكُمْ	N	(is) your religion,	0	1	0
 109	6	3	وَلِىَ	PRON	and for me	0	0	0
@@ -32531,7 +32531,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 110	3	1	فَسَبِّحْ	V	Then glorify	0	1	0
 110	3	2	بِحَمْدِ	N	with (the) praises	0	0	0
 110	3	3	رَبِّكَ	N	(of) your Lord	0	1	0
-110	3	4	وَٱسْتَغْفِرْهُ	V	and ask His forgiveness.	5	1	0
+110	3	4	وَٱسْتَغْفِرْهُ	V	and ask His forgiveness.	5	1	1
 110	3	5	إِنَّهُۥ	ACC	Indeed, He	0	0	0
 110	3	6	كَانَ	V	is	0	0	0
 110	3	7	تَوَّابًۢا	N	Oft-Returning.	0	1	1
@@ -32539,13 +32539,13 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 111	1	2	يَدَآ	N	(the) hands	0	1	0
 111	1	3	أَبِى	N	(of) Abu	0	0	0
 111	1	4	لَهَبٍ	N	Lahab	0	1	0
-111	1	5	وَتَبَّ	V	and perish he.	0	1	0
+111	1	5	وَتَبَّ	V	and perish he.	0	1	1
 111	2	1	مَآ	NEG	Not	0	0	0
 111	2	2	أَغْنَىٰ	V	(will) avail	0	0	0
 111	2	3	عَنْهُ	P	him	0	1	0
 111	2	4	مَالُهُۥ	N	his wealth	0	0	0
 111	2	5	وَمَا	REL	and what	0	0	0
-111	2	6	كَسَبَ	V	he earned.	0	1	0
+111	2	6	كَسَبَ	V	he earned.	0	1	1
 111	3	1	سَيَصْلَىٰ	V	He will be burnt	0	0	0
 111	3	2	نَارًا	N	(in) a Fire	0	1	0
 111	3	3	ذَاتَ	N	of	0	0	0
@@ -32567,7 +32567,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 112	3	1	لَمْ	NEG	Not	0	0	0
 112	3	2	يَلِدْ	V	He begets	0	1	0
 112	3	3	وَلَمْ	NEG	and not	0	0	0
-112	3	4	يُولَدْ	V	He is begotten.	0	1	0
+112	3	4	يُولَدْ	V	He is begotten.	0	1	1
 112	4	1	وَلَمْ	NEG	And not	0	0	0
 112	4	2	يَكُن	V	is	0	1	0
 112	4	3	لَّهُۥ	PRON	for Him	0	0	0
@@ -32580,12 +32580,12 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 113	2	1	مِن	P	From	0	0	0
 113	2	2	شَرِّ	N	(the) evil	0	0	0
 113	2	3	مَا	REL	(of) what	0	1	0
-113	2	4	خَلَقَ	V	He created,	0	1	0
+113	2	4	خَلَقَ	V	He created,	0	1	1
 113	3	1	وَمِن	P	And from	0	0	0
 113	3	2	شَرِّ	N	(the) evil	0	0	0
 113	3	3	غَاسِقٍ	N	(of) darkness	0	1	0
 113	3	4	إِذَا	T	when	0	0	0
-113	3	5	وَقَبَ	V	it spreads	0	1	0
+113	3	5	وَقَبَ	V	it spreads	0	1	1
 113	4	1	وَمِن	P	And from	0	0	0
 113	4	2	شَرِّ	N	(the) evil	0	0	0
 113	4	3	ٱلنَّفَّٰثَٰتِ	N	(of) the blowers	0	0	0
@@ -32595,7 +32595,7 @@ chapter_number	verse_number	token_number	arabic	pos_tag	translation	pause_mark	i
 113	5	2	شَرِّ	N	(the) evil	0	0	0
 113	5	3	حَاسِدٍ	N	(of) an envier	0	0	0
 113	5	4	إِذَا	T	when	0	0	0
-113	5	5	حَسَدَ	V	he envies."	0	1	0
+113	5	5	حَسَدَ	V	he envies."	0	1	1
 114	1	1	قُلْ	V	Say,	0	0	0
 114	1	2	أَعُوذُ	V	"I seek refuge	0	0	0
 114	1	3	بِرَبِّ	N	in (the) Lord	0	0	0
