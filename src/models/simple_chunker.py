@@ -6,6 +6,10 @@ class SimpleChunker:
         pass
 
     def predict(self, df: DataFrame):
-        predications = df.copy()
-        predications['chunk_end'] = df['verse_end'].astype(int)
-        return predications
+        predictions = df.copy()
+
+        predictions['chunk_end'] = df.apply(
+            lambda row: int(row['verse_end'] or row['pause_mark'] != 0),
+            axis=1)
+
+        return predictions
