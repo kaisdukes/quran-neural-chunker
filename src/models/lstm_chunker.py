@@ -1,3 +1,5 @@
+from typing import List
+
 from pandas import DataFrame
 import torch
 from torch import nn
@@ -50,13 +52,15 @@ class QuranDataset(Dataset):
 
         # padding
         if length < self.max_length:
-            verse.extend([0] * (self.max_length - length))  # add 0 padding
+            verse.extend([[0]*len(verse[0])] * (self.max_length - length))  # add 0 padding
             label.extend([0] * (self.max_length - length))  # add 0 padding
 
+        print(f'verse: {verse}')
+        print(f'label: {label}')
         return torch.tensor(verse, dtype=torch.float32), torch.tensor(label), length
 
 
-def prepare_data(df: DataFrame):
+def get_verses(df: DataFrame):
 
     le = LabelEncoder()
     df['encoded_punctuation'] = le.fit_transform(df['punctuation'])
@@ -64,19 +68,17 @@ def prepare_data(df: DataFrame):
     X = df[['token_number', 'pause_mark', 'irab_end', 'verse_end', 'encoded_punctuation']]
     y = df['chunk_end']
 
-    verses, labels = [], []
-    verse_numbers = df['verse_number'].unique()
+    verses: List[List[int]] = []
+    labels: List[int] = []
 
-    for verse_number in verse_numbers:
-        verse_df = df[df['verse_number'] == verse_number]
-        verse = verse_df[X.columns].values.tolist()
-        label = verse_df[y.name].tolist()
+    for _, group in df.groupby(['chapter_number', 'verse_number']):
+        verse = group[X.columns].values.tolist()
+        label = group[y.name].tolist()
 
         verses.append(verse)
         labels.append(label)
 
     train_verses, test_verses, train_labels, test_labels = train_test_split(verses, labels, test_size=0.2, random_state=42)
-
     return train_verses, test_verses, train_labels, test_labels
 
 
@@ -94,7 +96,7 @@ def train_and_test():
     batch_size = 64
     learning_rate = 0.001
 
-    train_verses, test_verses, train_labels, test_labels = prepare_data(df)
+    train_verses, test_verses, train_labels, test_labels = get_verses(df)
 
     training_data = QuranDataset(train_verses, train_labels)
     testing_data = QuranDataset(test_verses, test_labels)
