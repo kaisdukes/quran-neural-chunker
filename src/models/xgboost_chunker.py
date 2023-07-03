@@ -23,15 +23,7 @@ class XGBoostChunker:
         return out
 
     def _preprocess(self, df: DataFrame):
-        x = df.drop([
-            'chunk_end',
-            'chapter_number',
-            'verse_number',
-            'arabic',
-            'pos_tag',
-            'translation'
-        ], axis=1)
-
+        x = df[['token_number', 'pause_mark', 'irab_end', 'verse_end', 'punctuation']].copy()
         x['punctuation'] = self._punctuation_encoder.transform(x['punctuation'])
 
         y = df['chunk_end']
