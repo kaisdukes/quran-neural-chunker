@@ -4,7 +4,7 @@
 
 ## What’s in this Repo?
 
-A data preprocessor for the new [Quranic Treebank](https://qurancorpus.app/treebank/2:258) using neural networks. Divides longer verses into smaller chunks.
+A data preprocessor for the [Quranic Treebank](https://qurancorpus.app/treebank/2:258) using neural networks. Divides longer verses into smaller chunks.
 
 To work with this codebase, you will need a strong background in Artificial Intelligence applied to Quranic Research, specifically in the fields of Computational Linguistics and Natural Language Processing (NLP).
 
