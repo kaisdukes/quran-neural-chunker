@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "quran-verse-chunker"
+name = "quran-neural-chunker"
 version = "0.1.0"
 description = ""
 authors = ["Kais Dukes"]
