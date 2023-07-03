@@ -1,6 +1,6 @@
 from typing import List
 
-from src.chunks.chunk import Chunk
+from ..chunks.chunk import Chunk
 
 
 class Evaluator:
@@ -11,6 +11,7 @@ class Evaluator:
         self._equivalent_chunks = 0
 
     def compare(self, expected_chunks: List[Chunk], output_chunks: List[Chunk]):
+        print(f'Comparing chunks: len(exp) = {len(expected_chunks)} len(out) = {len(output_chunks)}')
         expected_set = set(expected_chunks)
         output_set = set(output_chunks)
 

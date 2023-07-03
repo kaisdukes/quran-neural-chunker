@@ -1,5 +1,6 @@
 from typing import List
 
+import pandas as pd
 from pandas import DataFrame
 import torch
 from torch import nn
@@ -9,8 +10,10 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from torch.utils.data import Dataset, DataLoader
 
+from .evaluator import Evaluator
 from ..data import load_data
 from ..chunks.preprocessor import preprocess
+from ..chunks.chunks import get_chunks
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 max_length = 128
@@ -66,7 +69,6 @@ class QuranDataset(Dataset):
 
 
 def get_verses(df: DataFrame):
-
     le = LabelEncoder()
     df['encoded_punctuation'] = le.fit_transform(df['punctuation'])
 
@@ -75,6 +77,7 @@ def get_verses(df: DataFrame):
 
     verses: List[List[int]] = []
     labels: List[int] = []
+    verse_info: List[List[int]] = []
 
     for _, group in df.groupby(['chapter_number', 'verse_number']):
         verse = group[X.columns].values.tolist()
@@ -83,8 +86,17 @@ def get_verses(df: DataFrame):
         verses.append(verse)
         labels.append(label)
 
-    train_verses, test_verses, train_labels, test_labels = train_test_split(verses, labels, test_size=0.10, random_state=42)
-    return train_verses, test_verses, train_labels, test_labels
+        verse_info_single = group[['chapter_number', 'verse_number', 'token_number']].values.tolist()
+        verse_info.append(verse_info_single)
+
+    # split the data for training and testing
+    temp_data = list(zip(verses, verse_info, labels))
+    train_temp, test_temp = train_test_split(temp_data, test_size=0.10, random_state=42)
+
+    train_verses, train_verse_info, train_labels = zip(*train_temp)
+    test_verses, test_verse_info, test_labels = zip(*test_temp)
+
+    return train_verses, test_verses, train_labels, test_labels, train_verse_info, test_verse_info
 
 
 def pack_labels(labels):
@@ -108,7 +120,9 @@ def train_and_test():
     batch_size = 64
     learning_rate = 0.001
 
-    train_verses, test_verses, train_labels, test_labels = get_verses(df)
+    train_verses, test_verses, train_labels, test_labels, train_verse_info, test_verse_info = get_verses(df)
+    print(f'Train verse count: {len(train_verses)}')
+    print(f'Test verse count: {len(test_verses)}')
 
     training_data = QuranDataset(train_verses, train_labels)
     testing_data = QuranDataset(test_verses, test_labels)
@@ -121,6 +135,8 @@ def train_and_test():
 
     criterion = nn.CrossEntropyLoss()
     optimizer = Adam(model.parameters(), lr=learning_rate)
+
+    evaluator = Evaluator()
 
     # train
     model.train()
@@ -143,18 +159,38 @@ def train_and_test():
 
         # test
         model.eval()
+
+        expected_results_df = DataFrame(columns=['chapter_number', 'verse_number', 'token_number', 'chunk_end'])
+        output_results_df = DataFrame(columns=['chapter_number', 'verse_number', 'token_number', 'chunk_end'])
+
         with torch.no_grad():
-            correct = 0
-            total = 0
-            for verses, labels, lengths in test_loader:
+            for i, ((verses, labels, lengths), verse_info) in enumerate(zip(test_loader, test_verse_info)):
                 verses = verses.to(device)
                 labels = labels.to(device)
 
                 raw_outputs = model(verses, lengths)
-                _, predicted = torch.max(raw_outputs.data, 2)  # get the predicted labels
-                correct += (predicted.view(-1) == labels.view(-1)).sum().item()
-                total += lengths.sum().item()
+                _, predicted = torch.max(raw_outputs.data, 2)
+                predicted = predicted.cpu().numpy()
 
-            print(f'Correct: {correct}')
-            print(f'Total: {total}')
-            print(f'Accuracy: {correct / total}')
+                for j, token in enumerate(verse_info):
+
+                    expected_row = DataFrame({
+                        'chapter_number': token[0],
+                        'verse_number': token[1],
+                        'token_number': token[2],
+                        'chunk_end': test_labels[i][j]}, index=[0])
+                    expected_results_df = pd.concat([expected_results_df, expected_row])
+
+                    output_row = DataFrame({
+                        'chapter_number': token[0],
+                        'verse_number': token[1],
+                        'token_number': token[2],
+                        'chunk_end': predicted[i][j]}, index=[0])
+                    output_results_df = pd.concat([output_results_df, output_row])
+
+        # Perform chunk-level evaluation
+        print(f'Expected token count: {len(expected_results_df)}')
+        print(f'Output token count: {len(output_results_df)}')
+        expected_chunks = get_chunks(expected_results_df)
+        output_chunks = get_chunks(output_results_df)
+        evaluator.compare(expected_chunks, output_chunks)

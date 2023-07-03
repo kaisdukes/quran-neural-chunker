@@ -4,11 +4,11 @@ import pandas as pd
 
 
 from dataset_splitter import split_dataset
-from evaluator import Evaluator
 from src.data import load_data
 from src.chunks.chunks import get_chunks
 from src.chunks.preprocessor import preprocess
 from src.models.xgboost_chunker import XGBoostChunker
+from src.models.evaluator import Evaluator
 
 
 class ChunkTest(unittest.TestCase):
