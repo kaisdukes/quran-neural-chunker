@@ -55,8 +55,6 @@ class QuranDataset(Dataset):
             verse.extend([[0]*len(verse[0])] * (self.max_length - length))  # add 0 padding
             label.extend([0] * (self.max_length - length))  # add 0 padding
 
-        print(f'verse: {verse}')
-        print(f'label: {label}')
         return torch.tensor(verse, dtype=torch.float32), torch.tensor(label), length
 
 
