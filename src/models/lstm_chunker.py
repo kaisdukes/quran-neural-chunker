@@ -1,0 +1,143 @@
+from pandas import DataFrame
+import torch
+from torch import nn
+from torch.optim import Adam
+from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
+from torch.utils.data import Dataset, DataLoader
+
+from ..data import load_data
+from ..chunks.preprocessor import preprocess
+
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+
+class LSTMModel(nn.Module):
+
+    def __init__(self, input_size, hidden_size, num_layers, output_size):
+        super(LSTMModel, self).__init__()
+        self.hidden_size = hidden_size
+        self.num_layers = num_layers
+        self.lstm = nn.LSTM(input_size, hidden_size, num_layers, batch_first=True)
+        self.fc = nn.Linear(hidden_size, output_size)
+
+    def forward(self, x, lengths):
+        h0 = torch.zeros(self.num_layers, x.size(0), self.hidden_size).to(x.device)
+        c0 = torch.zeros(self.num_layers, x.size(0), self.hidden_size).to(x.device)
+
+        x = pack_padded_sequence(x, lengths, batch_first=True, enforce_sorted=False)
+
+        out, _ = self.lstm(x, (h0, c0))
+        out, _ = pad_packed_sequence(out, batch_first=True)
+        out = self.fc(out)
+        return out
+
+
+class QuranDataset(Dataset):
+    def __init__(self, verses, labels):
+        self.verses = verses
+        self.labels = labels
+        self.max_length = 128
+
+    def __len__(self):
+        return len(self.verses)
+
+    def __getitem__(self, index):
+        verse = self.verses[index]
+        label = self.labels[index]
+        length = len(verse)
+
+        # padding
+        if length < self.max_length:
+            verse.extend([0] * (self.max_length - length))  # add 0 padding
+            label.extend([0] * (self.max_length - length))  # add 0 padding
+
+        return torch.tensor(verse, dtype=torch.float32), torch.tensor(label), length
+
+
+def prepare_data(df: DataFrame):
+
+    le = LabelEncoder()
+    df['encoded_punctuation'] = le.fit_transform(df['punctuation'])
+
+    X = df[['token_number', 'pause_mark', 'irab_end', 'verse_end', 'encoded_punctuation']]
+    y = df['chunk_end']
+
+    verses, labels = [], []
+    verse_numbers = df['verse_number'].unique()
+
+    for verse_number in verse_numbers:
+        verse_df = df[df['verse_number'] == verse_number]
+        verse = verse_df[X.columns].values.tolist()
+        label = verse_df[y.name].tolist()
+
+        verses.append(verse)
+        labels.append(label)
+
+    train_verses, test_verses, train_labels, test_labels = train_test_split(verses, labels, test_size=0.2, random_state=42)
+
+    return train_verses, test_verses, train_labels, test_labels
+
+
+def train_and_test():
+    df = load_data()
+    preprocess(df)
+
+    df.fillna(0, inplace=True)
+
+    input_size = 5
+    hidden_size = 128
+    num_layers = 2
+    output_size = 2
+    num_epochs = 15
+    batch_size = 64
+    learning_rate = 0.001
+
+    train_verses, test_verses, train_labels, test_labels = prepare_data(df)
+
+    training_data = QuranDataset(train_verses, train_labels)
+    testing_data = QuranDataset(test_verses, test_labels)
+
+    train_loader = DataLoader(training_data, batch_size=batch_size, shuffle=True)
+    test_loader = DataLoader(testing_data, batch_size=batch_size, shuffle=False)
+
+    model = LSTMModel(input_size, hidden_size, num_layers, output_size)
+    model = model.to(device)
+
+    criterion = nn.CrossEntropyLoss()
+    optimizer = Adam(model.parameters(), lr=learning_rate)
+
+    # train
+    model.train()
+    for epoch in range(num_epochs):
+        for i, (verses, labels, lengths) in enumerate(train_loader):
+            verses = verses.to(device)
+            labels = labels.to(device)
+
+            # forward pass
+            outputs = model(verses, lengths)
+            loss = criterion(outputs.view(-1, output_size), labels.view(-1))
+
+            # backward pass and optimize
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+
+        print('Epoch [{}/{}], Loss: {:.4f}'.format(epoch+1, num_epochs, loss.item()))
+
+    # test
+    model.eval()
+    with torch.no_grad():
+        correct = 0
+        total = 0
+        for verses, labels, lengths in test_loader:
+            verses = verses.to(device)
+            labels = labels.to(device)
+
+            outputs = model(verses, lengths)
+            _, predicted = torch.max(outputs.data, -1)
+            total += labels.size(0)
+            correct += (predicted.view(-1) == labels.view(-1)).sum().item()
+
+        print('Test Accuracy of the model on the test verses: {} %'.format(100 * correct / total))
