@@ -1,9 +1,9 @@
 from pandas import DataFrame
-from sklearn.tree import DecisionTreeClassifier
 from sklearn import preprocessing
+from xgboost import XGBClassifier
 
 
-class CartChunker:
+class XGBoostChunker:
 
     def __init__(self):
         self._punctuation_encoder = preprocessing.LabelEncoder()
@@ -13,7 +13,7 @@ class CartChunker:
 
     def train(self, df: DataFrame):
         x, y = self._preprocess(df)
-        self.clf = DecisionTreeClassifier(random_state=42)
+        self.clf = XGBClassifier()
         self.clf.fit(x, y)
 
     def predict(self, df: DataFrame):
