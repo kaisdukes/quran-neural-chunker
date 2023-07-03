@@ -13,6 +13,7 @@ from ..data import load_data
 from ..chunks.preprocessor import preprocess
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+max_length = 128
 
 
 class LSTMModel(nn.Module):
@@ -30,9 +31,16 @@ class LSTMModel(nn.Module):
 
         x = pack_padded_sequence(x, lengths, batch_first=True, enforce_sorted=False)
 
-        out, _ = self.lstm(x, (h0, c0))
-        out, _ = pad_packed_sequence(out, batch_first=True)
-        out = self.fc(out)
+        packed_output, _ = self.lstm(x, (h0, c0))
+
+        # Unpack the output before passing through the linear layer
+        output, output_lengths = pad_packed_sequence(packed_output, batch_first=True)
+
+        # Manually pad the sequences to max_length
+        if output.size(1) < max_length:
+            output = nn.functional.pad(output, (0, 0, 0, max_length - output.size(1)))
+
+        out = self.fc(output)
         return out
 
 
@@ -40,7 +48,6 @@ class QuranDataset(Dataset):
     def __init__(self, verses, labels):
         self.verses = verses
         self.labels = labels
-        self.max_length = 128
 
     def __len__(self):
         return len(self.verses)
@@ -51,9 +58,9 @@ class QuranDataset(Dataset):
         length = len(verse)
 
         # padding
-        if length < self.max_length:
-            verse.extend([[0]*len(verse[0])] * (self.max_length - length))  # add 0 padding
-            label.extend([0] * (self.max_length - length))  # add 0 padding
+        if length < max_length:
+            verse.extend([[0]*len(verse[0])] * (max_length - length))  # add 0 padding
+            label.extend([0] * (max_length - length))  # add 0 padding
 
         return torch.tensor(verse, dtype=torch.float32), torch.tensor(label), length
 
@@ -78,6 +85,13 @@ def get_verses(df: DataFrame):
 
     train_verses, test_verses, train_labels, test_labels = train_test_split(verses, labels, test_size=0.2, random_state=42)
     return train_verses, test_verses, train_labels, test_labels
+
+
+def pack_labels(labels):
+    lengths = [len(label) for label in labels]
+    max_len = max(lengths)
+    labels_padded = [torch.cat([label, torch.zeros(max_len - len(label))]) for label in labels]
+    return torch.stack(labels_padded)
 
 
 def train_and_test():
@@ -116,8 +130,9 @@ def train_and_test():
             labels = labels.to(device)
 
             # forward pass
-            outputs = model(verses, lengths)
-            loss = criterion(outputs.view(-1, output_size), labels.view(-1))
+            raw_outputs = model(verses, lengths)
+            labels = labels.view(-1)  # reshape labels to be a 1D tensor
+            loss = criterion(raw_outputs.view(-1, output_size), labels)
 
             # backward pass and optimize
             optimizer.zero_grad()
@@ -126,18 +141,20 @@ def train_and_test():
 
         print('Epoch [{}/{}], Loss: {:.4f}'.format(epoch+1, num_epochs, loss.item()))
 
-    # test
-    model.eval()
-    with torch.no_grad():
-        correct = 0
-        total = 0
-        for verses, labels, lengths in test_loader:
-            verses = verses.to(device)
-            labels = labels.to(device)
+        # test
+        model.eval()
+        with torch.no_grad():
+            correct = 0
+            total = 0
+            for verses, labels, lengths in test_loader:
+                verses = verses.to(device)
+                labels = labels.to(device)
 
-            outputs = model(verses, lengths)
-            _, predicted = torch.max(outputs.data, -1)
-            total += labels.size(0)
-            correct += (predicted.view(-1) == labels.view(-1)).sum().item()
+                raw_outputs = model(verses, lengths)
+                _, predicted = torch.max(raw_outputs.data, 2)  # get the predicted labels
+                correct += (predicted.view(-1) == labels.view(-1)).sum().item()
+                total += lengths.sum().item()
 
-        print('Test Accuracy of the model on the test verses: {} %'.format(100 * correct / total))
+            print(f'Correct: {correct}')
+            print(f'Total: {total}')
+            print(f'Accuracy: {correct / total}')
