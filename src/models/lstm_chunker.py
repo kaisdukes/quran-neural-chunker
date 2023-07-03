@@ -36,10 +36,10 @@ class LSTMModel(nn.Module):
 
         packed_output, _ = self.lstm(x, (h0, c0))
 
-        # Unpack the output before passing through the linear layer
+        # unpack the output before passing through the linear layer
         output, output_lengths = pad_packed_sequence(packed_output, batch_first=True)
 
-        # Manually pad the sequences to max_length
+        # manually pad the sequences to max_length
         if output.size(1) < max_length:
             output = nn.functional.pad(output, (0, 0, 0, max_length - output.size(1)))
 
@@ -62,8 +62,8 @@ class QuranDataset(Dataset):
 
         # padding
         if length < max_length:
-            verse.extend([[0]*len(verse[0])] * (max_length - length))  # add 0 padding
-            label.extend([0] * (max_length - length))  # add 0 padding
+            verse.extend([[0]*len(verse[0])] * (max_length - length))
+            label.extend([0] * (max_length - length))
 
         return torch.tensor(verse, dtype=torch.float32), torch.tensor(label), length
 
@@ -89,7 +89,6 @@ def get_verses(df: DataFrame):
         verse_info_single = group[['chapter_number', 'verse_number', 'token_number']].values.tolist()
         verse_info.append(verse_info_single)
 
-    # split the data for training and testing
     temp_data = list(zip(verses, verse_info, labels))
     train_temp, test_temp = train_test_split(temp_data, test_size=0.10, random_state=42)
 
@@ -136,8 +135,6 @@ def train_and_test():
     criterion = nn.CrossEntropyLoss()
     optimizer = Adam(model.parameters(), lr=learning_rate)
 
-    evaluator = Evaluator()
-
     # train
     model.train()
     for epoch in range(num_epochs):
@@ -163,34 +160,40 @@ def train_and_test():
         expected_results_df = DataFrame(columns=['chapter_number', 'verse_number', 'token_number', 'chunk_end'])
         output_results_df = DataFrame(columns=['chapter_number', 'verse_number', 'token_number', 'chunk_end'])
 
+        evaluator = Evaluator()
         with torch.no_grad():
-            for i, ((verses, labels, lengths), verse_info) in enumerate(zip(test_loader, test_verse_info)):
-                verses = verses.to(device)
-                labels = labels.to(device)
+            for test_index in range(len(testing_data)):
+                verse, label, length = testing_data[test_index]
+                verse, label, length = verse.to(device).unsqueeze(0), label.to(device).unsqueeze(0), torch.tensor([length])
 
-                raw_outputs = model(verses, lengths)
-                _, predicted = torch.max(raw_outputs.data, 2)
+                raw_output = model(verse, length)
+                _, predicted = torch.max(raw_output.data, 2)
                 predicted = predicted.cpu().numpy()
 
-                for j, token in enumerate(verse_info):
+                verse_info = test_verse_info[test_index]
 
+                for idx, token in enumerate(verse_info):
                     expected_row = DataFrame({
                         'chapter_number': token[0],
                         'verse_number': token[1],
                         'token_number': token[2],
-                        'chunk_end': test_labels[i][j]}, index=[0])
+                        'chunk_end': label.cpu().numpy()[0][idx]}, index=[0])
                     expected_results_df = pd.concat([expected_results_df, expected_row])
 
                     output_row = DataFrame({
                         'chapter_number': token[0],
                         'verse_number': token[1],
                         'token_number': token[2],
-                        'chunk_end': predicted[i][j]}, index=[0])
+                        'chunk_end': predicted[0][idx]}, index=[0])
                     output_results_df = pd.concat([output_results_df, output_row])
 
-        # Perform chunk-level evaluation
-        print(f'Expected token count: {len(expected_results_df)}')
-        print(f'Output token count: {len(output_results_df)}')
+        # chunk-level evaluation
         expected_chunks = get_chunks(expected_results_df)
         output_chunks = get_chunks(output_results_df)
+        print(f'Expected: {len(expected_chunks)} chunks')
+        print(f'Output: {len(output_chunks)} chunks')
+
         evaluator.compare(expected_chunks, output_chunks)
+        print(f'Precision: {evaluator.precision}')
+        print(f'Recall: {evaluator.recall}')
+        print(f'F1 score: {evaluator.f1_score}')

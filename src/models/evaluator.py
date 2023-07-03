@@ -11,7 +11,6 @@ class Evaluator:
         self._equivalent_chunks = 0
 
     def compare(self, expected_chunks: List[Chunk], output_chunks: List[Chunk]):
-        print(f'Comparing chunks: len(exp) = {len(expected_chunks)} len(out) = {len(output_chunks)}')
         expected_set = set(expected_chunks)
         output_set = set(output_chunks)
 
@@ -21,14 +20,14 @@ class Evaluator:
 
     @property
     def precision(self):
-        return self._equivalent_chunks / self._output_chunks
+        return 0 if self._output_chunks == 0 else self._equivalent_chunks / self._output_chunks
 
     @property
     def recall(self):
-        return self._equivalent_chunks / self._expected_chunks
+        return 0 if self._expected_chunks == 0 else self._equivalent_chunks / self._expected_chunks
 
     @property
     def f1_score(self):
         precision = self.precision
         recall = self.recall
-        return 2 * (precision * recall) / (precision + recall)
+        return 0 if precision + recall == 0 else 2 * (precision * recall) / (precision + recall)
