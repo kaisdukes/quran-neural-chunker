@@ -115,7 +115,7 @@ def train_and_test():
     hidden_size = 128
     num_layers = 2
     output_size = 2
-    num_epochs = 15
+    num_epochs = 50
     batch_size = 64
     learning_rate = 0.001
 
