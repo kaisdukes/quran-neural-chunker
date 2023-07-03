@@ -1,4 +1,4 @@
-# Quran Verse Chunker
+# Quran Neural Chunker
 
 *Join us on a new journey! Visit the [Corpus 2.0 upgrade project](https://github.com/kaisdukes/quranic-corpus) for new work on the Quranic Arabic Corpus.*
 
