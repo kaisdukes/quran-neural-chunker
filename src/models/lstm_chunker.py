@@ -83,7 +83,7 @@ def get_verses(df: DataFrame):
         verses.append(verse)
         labels.append(label)
 
-    train_verses, test_verses, train_labels, test_labels = train_test_split(verses, labels, test_size=0.2, random_state=42)
+    train_verses, test_verses, train_labels, test_labels = train_test_split(verses, labels, test_size=0.10, random_state=42)
     return train_verses, test_verses, train_labels, test_labels
 
 
