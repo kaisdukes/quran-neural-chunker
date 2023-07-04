@@ -1,6 +1,6 @@
 import unittest
 
-from src.models.lstm_chunker import train_and_test
+from models.bilstm_chunker import train_and_test
 
 
 class ChunkerTest(unittest.TestCase):

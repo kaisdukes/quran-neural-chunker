@@ -21,10 +21,10 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 max_length = 128
 
 
-class LSTMModel(nn.Module):
+class BiLSTMModel(nn.Module):
 
     def __init__(self, input_size, hidden_size, num_layers, output_size):
-        super(LSTMModel, self).__init__()
+        super(BiLSTMModel, self).__init__()
         self.hidden_size = hidden_size
         self.num_layers = num_layers
         self.lstm = nn.LSTM(input_size, hidden_size, num_layers, batch_first=True, bidirectional=True)
@@ -139,7 +139,7 @@ def train_and_test():
     train_loader = DataLoader(training_data, batch_size=batch_size, shuffle=True)
     test_loader = DataLoader(testing_data, batch_size=batch_size, shuffle=False)
 
-    model = LSTMModel(input_size, hidden_size, num_layers, output_size)
+    model = BiLSTMModel(input_size, hidden_size, num_layers, output_size)
     model = model.to(device)
 
     criterion = nn.CrossEntropyLoss()
