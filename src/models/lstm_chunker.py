@@ -1,5 +1,6 @@
 from typing import List
 
+import numpy as np
 import pandas as pd
 from pandas import DataFrame
 import torch
@@ -12,6 +13,7 @@ from torch.utils.data import Dataset, DataLoader
 
 from .evaluator import Evaluator
 from ..data import load_data
+from ..embeddings import Embeddings
 from ..chunks.preprocessor import preprocess
 from ..chunks.chunks import get_chunks
 
@@ -25,12 +27,12 @@ class LSTMModel(nn.Module):
         super(LSTMModel, self).__init__()
         self.hidden_size = hidden_size
         self.num_layers = num_layers
-        self.lstm = nn.LSTM(input_size, hidden_size, num_layers, batch_first=True)
-        self.fc = nn.Linear(hidden_size, output_size)
+        self.lstm = nn.LSTM(input_size, hidden_size, num_layers, batch_first=True, bidirectional=True)
+        self.fc = nn.Linear(2*hidden_size, output_size)
 
     def forward(self, x, lengths):
-        h0 = torch.zeros(self.num_layers, x.size(0), self.hidden_size).to(x.device)
-        c0 = torch.zeros(self.num_layers, x.size(0), self.hidden_size).to(x.device)
+        h0 = torch.zeros(self.num_layers*2, x.size(0), self.hidden_size).to(x.device)
+        c0 = torch.zeros(self.num_layers*2, x.size(0), self.hidden_size).to(x.device)
 
         x = pack_padded_sequence(x, lengths, batch_first=True, enforce_sorted=False)
 
@@ -72,16 +74,24 @@ def get_verses(df: DataFrame):
     le = LabelEncoder()
     df['encoded_punctuation'] = le.fit_transform(df['punctuation'])
 
-    X = df[['token_number', 'pause_mark', 'irab_end', 'verse_end', 'encoded_punctuation']]
-    y = df['chunk_end']
+    word_vectors = Embeddings()
+
+    rows = []
+    for _, row in df.iterrows():
+        embedding_vector = word_vectors.get_vector(row['embedding_id'])
+        core_values = row[['token_number', 'pause_mark', 'irab_end', 'verse_end', 'encoded_punctuation']].values
+        full_vector = np.concatenate([core_values, embedding_vector]).tolist()
+        rows.append(full_vector + [row['chunk_end']])
+    X = pd.DataFrame(rows, columns=[f'feature_{i}' for i in range(261)]+['chunk_end'])
 
     verses: List[List[int]] = []
     labels: List[int] = []
     verse_info: List[List[int]] = []
 
     for _, group in df.groupby(['chapter_number', 'verse_number']):
-        verse = group[X.columns].values.tolist()
-        label = group[y.name].tolist()
+        group_df = X.loc[group.index]
+        verse = group_df[group_df.columns.difference(['chunk_end'])].values.tolist()
+        label = group_df['chunk_end'].tolist()
 
         verses.append(verse)
         labels.append(label)
@@ -111,8 +121,8 @@ def train_and_test():
 
     df.fillna(0, inplace=True)
 
-    input_size = 5
-    hidden_size = 128
+    input_size = 261
+    hidden_size = 512
     num_layers = 2
     output_size = 2
     num_epochs = 50
@@ -197,3 +207,4 @@ def train_and_test():
         print(f'Precision: {evaluator.precision}')
         print(f'Recall: {evaluator.recall}')
         print(f'F1 score: {evaluator.f1_score}')
+        print()

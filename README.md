@@ -24,7 +24,7 @@ Dependency graphs are kept intentionally short for easier display on mobile devi
 
 Because the evaluation step needs to test against the treebank, it makes sense to include the existing implied chunk boundaries as part of the training dataset. Other data sources are included to test how they might boost accuracy. Choosing just one signal, like *waqf* marks might not be optimal.
 
-## What’s in the Data File?
+## What’s in the Training Data?
 
 A ‘word’ in the Quran isn't easily defined, due to the rich morphology of Classical Arabic. The Quranic Arabic Corpus uses the terminology ‘segment’ to denote a morphological segment and ‘token’ to denote a whitespace separated token.
 
@@ -34,11 +34,21 @@ The [quranic-treebank-0.4-chunks.tsv](https://github.com/kaisdukes/quran-verse-c
 * Verse number
 * Token number
 * The arabic form of the token (in Unicode)
-* The [POS tag](https://corpus.quran.com/documentation/tagset.jsp) of the token’s stem (note: to support initial experimentation, this is a simplification of the full morphological data available in the corpus, which includes a rich set of [features tags](https://corpus.quran.com/documentation/morphologicalfeatures.jsp) for each segment, not only stems)
+* The corresponding embedding ID (i.e. word ID) from GloVe-Arabic
 * The world-aligned english translation, including punctuation marks such as full stops
 * The [pause mark](https://corpus.quran.com/documentation/pausemarks.jsp) (*waqf*) associated with the token
 * A binary flag indicating if the token is at the end of an word group in the corresponding *i’rāb* (إعراب) in the reference grammar *al-I’rāb al-Mufassal*
 * A binary flag indicating if the token is at the end of a dependency graph. This value is the expected output of the chunker.
+
+## Quranic Word Embeddings
+
+This repo also contains Quranic word embeddings. However, these are not perfect, but are good enough for the task at hand (verse chunking). For this reason, we do not recommend using these embeddings for other Quranic NLP tasks without further refinement. The mapping process, described below, may not be suitable or accurate enough for this.
+
+The embeddings were derived using the following process:
+
+1. For more accurate mappings, the simplified *imla'ei* (إملائي) Quranic script was used, instead of the more commonly used *uthmani* script. This is freely available from the [Tanzil project](https://tanzil.net/docs/quran_text_types) 
+2. We use the [GloVe-Arabic](https://github.com/tarekeldeeb/GloVe-Arabic) word embeddings dataset, based on an Arabic corpus of 1.75B tokens. This corpus includes Classical Arabic, which the Quran is written in.
+3. Mapping Quranic words to GloVe-Arabic was possible by dropping diacritics and vocative prefixes, resulting in 76,205 / 77,429 = 98.419% words mapped. Again, it’s worth stressing that this is not a perfect mapping due to similar word-forms having ambiguity without diacritics, but is a useful approximation for the specific task of verse chunking.
 
 ## Getting Started
 
