@@ -12,7 +12,7 @@ To work with this codebase, you will need a strong background in Artificial Inte
 
 Large portions of the Quran contain lengthy verses. The Quranic Treebank is designed primarily as an educational resource, allowing users of the corpus to gain deeper linguistic understanding of the Classical Arabic language of the Quran through side-by-side comparison with *i’rāb* (إعراب), traditional linguistic analysis. The Quranic treebank breaks down longer verses into multiple dependency graphs to annotate syntactic structure. Each graph corresponds to a chunk.
 
-Dependency graphs are kept intentionally short, for easier display on mobile devices. Larger syntactic structures that cross graphs are linked together through reference nodes. To construct the treebank, we need to first perform verse chunking. There are several ways this could be done, but one possibility is to train a machine learning model using four sources of data:
+Dependency graphs are kept intentionally short for easier display on mobile devices. Larger syntactic structures that cross graphs are linked together through reference nodes. To construct the treebank, we need to first perform verse chunking. There are several ways this could be done, but one possibility is to train a machine learning model using four sources of data:
 
 **Existing chunk boundaries:** The existing division of verses implied by the dependency graphs in the treebank.
 
